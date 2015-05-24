@@ -54,6 +54,7 @@ def infoboxParser(infob):
     return ibDict
 
 def wikiLinkParser(line):
+    """returns dict obj"""
     linkBegin = "http://et.wikipedia.org/wiki/"
     if "|" not in line:
         linkRegEx = re.compile(r"\[\[([^\]]+)\]")
@@ -67,5 +68,22 @@ def wikiLinkParser(line):
         return {"link":link, "text":text}
 
 def islink(line):
+    matchjObj = re.match(r"\[\[([^\]]+\]\])", line)
+    return True if matchjObj else False
 
-infoboxParser(infob)
+#hackish TEST
+
+#print(infoboxParser(infob))
+
+infoblinelist = infob.splitlines()
+for i in infoblinelist:
+    #i = i.lstrip("| ")
+    i = i.split("= ")
+    print(i)
+    if len(i)>1:
+        print(i[1])
+        if islink(i[1]):
+            print(wikiLinkParser(i[1]))
+
+
+
