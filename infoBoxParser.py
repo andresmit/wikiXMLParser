@@ -1,4 +1,7 @@
+# -*- coding: utf-8 -*-
+
 import re
+import json
 
 infob = """{{Riik
 |  riiginimi = Afganistani Islamivabariik
@@ -73,7 +76,8 @@ def islink(line):
 
 #hackish TEST
 
-#print(infoboxParser(infob))
+print(infoboxParser(infob))
+print(json.dumps(infoboxParser(infob)))
 
 infoblinelist = infob.splitlines()
 for i in infoblinelist:

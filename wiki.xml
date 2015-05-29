@@ -1,0 +1,1581 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="et">
+  <siteinfo>
+    <sitename>Vikipeedia</sitename>
+    <dbname>etwiki</dbname>
+    <base>http://et.wikipedia.org/wiki/Esileht</base>
+    <generator>MediaWiki 1.26wmf1</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Meedia</namespace>
+      <namespace key="-1" case="first-letter">Eri</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Arutelu</namespace>
+      <namespace key="2" case="first-letter">Kasutaja</namespace>
+      <namespace key="3" case="first-letter">Kasutaja arutelu</namespace>
+      <namespace key="4" case="first-letter">Vikipeedia</namespace>
+      <namespace key="5" case="first-letter">Vikipeedia arutelu</namespace>
+      <namespace key="6" case="first-letter">Pilt</namespace>
+      <namespace key="7" case="first-letter">Pildi arutelu</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki arutelu</namespace>
+      <namespace key="10" case="first-letter">Mall</namespace>
+      <namespace key="11" case="first-letter">Malli arutelu</namespace>
+      <namespace key="12" case="first-letter">Juhend</namespace>
+      <namespace key="13" case="first-letter">Juhendi arutelu</namespace>
+      <namespace key="14" case="first-letter">Kategooria</namespace>
+      <namespace key="15" case="first-letter">Kategooria arutelu</namespace>
+      <namespace key="100" case="first-letter">Portaal</namespace>
+      <namespace key="101" case="first-letter">Portaali arutelu</namespace>
+      <namespace key="828" case="first-letter">Moodul</namespace>
+      <namespace key="829" case="first-letter">Mooduli arutelu</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Ajalugu</title>
+    <ns>0</ns>
+    <id>1</id>
+    <revision>
+      <id>4162371</id>
+      <parentid>4162368</parentid>
+      <timestamp>2015-04-17T15:50:58Z</timestamp>
+      <contributor>
+        <username>Kruusamägi</username>
+        <id>1530</id>
+      </contributor>
+      <minor />
+      <comment>/* Vaata ka */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{See artikkel| räägib üldmõistest; Herodotose teose kohta vaata artiklit [[Historia]]}}
+{{ToimetaAeg|kuu=oktoober|aasta=2012}}{{keeletoimeta}}
+
+'''Ajalugu''' ([[Kreeka keel|kreeka keeles]] {{lang|el|''ἱστορία''}} - ''historia'', mis tähendab uurimust) tähendab nii [[minevik]]us toimunut kui ka mineviku taasesistamist. Ajalooteadus uurib inimkonna ajalugu alates inimese kujunemisest ja lõpetades tänapäeva sündmustega. Ajalugu on humanitaarteadus, sest uurib inimesega seounduvat. Selle harud on [[arheoloogia]] ja [[etnoloogia]].&lt;ref&gt;Kõiv, Mait. Inimene, ühiskond, kultuur. I osa: vanaaeg. 2006. Lk. 8.&lt;/ref&gt;
+
+==Liigitus==
+Ajalooteadus on üks kõige laiahaardelisemaid teadusi. See on tingitud sellest, et igal ühiskonnaelu valdkonnal on ajalugu, mida saab ajalooteaduse meetoditega uurida.
+
+Ajalugu on traditsiooniliselt jagatud järgmiselt:
+*Kronoloogiline
+**Selle kohaselt jaguneb ajalugu (st minevik) eelajalooliseks ja ajalooliseks ajaks. Ajalooline aeg omakorda perioodideks, millest kõige üldisemad on [[vanaaeg]], [[keskaeg]], [[uusaeg]] ja [[uusim aeg|kaasaja ajalugu]] ehk [[lähiajalugu]]. Nende ajajärkude kronoloogilised piirid on vaieldavad. Samuti jagunevad need ajajärgud ise lühemateks perioodideks. Nii eristatakse keskajas vara-, kõrg- ja hiliskeskaega; [[uusaeg|uusajas]] [[varauusaeg]]a (1500–1800).
+*Geograafiline
+**Selle kohaselt eristuvad terviklikena mandrite või suuremate regioonide ajalood. Sellisteks on eriti sageli [[Euroopa ajalugu]], aga ka [[Ladina-Ameerika ajalugu]] või [[Aafrika ajalugu]]. Piirkondlike ajalugudena aga näiteks [[Baltikum]]i, [[Lähis-Ida]] või [[Balkan]]i ajalugu.
+*[[Riik]]ide ja [[rahvus]]te järgi
+**See on kõige enam levinud ajalookäsitlus. Seda eriti paaril viimasel aastasajal, kui [[ajalookultuur]]i juhtivad maad on olnud [[rahvusriik|rahvusriigid]]. [[Riik]]ide ja [[rahvus]]te ajalood, olgu kirjutatud selle [[riik|riigi]] elaniku või [[rahvus]]e esinadaja poolt või kellegi teise poolt, on kõige enam vaidlusi tekitanud. Seda eriti juhul kui mõnda [[riik]]i või [[rahvas]]t on ajaloos erilisele kohale tõstetud või siis teisi [[rahvas|rahvaid]], eriti väiksemaid on tahetud sootuks n-ö ajaloost välja jätta.
+*Temaatiline
+**Temaatiline ajalookäsitlus keskendub ühele või mitmele ajaloovaldkonnale. Sageli on valdkondlikud ajalood kõige teaduslikumad kuna kasutavad kõige laiadasemalt erinevaid uurimismeetodeid. Kuid on ka vastupidised näited, kus näiteks poliitilised ajalood on väga ideologiseeritud. Oma kujunemise ajal oli ajalooteadus suuresti poliitiline ajalugu.
+**Traditsiooniliselt eristuvad järgmised teemad:
+***Poliitiline ajalugu, milles omakorda on rahvusvaheliste suhete ajalugu ja diplomaatia ajalugu
+***Ideede ajalugu ja mentaliteedi ajalugu
+***Majandusajalugu, milles on muuhulgas kaubanduse ajalugu, tööstuse ja põllumajanduse ajalugu 
+***Sotsiaalajalugu, mis on äärmiselt lai valdkond ja kõige tihedamalt põimunud sotsiaalteadustega. Sellesse kuuluvad rahvastiku ajalugu, sotsiaalsete rühmade ja suhete ajalugu, milles omakorda on suurte valdkondadena naiste, tööliste ja vähemuste ajalugu
+***Kultuuri- ja [[kunstiajalugu]]
+
+==Allikad==
+&lt;center&gt;&lt;div style=&quot;text-align: center; margin: 0 10% 1em 10%;&quot;&gt;
+{| align=center class=&quot;disputeabout&quot; style=&quot;background: beige; border: 1px solid #aaa; padding: .2em; margin-bottom: 3px; font-size: 95%; width: auto;&quot;
+| valign=&quot;top&quot; style=&quot;padding: .2em&quot; | [[Pilt:Stop_hand.png|45px|Vaidlustatud]]
+| style=&quot;padding: 0.1em&quot; width = 320| '''Artikli selle osa faktiline õigsus on vaieldav.'''&lt;br&gt;
+''Vaieldav on allikate selline liigitus.''
+|-
+|colspan=2 align=center|&lt;div style=&quot;font-size: 90%;&quot;&gt;Vaata lähemalt selle artikli [[:{{NAMESPACE}} talk:{{PAGENAME}}|aruteluleheküljelt]].&lt;/div&gt;
+|}
+&lt;/div&gt;&lt;/center&gt;
+*[[Esemelised ajalooallikad]] ehk [[muistis]]ed: [[kinnismuistis]]ed ja [[irdmuistis]]ed
+*[[Kirjalikud ajalooallikad]]: [[ürik]]ud, [[kroonika]]d, [[seadus]]ed, [[memuaarid]], [[statistilised materjalid]] jne
+*[[Suulised ajalooallikad]]: [[pärimus]]ed, [[rahvaluule]] ([[legend]]id, [[müüt|müüdid]], [[muinasjutt|muinasjutud]]) 
+*[[Etnoloogilised ajalooallikad]]: [[tava]]d, [[komme|kombed]] ja [[traditsioon]]id
+*[[Lingvistilised ajalooallikad]]: [[Keel (keeleteadus)|keel]] ja [[murre|murded]]
+*[[Audiovisuaalsed ajalooallikad]]: [[foto]]d, [[film]]id ja [[helisalvestis]]ed
+
+==Abiteadused==
+&lt;center&gt;&lt;div style=&quot;text-align: center; margin: 0 10% 1em 10%;&quot;&gt;
+{| align=center class=&quot;disputeabout&quot; style=&quot;background: beige; border: 1px solid #aaa; padding: .2em; margin-bottom: 3px; font-size: 95%; width: auto;&quot;
+| valign=&quot;top&quot; style=&quot;padding: .2em&quot; | [[Pilt:Stop_hand.png|45px|Accuracy dispute]]
+| style=&quot;padding: 0.1em&quot; width = 320| '''Artikli selle osa faktiline õigsus on vaieldav.'''&lt;br&gt;
+''Vaieldav on abiteaduste selline liigitus.''
+|-
+|colspan=2 align=center|&lt;div style=&quot;font-size: 90%;&quot;&gt;Vaata lähemalt selle artikli [[:{{NAMESPACE}} talk:{{PAGENAME}}|aruteluleheküljelt]].&lt;/div&gt;
+|}&lt;/div&gt;&lt;/center&gt;
+*[[Ajalooline geograafia]] - [[Allikaõpetus]] - [[Antropoloogia]] - [[Arheograafia]] - [[Arheoloogia]] - [[Arhiivindus]] - [[Diplomaatika]] - [[Etnoloogia]] - [[Filateelia]] - [[Folkloristika]] - [[Genealoogia]] - [[Heraldika]] - [[Kronoloogia]] - [[Metroloogia (ajalugu)|Metroloogia]] - [[Mütoloogia]] - [[Numismaatika]] - [[Paleograafia]] - [[Sfragistika]]
+
+==Etümoloogia==
+Eestikeelne termin &quot;ajalugu&quot; on [[neologism]], mis on kasutusel alates 19. sajandi teisest poolest. Selle kasutuselevõtjaks peetakse [[Jaan Jung]]i. Enamikus [[Euroopa]] keeltes on selle termini vasteks [[laensõna]], mis pärineb [[kreeka keel|kreekakeelsest]] sõnast ''historia''. See sõna tuleb verbist ''historein'', mis tähendab järeleuurimist.
+
+Eestikeelses sõnas on esil pigem lugu kui sündmus.
+
+==Historiograafia==
+{{vaata|Historiograafia}}
+Sõna &quot;historiograafia&quot; tuleneb kreeka sõnadest ''ιστορία'' (''historía''; 'ajalugu', 'mineviku uurimine') ja ''γράφο'' (''graphō''; 'kirjutan'), tähendades kõige lihtsamas mõttes ajaloo kirjutamist. Varem ongi ajaloolasi nimetatud [[historiograaf]]ideks. Sellel on aga ka väga palju muid definitsioone, millest olulisemad on:
+*Kogu ajalookirjandus üldse või mingi osa sellest (Eesti, Euroopa jne).
+*Analüüsiv ja kriitiline (teaduslik) ülevaade ajalookirjandusest mingi valdkonna, maa või perioodi kohta; see tähendus on ka levinuim.
+*Ajalooteadmiste, -mõtte, -teaduse (ehk -kirjutuse) ajalugu tervikuna või mõnel üksikul maal (näiteks [[Eesti ajaloo historiograafia]]). Ajalooteadus tänases mõttes hakkas välja kujunema [[Vana-Kreeka]]s 6.–5. sajandil eKr.
+*Ajalooteaduse haru, mis uurib ajalookirjutust ennast.
+
+==Viited==
+{{viited}}
+
+==Vaata ka==
+*[[Ajaloolane]]
+*[[Ajaloolaste loend]]
+*[[Allikakriitika]]
+*[[Arheoloogia]]
+*[[Eesti ajalugu]]
+*[[Sõjad]]
+*[[Sotsiaalajalugu]]
+*[[Üldajalugu]]
+
+[[Esiaeg]] - [[Kiviaeg]] - [[Paleoliitikum]] - [[Mesoliitikum]] - [[Neoliitikum]] - [[Eneoliitikum]] - [[Pronksiaeg]] - [[Rauaaeg]] -  [[Ajalooline aeg]] - [[Vanaaeg]] - [[Antiikaeg]] - [[Keskaeg]] - [[Uusaeg]] - [[Uusim aeg]] - [[Ajaarvamine]] - [[Kristlik ajaarvamine]] - [[Kronoloogia]]
+
+[[Diplomaatia]] - [[Dünastiad]] - [[Muuseum]]
+
+[[Kategooria:Ajalugu| ]]</text>
+      <sha1>cf0t75gq39sfzbdiu3l4plkdr897azw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ajakirjandus</title>
+    <ns>0</ns>
+    <id>2</id>
+    <revision>
+      <id>4007726</id>
+      <parentid>3912941</parentid>
+      <timestamp>2014-10-07T10:34:18Z</timestamp>
+      <contributor>
+        <username>Vaher</username>
+        <id>60454</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">'''Ajakirjandus''' on aktuaalsete [[sündmus]]te kohta [[informatsioon]]i kogumine, kontrollimine, analüüsimine ja esitamine. Ajakirjandusega tegeleja on [[ajakirjanik]].
+
+Arvatakse, et [[Prantsuse revolutsioon]] toimus tänu [[ajakirjandus]]&lt;nowiki/&gt;e kaudu vaba teabe levitamisele. 1850ndate Inglismaal sai ajakirjandusest valitsuse ja rahva vahetalitaja - neljas võim.
+
+==Vaata ka==
+*[[Eesti ajakirjanduse ajalugu]]
+*[[Kollane ajakirjandus]]
+*[[Tsensuur]]
+*[[Ajakirjanike loend]]
+*[[Eesti ajalehtede loend]]
+*[[Välismaa ajalehtede loend]]
+*[[Eesti ajakirjade loend]]
+*[[Välismaa ajakirjade loend]]
+*[[Ringhääling]]
+*[[Televisioon]]
+*[[Ajaleht]]
+*[[Ajakiri]]
+*[[Teadusajakirjandus]]
+*[[Intervjuu]]
+*[[Osaluseksperiment]]
+*[[Fotoajakirjandus]]
+
+[[Kategooria:Ajakirjandus| Ajakirjandus]]</text>
+      <sha1>769a8nb2rarfiuu94bavrj32913wfea</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Afganistan</title>
+    <ns>0</ns>
+    <id>3</id>
+    <revision>
+      <id>4136205</id>
+      <parentid>4136198</parentid>
+      <timestamp>2015-03-19T08:37:54Z</timestamp>
+      <contributor>
+        <username>Andres</username>
+        <id>5</id>
+      </contributor>
+      <comment>/* Välislingid */</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{ToimetaAeg|kuu=august|aasta=2009}}{{ajakohasta}}
+{{Riik
+|  riiginimi = Afganistani Islamivabariik
+|  omastav = Afganistani
+|  omakeelne_nimi_1 = puštu |  د افغانستان اسلامي جمهوریت|de Afghānistān Islāmī Jumhūrīyat
+|  omakeelne_nimi_2 = dari | جمهورئ اسلامی افغانستان |Jomhūrī-ye Eslāmī-ye Afghānestān
+|  mis_lipp = 
+|  mis_vapp = 
+|  vapi_laius = 100px
+|  asendikaart = Afghanistan in its region.svg
+|  deviis = 
+|  riigikeel = 
+|  ametlik_keel = [[puštu keel|puštu]], [[dari keel|dari]]
+|  pealinn = [[Kabul]]
+|  riigipea_ametinimi = President
+|  riigipea_nimi = [[Ashraf Ghani]]
+|  valitsusjuhi_ametinimi = Tegevjuht
+|  valitsusjuhi_nimi = [[‘Abdullāh ‘Abdullāh]]
+|  pindala = 647500
+|  rahvaarv = 
+|  iseseisvus = [[19. august]] [[1919]]
+|  valuuta = [[Afganistani afgaani|afgaani]] (AFN)
+|  ajavöönd = [[maailmaaeg]] +4:30
+|  hümn = [[Sououd-e-Melli]]
+|  usk = islam
+|  üladomeen = [[.af]]
+|  telefonikood = 93
+|  riigikord = 
+|  SKT = 
+|  SKT_elaniku_kohta = 
+|  rok-i_kood = AFG
+|  märkused = 
+}}
+
+'''Afganistan''' ([[puštu keel]]es افغانستان (''Afghānistān''), [[dari keel]]es  افغانستان (''Afghānestān'') on paljurahvuseline [[merepiirita riik|merepiirita]] [[riik]] [[Aasia]] sisemaal. Teda võidakse arvata nii [[Kesk-Aasia]], [[Lõuna-Aasia]] kui ka [[Lähis-Ida]] alla. 
+
+Tal on ühist piiri [[Hiina]], [[Pakistan]]i, [[Iraan]]i, [[Türkmenistan]]i, [[Usbekistan]]i ja [[Tadžikistan]]iga.
+
+Kolm neljandikku Afganistanist on ligipääsmatu.  
+
+Afganistani kohta puuduvad täpsed, usaldatavad statistilised andmed.
+
+Pindala on 652 225  või 645 806,56 või 647 500&lt;ref name=&quot;snl.no&quot;&gt;[http://www.snl.no/Afghanistan Store norske leksikon]&lt;/ref&gt; km². 
+
+Elanike arv on 33 609 900 (2009)&lt;ref name=&quot;snl.no&quot; /&gt; või 28 150 000 (2009){{lisa viide}}.
+
+==Nimi==
+&quot;Afganistan&quot; tähendab '[[afgaanid]]e maa'. Kuni 19. sajandini kasutati seda nime üksnes [[puštud]]e traditsiooniliste alade nimetamiseks.
+
+==Sümbolid ja tähised==
+Afganistanil on [[Afganistani lipp|lipp]] ja [[Afganistani vapp|vapp]].
+
+Afganistani [[riigihümn]] on 2006. aastast &quot;[[De waţan Afghānistān day]]&quot;.
+
+==Piir==
+Afganistan piirneb põhjast [[Türkmenistan]]i (744 km piiri), [[Usbekistan]]i (137 km) ja [[Tadžikistan]]i (1206 km), kirdes [[Hiina]], idas ja lõunas [[Pakistan]]i (pikkus 2430 km) ning läänes [[Iraan]]iga (936 km).
+
+Hiinaga ühendab Afganistani pikk ja kitsas [[Vākhāni koridor]]. 
+
+Lähimast merest ([[Araabia meri|Araabia merest]]) lahutab Afganistani 480 km Pakistani territooriumi.
+
+Enamiku naabritega on Afganistanil usulised, rahvuslikud, keelelised ja geograafilised sidemed.
+
+==Loodus==
+
+===Geoloogiline ehitus===
+Suurt osa riigist katvad  [[Hindukuš]]i ja [[Safīd Kūh]]i mäestik on tekkinud [[Alpi kurrutus]]el.
+
+===Pinnamood===
+
+Afganistani pinnamood on ebatasane. Kaks kolmandikku kuni neli viiendikku pindalast on kaetud mägedega. Suure osa Afganistanist katavad [[Hindukuš]]i ja [[Safīd Kūh]]i mäestik. Üle poole riigi territooriumist asetseb üle 2000 meetri kõrgusel merepinnast. Vähem kui 10% territooriumist on madalamal kui 600 m. Tasast maad leidub ainult põhja-, lääne- ja lõunapiiri lähedal.  
+
+Suurem osa Afganistanist kuulub [[Iraani kiltmaa]] idaossa.
+
+Afganistan jaguneb kolmeks erineva pinnamoega piirkonnaks: põhjas Amudarja ääres asuvad tasandikud, riigi keskosas mäestikud ning lõuna- ja edelaosas kõrbelised madalikud ja kõrged lavamaad ([[Rīgestān]]i kõrb [[Helmandi jõgi|Helmandi jõest]] idas, [[Dasht-e-Mārgow]], peamiselt [[purdmaterjal]]i ja [[savi]]ga kaetud ala Helmandi jõest läänes). Hindukuš ja tema kõrvalharud ulatuvad riigi loodeosast kirdeosani (kus ta piirneb [[Pamiir]]iga), jagades Afganistani osadeks. Mäekurud on 3000...4000 m kõrgusel, mistõttu ühendus üle mägede on raskendatud. [[Kabuli nõgu]] ja riigi põhjaosa ühendab [[1964]]. aastast talvekindel maantee üle [[Sālang]]i kuru. Tee läbib 3 km pikkuse tunneli.    
+
+Hindukuš on kõige kõrgem [[Vākhāni koridor]]is, kus riigi kõrgeim mäetipp  [[Nowshāk]] ulatub 7485 või 7482 meetrini. Teised mäetipud on 4500...6000 m kõrgused.
+
+Afganistani madalaim punkt (285 m) asub [[Amudarja]] orus [[Türkmenistan]]i piiri ääres.  
+
+Kitsad [[jõeorg|jõeorud]] ja laiad tasandikud ulatuvad riigi keskosa mägismaadelt Lääne-Afganistani kõrbedeni.
+
+===Kliima===
+Afganistanis on [[mandriline kliima|mandriline]] [[kuiv lähistroopiline kliima]]. 
+Afganistan asub [[lähistroopiline kliimavööde|lähistroopilises kliimavöötmes]].
+
+Afganistani kliima on iseloomulik kuiva ja poolkuiva stepi kliimale, eelkõige oma külmade talvede ja kuivade suvede tõttu. Riigi erinevate osade vahel esineb palju klimaatilisi muutusi. Näiteks mäestike piirkonnas, mis asuvad idas, on lähisarktiline kliima kuivade ja külmade talvedega. Mäestikulist piirkonda Pakistani piiril mõjutavad aga India [[mussoon]]id, mis tavaliselt saabuvad juuli ja septembri vahel ning toovad mereäärseid troopilisi õhumasse, tuues kaasa niiskust ja vihmasid. Suvel  puhuvad riigi edelaosas tugevad tuuled peaaegu iga päev. Talvel ja varakevadel on ilm kõvasti mõjutatud külmadest õhumassidest, mis tulevad põhjast ja Atlandi miinimumist, mis tuleb loodest. Need kaks õhumassi toovad kaasa lumesaju ja karmi pakase mägismaal  ning vihma madalamatel kõrgendikel.
+
+Suur osa riigist kannatab põua käes ning puhta vee kättesaadavus on raskendatud. Vihma sajab peamisest oktoobri ja aprilli vahemikus, mil iga aasta langeb maha kuni 300 mm sademeid.
+
+====Sademed====
+Sademeid on vähe ning nad langevad peamiselt talve (lumi) ja kevadesse (vihm). 
+
+Kõrbes on [[aasta keskmine sademete hulk]] alla 100 mm (kõrbetasandikel 40...50 mm), riigi keskosa kiltmaal 200...250 mm, riigi kaguosas kuni 800 mm ning kõrgmägedes üle 1000 mm (suuremalt jaolt lumena).
+
+====Õhutemperatuur====
+Tuulistes mägedes langeb temperatuur talvel alla –18 kraadi; madalamal on talved pehmemad.  
+
+Suvel võib temperatuur kõrbes tõusta üle 46 kraadi. 
+
+[[Juuli keskmine temperatuur]] on 24...32 kraadi, [[jaanuari keskmine temperatuur]] 0...8 kraadi. 
+
+[[Kabul]]is ulatub temperatuur –30°C-st talvel + 40°C-ni suvel.
+
+Et kliima on mandriline ja kõrguste vahed on suured, siis on temperatuuride kõikumine väga suur. Seda hinnatakse maailma suurimaks. 
+ 
+====Tuuled====
+Läänetuuled võivad tuua suuri liiva- ja tolmutorme.
+
+===Veestik===
+====Jõed====
+Afganistani jõed saavad toitu lumesulamisveest ning liustikest. Enamik jõgesid   toitub mäestikes alguse saavatest  ojadest. Põuaperioodil muutub enamik  jõgesid väikesteks jõekesteks.  Kevadisel lumesulamisajal aga on jõgedes rohkelt vett ning suurtel jõgedel on [[suurvesi]]. 
+
+Enamik jõgesid lõpeb [[soolasoo]]des, vähesed suubuvad järvedesse. Riigi põhjaosa jõed suubuvad [[Amudarja]]sse, [[Kabuli jõgi]] aga [[Indus]]esse.  
+
+Riigi tähtsamad jõed on [[Amudarja]], [[Kabuli jõgi]], [[Helmandi jõgi]], [[Morghāb]] ja [[Harī Rūd]]. 
+
+Riigi põhjaosa jõed suubuvad  [[Amudarja]]sse, mis moodustab riigi põhjapiiri ning on ühtlasi Afganistani veerikkaim jõgi. See jõgi on laevatatav. Tema tähtsamad lisajõed on [[Pandži jõgi]] ja [[Vahši jõgi]]. 
+
+Riigi pikim on  [[Helmandi jõgi]] riigi edelaosas. Ta saab oma vee [[Hindukuš]]ist ning saab alguse riigi idaosast Kabuli lähedal. See jõgi voolab läbi riigi edelapiirkonna, olles selle kõrbede ja poolkõrbede ainuke jõgi  ning suubub Iraani piiril olevasse [[Helmandi järv]]e ning muudesse soolajärvedesse [[Sīstān]]is. Jõge kasutatakse ulatuslikult niisutamiseks.
+
+[[Kabuli jõgi]] toob vett [[Kabul]]i ja [[Jalālābād]]i ümbruse viljakatele orgudele ja jõeorgudele. Erinevalt teistest jõgedest on ta aastaringi veerohke. Ta jõuab välja [[Iraan]]i ning suubub [[Indus]]esse.     
+
+[[Harī Rūd]]i jõgi saab alguse Afganistani keskosas ning voolab lääne suunas, Iraani piiri juurde. Selle jõe vett kasutatakse Herāti piirkonnas ulatuslikult niisutamiseks. 
+
+Laevatatav on Afganistani jõgedest ainult [[Amudarja]], ehkki väiksemad laevad ja praamid saavad sõita ka teistel jõgedel, kus sügavus on piisav.
+
+====Järved====
+Afganistanis on vähe järvi  ja needki on väikesed. Tähtsamad järved on [[Zarkol]], mis asetseb piki [[Tadžikistan]]i piiri, [[Shiveh]]i järv [[Badakhshān]]is ning soolase veega [[Istadehye Moqor]]i järv. 
+
+Riigi edelaosas Iraani piiril  on väljavooluta tasandikul [[Helmandi järv]], kuhu suubub [[Helmandi jõgi]].  
+====Padurad====
+Iraani piiri lähedal on kaks [[soolapadur]]at. 
+
+====Veevarud====
+84,55%  Afganistani veevarudest pärineb 
+[[Hindukuš]]ist (suurimad on  [[Amudarja]], [[Helmandi jõgi|Helmandi]], [[Harī Rūd]]i  ja [[Kabuli jõgi|Kabul]]i jõgikond), 8% allikatest, 7% annavad maa-alused niisutussüsteemid ning 0,5% puurkaevud.
+
+Põllumajandussektor on riigi  suurim veetarbija. Niisutamiseks vajalik vesi saadakse suuremalt jaolt jõgedest ja kanalitest, ülejäänu  kaevudest ja puuraukudest.
+
+Väga väikesest aastasest  sademetehulgast tingitud pikaajaline põud ning sõda on alandanud kanalite veetaset kuni 70% võrra, põhjustades veega niisutatavate alade 60-protsendilise  vähenemise. Üle 36% kaevudest ja puuraukudest on ära kuivanud ning kaevude veevarud on vähenenud kuni 83%.
+
+Põllumajanduse  tootlikkus ning puhta joogivee kättesaadavus on vähenenud sedavõrd, et on tekkinud [[humanitaarkatastroof]]i oht, sest 85% riigi elanikkonnast elatub põllumajandusest.
+
+Puhast, joogiveena tarvitatavat vett on Afganistanis väga vähe, ligi 20%. Veevärgi ning vee puhtuse kontrolli puudumise tõttu vee puhtuse probleem järjest süveneb. Lähemal ajal pole ette näha, et riik selle lahendamiseks midagi ette võtaks.
+
+====Veehoidlad ja tammid====
+[[Pilt:AfghanistanHelmandKajakaiDamm.jpg|thumb|[[Kajakai tamm]] Helmandi jõel (rajatud [[1953]], ülesvõte 2004. aastast)]]  
+Tähtsad tammid ja veehoidlad Afganistanis on [[Kajaki veehoidla]] Helmandi jõel, [[Kelagay tamm]] Amudarja lisajõel, [[Sardehi tamm]] [[Ghaznī jõgi|Ghaznī jõel]] ning [[Arghandabi tamm]] Helmandi jõe kõrvalharul.
+
+Riigi 12 veehoidlast, mis on ehitatud 1920ndatel kuni 1940ndatel, vajab enamik  põhjalikku remonti.
+
+====Üleujutused====
+Viimastel aastatel on Afganistanis igal kevadel inimohvritega üleujutused, mida põhjustab mägedest alla voolav rohke lumesulamisvesi pärast karmi ja lumerikast talve. Üleujutusi soodustab ka kevadine vihmaperiood, mille jooksul võib sadada päevade kaupa. 
+
+Kõige rohkem üleujutusi esineb Helmandi jõel.
+
+===Mullad===
+Kõige viljakamad piirkonnad on  maa põhjaosas, kus on ka kõige suurem rahvastiku tihedus.
+
+Kõrbetes on [[hallmuld]]. 
+
+Mägedes on [[mägipruunmullad|mägipruunmuldi]].
+
+===Taimed===
+Taimkate on mitmekesine. 
+
+Lõuna- ja Edela-Afganistanis on kõrged lavamaad, võsarohtlad ning kõrbed ja [[poolkõrb]]ed. Kõrbetes on puid vähe. Kevadise vihma ajal võivad rohttaimed õitseda. 
+
+Riigi keskosas on taimkate  lõunaosaga võrreldes rikkalikum, mägedes võib ta olla koguni lopsakas. Esineb muu hulgas [[kaameliastel]], [[hundihammas]], [[astel-jooksjarohi]], [[mimoos]] ja [[estragonpuju]]. 
+
+Mägedes on kuni 2500 m kõrgusel [[stepirohustepp]] ja [[pujustepp]], [[mägipruunmuld|mägipruunmullal]] kasvab hõredalt [[pistaatsia]] ja [[artša]]. Kõrgemal on tamme- ja okasmets, veel kõrgemal [[alpiniit|alpiniidud]]. 
+
+Hindukušist lõunasse jääb [[Nūrestān]], kus on veel säilinud okasmetsi. Peale okaspuude kasvavad Afganistani keskosas puudest metsikult veel muu hulgas  [[pähklipuu]], [[tamm]], [[haab]], [[sarapuu (perekond)|sarapuu]] ja [[harilik virsikupuu]]. 
+
+Hindukušist põhja pool kasvab [[harilik pistaatsia]], millest saadakse ekspordiks [[pistaatsiapähkel|pistaatsiapähkleid]].
+
+===Loomad===
+Afganistanis on kohatud üle saja [[imetajad|imetaja]]liigi, viimastel andmetel on neid 57. Loomastikku on kahjustanud sõda ja jahipidamine. Ohustatud on muu hulgas [[leopard]], [[lumeleopard]], [[džeiraan]],    [[keerdsarvkits]], [[buhhaara  punahirv]] ja [[mägilammas]]. Lähistroopikas elavad veel hundid, rebased, hüäänid, šaakalid ja [[mangust]]id, samuti [[kaljukits]]ed, [[metskits]]ed ja lambad, [[pruunkaru]]d,  metssead, [[hüpiklased]], [[karihiirlased]], [[manul]]id, [[tolai jänes]]ed, [[viiksjänes]]ed, nahkhiired ja mitmesugused närilised, näiteks [[punaümiseja]]. 
+
+Teada on üle 380 linnuliigi, kellest 200 pesitsevad Afganistanis. Lindudele peetakse laialdaselt jahti. Mõned liigid (näiteks [[valgekurg]]) jäävad haruldasteks. Palju on [[pistrikulised|pistrikulise]]liike. 
+
+Tavalised on maod, sisalikud, salamandrid ja konnad. 
+
+Siseveekogudes on palju kalu, tüüpiline on forell.
+
+===Loodusõnnetused===
+Peale üleujutuste esineb Afganistanis [[maavärin]]aid.  3. ja 25. märtsil 2002 olid [[Hindukuši maavärinad]], milles hukkus üle 5000 inimese ja üle 600 000 inimese jäi peavarjuta.
+
+===Maavarad===
+
+Afganistan on rikas maavarade poolest. Seal leidub ulatuslikke [[looduslik klaas|loodusliku klaasi]] leiukohti, [[maagaas]]i, [[nafta]]t, [[kivisüsi|kivisütt]], [[vask]]e, [[kromiitliiv]]a, [[steatiit]]i, [[väävel|väävlit]], [[plii]]d, [[tsink]]i, [[rauamaak]]i ning väärtuslikke ja vähem väärtuslikke [[vääriskivid|vääriskive]].  
+
+2010. aastal avaldas USA päevaleht The [[New York Times]] kirjutise viitega kõrgetasemelisele allikale Ameerika Ühendriikide valitsuses, et siiani kestva kodusõja tallermaaks olevast riigist on leitud vase, kulla, koobalti ja elektroonikatööstuse jaoks ülitähtsa metalli [[liitium]]i leiukohti, mis on niivõrd rikkalikud, et võivad muuta Afganistani üheks olulisemaks elektroonikatööstuse jaoks vajalikuks toorme [[eksport]]ööriks maailmas&lt;ref&gt;[http://www.delfi.ee/news/paevauudised/valismaa/usa-avastas-afganistanist-hunnitud-maavarad.d?id=31646039&amp;l=fplead USA avastas Afganistanist hunnitud maavarad], delfi.ee, 14. juuni 2010&lt;/ref&gt;.
+
+Maavarade kaevandamine on vähearenenud infrastruktuuri ja teevõrgustiku tõttu raskendatud.
+
+==Rahvastik==
+===Demograafilised näitajad===
+====Rahvaarv (miljonites)====
+*[[1979]]: 17
+*[[1996]]: 18,6
+*[[1999]]: 25,8
+*[[2009]]: 33,6099&lt;ref name=&quot;snl.no&quot; /&gt;
+* [[2025]] (prognoos): 48{{lisa viide}}.
+
+===Rahvuslik koosseis===
+[[Pilt:Afghanistan Ethnolinguistic Groups 1997.jpg|thumb|Afganistani rahvuslik koosseis]]
+
+Peamised Afganistanis elavad rahvused:
+*[[puštud]] ehk afgaanid (umbes 38–42%, 5–6 miljonit): idas ja lõunas.
+*[[tadžikid]] (25%, 3–4 miljonit).
+*[[hazarad]]  (15–19%, 2–3 miljonit): riigi keskosas ja Kabulis.
+*[[usbekid]] (umbes 6–9%, 2 miljonit).
+*[[türkmeenid]]
+*[[aimakid]]
+*[[nuristanlased]]: idas
+*[[belutšid]]: lõunas
+*[[kirgiisid]]: Pamiiris.
+
+===Keeled===
+
+Levinumad keeled on [[puštu keel]]  ja [[dari keel]] (riigikeeled); peale selle veel  umbes 30 keelt ja murret.
+
+*[[dari keel]] (seda kõneleb umbes 50% elanikest, sh [[hazara keel]])
+*[[puštu keel]] (umbes 35%)
+*[[usbeki keel]]
+*[[türkmeeni keel]]
+
+===Religioon===
+[[Riigiusk]] on islam. Enamik rahvastikust on [[sunniidid]], kes praktiseerivad islami traditsioonilist vormi, milles mehed ja naised on eraldatud.  
+
+'''Usuline kuuluvus''': 
+*[[islam]]:  [[sunnism|sunniite]] 84%, [[šiiidid|šiiidid]] 15% (koos [[ismailiidid|ismailiitidega]]; hazarad ja tadžikid); 
+*[[hinduism|hinduiste]] ja [[sikhism|sikhe]] umbes 1–2%.
+
+===Asustus===
+[[Rahvastiku tihedus]] oli 2009. aastal 51,9 in/km².
+
+Kõige tihedamalt asustatud on riigi viljakas põhjaosa. 
+
+Riigi poliitilise ja majandusliku keskme moodustavad alad pealinna [[Kabul]]i ning [[Pakistan]]i piiri äärse [[Khyberi kuru]] vahel. 
+
+Afganistani lääneosa asustuse kese on [[Herāt]]i linn. 
+  
+====Asulastik====
+'''Suuremad linnad''' (elanike arv [[1988]]): 
+*[[Kabul]] 1 424 400 ([[1995]] umbes 2 000 000) 
+*[[Kandah&amp;#x0101;r]] 225 500
+*[[Her&amp;#x0101;t]] 177 300
+*[[Maz&amp;#x0101;r-e Shar&amp;#x012B;f]] 130 600
+*[[Jal&amp;#x0101;l&amp;#x0101;b&amp;#x0101;d]] 57 824 ([[1982]])
+*[[Kond&amp;#x016B;z]] 57 112 (1982)
+*[[Baghl&amp;#x0101;n]] 41 240 (1982)
+
+====Asulate loend====
+[[Anār Darreh]] - [[Andkhvoy]] - [[Āqchah]] - [[As‘adābād]] - [[Asmar]] - [[Aybak]] - [[Baghlān]] - [[Bagrām]] - [[Bālā Murghāb]] - [[Balkh]] - [[Bāmiān]] - [[Barākī Barak]] - [[Bāsawul]] - [[Bust]] - [[Chagcharān]] - [[Chāh Āb]] - [[Chārīkār]] - [[Darwāzahgêy]] -  [[Delārām]] - [[Dīshū]] - [[Dowlatābād]] -  [[Emām Şāheb]] - [[Eshkāshem]] - [[Farāh]] - [[Fārsi]] - [[Feyẕābād]] - [[Gardēz]] - [[Ghaznī]] - [[Ghowr]] - [[Girishk]] - [[Ghōryān]] - [[Gizāb]] - [[Herāt]] - [[Jabal os-Sarāj]] - [[Jalālābād]] - [[Jorm]] - [[Kabul]] - [[Kajaki]] - [[Kalā-i Now]] - [[Kalāt]] - [[Kāmdīsh]] - [[Kandahār]] - [[Kang (Afganistan)|Kang]] - [[Karrukh]] - [[Khānābād]] - [[Kholm]] - [[Khowst]] - [[Khvājeh ‘Alī Soflá]] - [[Kondūz]] - [[Koshk-e Kohneh]] - [[Kūchnay Darwishān]] -  [[Langar]] - [[Lashkargāh]] - [[Mahmūd-e Rāqī]] - [[Mazār-e Sharīf]] - [[Maydān Shahr]] - [[Mehtarlām]] - [[Meymaneh]] - [[Mīr Bachcheh Kūt]] - [[Moshūray]] - [[Muqur]] - [[Naghlū]] - [[Orgūn]] - [[Owbeh]] - [[Paghmān]] - [[Panjāb]] - [[Pol-e Khomrī]] - [[Pul-i ‘Alam]] - [[Rostāq]] - [[Rūdbār]] - [[Qarqin]] - [[Sang Chārak]] - [[Sang-e Māsheh]] - [[Sarowbī]] - [[Sheberghān]] - [[Shindand]] - [[Shīnkāy]] - [[Shīr Khān]] - [[Shūlgareh]] - [[Surkhāb]] - [[Zaranj]] - [[Zareh Sharan]] - [[Zendeh Jān]] - [[Zībāk]] - [[Tagāb]] - [[Tāloqān]] - [[Teywarah]] - [[Towr Kham]] - [[Towraghondī]] -  [[Tūlak]] - [[Uruzgān]] - [[Wāzah Khwāh]]
+
+===Ränne===
+1970ndatele järgnenud sõdade perioodil lahkus riigist põgenikena umbes kolmandik rahvastikust.
+
+==Riik==
+
+===Põhiseadus===
+[[2004]]. aastal jõustus uus [[põhiseadus]] ([[2004. aasta Afganistani põhiseadus]]), mis vahetas välja [[1964. aasta Afganistani põhiseadus|1964. aasta põhiseadus]]e, mida polnud tegelikult rakendatud alates monarhia kukutamisest [[1973]].  
+
+2002. aastal asutati põhiseaduse kogu [[Lowyah Jirgah]] ning põhiseaduskomisjon, mis novembris 2003 esitas uue põhiseaduse eelnõu. Lowyah Jirgah võttis selle vastu jaanuaris 2004.   
+
+===Riigikord===
+Aastatel  1978–1987 oli Afganistan Nõukogude stiilis &quot;rahvavabariik&quot;, 1992. aastast islami vabariik [[Ţālebān]]i poliitilise juhtimise all. Pärast Nõukogude sissetungi 1979 puudus riigil efektiivne keskvõim. 
+
+[[2004. aasta Afganistani põhiseadus|2004. aasta põhiseadus]]e järgi on Afganistan presidentaalne islamivabariik. 
+
+President ja kaks asepresidenti valitakse otsevalimistel viieks aastaks. Neid saab ühe korra tagasi valida.    
+
+President on ühtlasi valitsusjuht. Ta nimetab 25 ministrit, kelle peab heaks kiitma parlament [[Rahvuskogu (Afganistan)|Rahvuskogu]].   
+
+Rahvuskogu koosneb kahest kojast – [[Vanematekoda|Vanematekojast]] ja [[Rahvakoda|Rahvakojast]]. Rahvakoda valitakse viieks aastaks. Pärast [[2005. aasta Afganistani parlamendivalimised|2005. aasta valimisi]] on seal 249 liiget. 68 kohta on reserveeritud naistele. Vanematekogul on 102 liiget, kellest üks kolmandik on provintside esindajad (4-aastase tähtajaga), üks kolmandik provintsiringkondade esindajad (3-aastase tähtajaga) ning üks kolmandik presidendi nimetatud (5-aastase tähtajaga). Pooled presidendi nimetatutest peavad olema naised.    
+
+Provintside ja provintsiringkondade kubernerid ja Rahvuskogu liikmed moodustavad [[Lowyah Jirgah]]', mille valitsus võib vajadusel kokku kutsuda rahvusliku iseseisvuse ja suveräänsuse põhiküsimuste arutamiseks. See organ täidab ka riigikohtu ülesandeid. 
+
+Afganistanis on tugev kohaliku omavalitsuse traditsioon, mis põhineb perekonnadünastiatel, hõimujuhtidel ning vastuseisul keskvõimule.
+
+Põhiseaduse järgi ei tohi ükski seadus olla vastuolus islamiga, kuid ei anna õigusliku alust [[šariaat|šariaadile]]. 
+
+Kohtukorraldus on kolmetasandiline. Kõrgeim kohus on 9 kohtunikust koosnev Ülemkohus, mille liikmed nimetab president ja kinnitab Rahvakoda. Nende volitused kestavad 10 aastat. Põhiseaduse järgi on kohtud nii seadusandlikust kui ka täidesaatvast võimust sõltumatud. Surmanuhtluse peab heaks kiitma president.    
+
+===Haldusjaotus===
+
+[[1. järgu haldusüksus]] on provints, mille eesotsas on kuberner (''waali''), kelle üldiselt nimetab või kinnitab keskvalitsus. Ent kõik kubernerikohad ei ole täidetud ning mõnikord kohalikud hõimujuhid ei aktsepteeri nimetatud kuberneri. Keskvõim ei kontrolli kogu riiki. 
+
+Provintsi valitseb nõukogu (volikogu), mille liikmed valitakse 4 aastaks. 
+
+Afganistan koosneb 34 provintsist:
+
+[[Pilt:Afghanistan provinces named iso.png|400px|right]]
+
+&lt;TABLE&gt;
+&lt;TR&gt;&lt;TD&gt;
+*[[Badakhshāni provints]]
+*[[Bādghīsi provints]]
+*[[Baghlāni provints]]
+*[[Balkhi provints]]
+*[[Bāmīāni provints]]
+*[[Dāykondī provints]]
+*[[Farāhi provints]]
+*[[Fāryābi provints]]
+*[[Ghaznī provints]]
+*[[Ghowri provints]]
+*[[Helmandi provints]]
+*[[Herāti provints]]
+*[[Jowzjāni provints]]
+*[[Kabuli provints]]
+*[[Kandahāri provints]]
+*[[Kāpīsā provints]]
+*[[Khowsti provints]]
+&lt;/TD&gt;&lt;TD&gt;
+*[[Konarhā provints]]
+*[[Kondūzi provints]]
+*[[Laghmāni provints]]
+*[[Lowgari provints]]
+*[[Nangarhāri provints]]
+*[[Nīmrūzi provints]]
+*[[Nūrestāni provints]]
+*[[Paktīā provints]]
+*[[Paktīkā provints]]
+*[[Panjshēri provints]]
+*[[Parvāni provints]]
+*[[Samangāni provints]]
+*[[Sar-e Poli provints]]
+*[[Zābuli provints]]
+*[[Takhāri provints]]
+*[[Uruzgāni provints]]
+*[[Vardaki provints]]
+&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+
+Provintsid on jaotatud 329 ringkonnaks (''woluswali''). Peale selle on veel 10 ringkonda, mis on loodud [[mudžaheedid]]e või [[Taliban|taliibide]] režiimi poolt ja mille legitiimsus on küsitav. 
+
+Igal [[kohalik omavalitsus|kohalikul omavalitsusel]] on linna- või vallanõukogu, mis valitakse 3 aastaks.
+
+==Majandus==
+Suurem osa rahvastikust elatub lihtsast maaharimisest ja karjakasvatusest. 
+
+Afganistan on üks maailma vaesemaid maid. Ta oli seda juba 1970ndatel aastatel. Järgnenud sõjad hävitasid suurema osa majanduslikust infrastruktuurist. Pärast [[Ţālebān]]i režiimi kukutamist 2001 alustati rahvusvahelise abi varal majanduse taastamist. Seda pidurdavad Ţālebāni mässulised ja korruptsioon.  
+
+===Maakasutus===
+Maa on mägine. Suurem osa maast on viljatu. Maast on 12% [[põllumaa]]d, 3% [[mets]]a ja 46% püsikarjamaid.
+
+===Teed===
+[[Kabuli nõgu]] ja riigi põhjaosa ühendab [[1964]]. aastast talvekindel maantee üle [[Sālang]]i kuru. Tee läbib 3 km pikkuse tunneli.
+
+==Esiajalugu==
+
+Afganistanis algas tõsine [[arheoloogia|arheoloogiline]] uurimistöö pärast [[Teine maailmasõda|Teist maailmasõda]] ning kestis kuni [[Nõukogude-Afganistani sõda|Afganistani sõja]] alguseni detsembris [[1979]]. 
+
+Leiti [[paleoliitikumile]], [[mesoliitikum]]ile, [[neoliitikum]]ile, [[pronksiaeg|pronksiajale]] ja [[rauaaaeg|rauaajale]] iseloomulikke esemeid. Pole aga veel selge, kui suurel määral on nad sünkroonis teiste piirkondade analoogiliste staadiumidega. Afganistani ala oli nähtavasti, nagu hiljemgi, tihedas kontaktis idapoolsete, läänepoolsete ja põhjapoolsete naaberaladega.
+
+Linnatsivilisatsioon [[Iraani kiltmaa]]l, mis hõlmab suurema osa Iraanist ja Afganistanist, võis saada alguse juba [[3000 eKr|3000]] kuni [[2000 eKr]] (vaata ka [[Baktria-Margiana arheoloogiline kompleks]]). 
+
+Arvatavasti [[2. aastatuhat eKr|2. aastatuhande]] keskpaigas eKr jõudis Iraani kiltmaa idaossa nähtavasti [[indoeuroopa keeled|indoeuroopa keelt]] kõnelev rahvas, kuid sellest piirkonnast on vähe teada kuni [[1. aastatuhat eKr|1. aastatuhande]] keskpaigani eKr, kui [[Ahhemeniidi]]e riigi ajal hakati ajalugu kirja panema.
+
+==Ajalugu==
+[[Vanaaeg|Vana-]] ja [[keskaeg|keskajal]] oli kuulus tänapäeva Afganistani territoorium eri riikide koosseisu ning seda läbisid rahvad ja sõjaväed, kes olid teel [[India]]sse.  Seal elanud rahvaste ajalugu on tihedas seoses [[Kesk-Aasia]], [[Iraan]]i ja [[India]] rahvaste ajalooga. Kuni [[keskaeg|keskajani]] koosnes Afganistan peamiselt kohalikest dünastiatest, mida mõjutasid [[Pärsia]] riik ning [[India]] naabrus. 
+
+===Islamieelne periood===
+[[7. sajand eKr|7.]] ja [[6. sajand eKr|6. sajandil eKr]] tekkisid Kesk-Aasias suured riigid, millest suurim oli [[Baktria]] keskusega [[Balkh]]is. 
+
+==== Ahhemeniidide võimu all umbes [[550 eKr]] kuni  [[331 eKr]] ====
+
+Alates [[530. aastad eKr|530. aastatest eKr]] kuulusid Balkhi, [[Kabul]]i, [[Kandahār]]i ja [[Herāt]]i piirkond [[Ahhemeniidid]]e riiki. [[Baktria]]st (mille keskus oli praegune [[Balkh]], olevat pärit olnud [[zoroastrism]]i rajaja [[Zarathuštra]]. 
+
+[[4. sajand eKr|4. sajandiks eKr]] oli Ahhemeniidide impeerium nõrgenenud. Olgugi et Baktria-taolised äärealad olid Ahhemeniidide valitsemise ajal alati rahutud olnud, võtsid otsustavast [[Gaugamela lahing]]ust ([[330 ekr]]) Pärsia poolel osa ka Baktria väed. [[Aleksander Suur]]elt saadi lüüa.   
+
+[[330 eKr|330]]–[[329 eKr]] vallutas need alad [[Aleksander Suur]]. Pärast tema surma läksid nad [[Seleukiidide riik|Seleukiidide riigi]] koosseisu. Pärast edutut sõjakäiku India vastu pidi [[Seleukos I]] nad [[305 eKr|305. aasta paiku eKr]] loovutama India [[Maurjad]]e riigi rajajale [[Tšandragupta]]le.
+
+Alates [[3. sajand eKr|3. sajandist eKr]] kuni [[140 eKr]].–[[130 eKr|130. aastani eKr]] kuulus Afganistani territoorium [[Kreeka-Baktria riik|Kreeka-Baktria riigi]] koosseisu. 
+
+[[Ajaarvamise vahetus]]e paiku moodustus Kesk-Aasias [[Kušaani riik]]. See oli vanaaja Afganistani õitseaeg. [[3. sajand]]il pKr purustasid Kušaani riigi [[Sassaniidid]], kelle võimu alla langesid [[Merv]] (praegu [[Mary (Türkmenistan)|Mary]]), Seistan ja [[Harī Rūd]].
+
+Teel [[Põhja-India]]sse vallutasid Afganistani territooriumi [[5. sajand]]i esimesel poolel [[heftaliidid]]. 
+
+Araabia kaliifide mõju algas [[664]]. [[Islam]] pääses selles piirkonnas maksvusele suhteliselt hilja. 
+
+Siiski [[Ghasnaviidid]]e ja [[Ghuriidid]]e ajal poliitiline, majanduslik ja kultuuriline õitseng islami tähe all. 
+
+Sellele linnakultuurile andis [[13. sajand]]il ränga hoobi [[Tšingis-khaan|mongolite]] sissetung. 
+
+Järgnenud [[Kartiidid]]e võimu ajal oli maal teatav iseseisvus.
+
+Pärast [[Timur]]i laastamist langes Afganistan [[16. sajand]]il [[Suurmogulid|Suurmogulite]] riigi alla.  
+
+[[Afšariidid]]e ([[Nadir-šahh]]i vallutused ([[1736]]–[[1747]]) tõid Afganistani ajutiselt jälle Pärsia võimu alla. Pärast Nadir-šahhi mõrvamist võttis tema vägedes võidelnud [[Durrani]]de hõim iseseisvalt võimu. Selle juht, [[puštud|puštu]] [[Ahmed-khaan Durrani]] rajas [[1747]] iseseisva afgaani riigi ning teda peetakse Afganistani rajajaks. Hõimutülide tõttu riik [[19. sajand]]i algul killunes ning leidsid aset välissekkumised. 
+===Suurriikide huvisfääris===
+[[19. sajand]]il viis koloniaalvõimude [[Venemaa]] ja [[Suurbritannia]] konflikt (''[[The Great Game]]'', &quot;[[suur mäng]]&quot;) selleni, et britid sekkusid Afganistani pärilussõtta ja puhkes [[esimene Inglise-Afgaani sõda]] [[1838]]–[[1842]]. Brittidel ei õnnestunud Afganistani hõivata ning Indiaga liidendada. 
+
+[[Teine Inglise-Afgaani sõda]] ([[1878]]–[[1881]]) ei muutnud ''[[status quo]]''&lt;font&gt;'d&lt;/font&gt;. 
+
+[[1898]]. aastal määrati Afganistan [[Buhhaara emiraat|Buhhaara emiraadi]] lõunaosa. Sellega kujunes Afganistani tänini kehtiv põhjapiir.   
+===20. sajand===
+[[Rawalpindi rahu]]ga [[1919]] lõppenud [[kolmas Inglise-Afgaani sõda]] viis [[Kabuli leping]]uni ([[1921]]), millega [[Venemaa]] ja [[Suurbritannia]] tunnustasid Afganistani täielikku sõltumatust. 
+
+Alates [[1925]]. aastast oli Afganistan [[konstitutsiooniline monarhia]]. 
+===Afganistani Demokraatlik Vabariik===
+[[17. juuli]]l [[1973]] kehtestati [[vabariik]], mille presidendiks sai [[Moḩammad Dā'ūd Khān]], kes tapeti Nõukogude Liidu poolt mahitatud kommunistide riigipöörde käigus 1978. aastal. [[Külm sõda|Külma sõja]] ajal sai Afganistanist [[asendussõda|asendussõja]] ([[Nõukogude-Afganistani sõda]]) ohver. Alates 1973. aasta riigipöördest ([[padišahh]] oli [[eksiil]]is) võitlesid võimu pärast traditsioonilised hõimud ja [[kommunistid]].
+
+====Nõukogude-Afganistani sõda====  
+{{vaata|Nõukogude-Afganistani sõda}}
+Külma sõja haripunktil viis [[Nõukogude Liit]] [[27. detsember|27. detsembril]] [[1979]] Afganistani oma sõjaväe &quot;piiratud väekontingendi&quot;, nagu Nõukogude propagana kinnitas, ning pani [[Afganistani Demokraatlik Vabariik|Afganistani Demokraatliku Vabariigi]] presidendiks Nõukogude Liidust sõltuva [[Babrak Karmal]]i. Hoolimata üleolekust relvastuses ja 100 000-mehelisest väest ei õnnestunud Nõukogude Liidul Afganistani oma kontrolli alla saada, kuna läbiviidav sõjategevus ei vastanud [[Nõukogude Armee]]le omasele suurte väeüksuste lahingutaktikale ning uuel võimul puudus täielik kohaliku elanikkonna toetus. Viimased Nõukogude väeüksused lahkusid [[14. veebruar]]il [[1989]]. 
+
+Afgaani vastupanuvõitlejad ([[mudžaheedid]]) võitsid lõpuks konflikti samasuguse [[siss]]itaktika abil (avatud  [[välilahing]]ute vältimine) nagu Inglise-Afganistani sõdades. Peale selle said nad abi [[Pakistan]]ist, [[Saudi Araabia]]st ja [[USA]]-st. Ortodokssetest islamimaadest, nagu Saudi Araabiast, värvati [[palgasõdur]]eid, kes pärast sõja lõppu omandasid riigis suure mõjuvõimu ja kehtestasid [[1996]]. aasta lõpuks [[Ţālebān]]i süsteemi (Ţālebān oli poliitiliselt aktiivne alates 1994. aastast).
+
+===Afganistani islamivabariik===
+Ka Ţālebāni võimu ajal jätkus kodusõda.   
+===Afganistani sõda===
+Pärast [[11. septembri terrorirünnakud|2001. aasta 11. septembri terrorirünnakuid USA-s]] alustas [[USA]] [[7. oktoober|7. oktoobril]] [[Afganistani sõda (2001)|Afganistani sõda]], et kukutada alates [[1996]]. aastast Afganistanis valitsenud [[Taliban]]i süsteem ning  ning purustada seal USA andmetel tegutsenud [[terror]]iorganisatsiooni [[Al-Qā‘idah]] ja selle juht [[Usāmah ibn Lādin]] massiivsete [[õhurünnak]]utega.   
+
+[[NATO]] riigid olid ühel meelel sõjalise löögi õigustatuses, ent islamimaades, sealhulgas naabermaal [[Pakistan]]is, olid sõjavastased meeleavaldused. 
+
+[[13. november|13. novembril]] 2001 langes pealinn [[Kabul]]. Mõni nädal pärast esimesi rünnakuid õnnestus [[Põhjaallianss|Põhjaalliansil]], mis seni oli kontrollinud umbes 10% riigist, hõivata peaaegu kogu Afganistan. 
+
+Pärast esimest rahvusvahelist [[Afganistani konverents]]i [[Bonn]]is määrati [[2002]] üleminekupresidendiks [[Hamid Karzai]] ning saadeti Afganistani rahvusvahelised korratagamisjõud [[Rahvusvahelised julgeolekuabijõud|ISAF]] [[Suurbritannia]], hiljem [[Türgi]], [[Saksamaa]] ja [[Holland]]i juhtimisel. Praegu on seal [[NATO]] jõud  [[Kanada]] juhtimisel.
+
+[[21. märts]]il [[2004]] langes [[atentaat|atentaadi]] ohvriks Afganistani lennundusminister [[Mirwais Sadeq]]. Sadeq oli kolmas atentaadis hukkunud minister pärast Talibani kukutamist.
+
+Aastal [[2004]] sai Afganistan uue põhiseaduse ([[2004. aasta Afganistani põhiseadus]]).
+
+==Kultuur==
+[[UNESCO maailmapärandi nimistu]]s on 2002. aastast  [[Jam]]i minarett ja arheoloogilised mälestised ning 2003. aastast [[Bāmīāni org|Bāmīāni oru]] kultuurmaastik ja arheoloogilised mälestised.
+
+==Vaata ka==
+*[[2004. aasta Afganistani põhiseadus]]
+*[[Afganistani kõrgkoolid]]
+*[[Afganistani riigipeade loend]]
+*[[Afganistani valitsusjuhtide loend]]
+*[[Durandi liin]]
+*[[Afganistani jalgpallikoondis]]
+*[[Bamiani budad]]
+
+==Viited==
+{{viited}}
+
+==Välislingid==
+{{vikisõnaraamatus}}
+{{vikisõnastikus|Afganistani Islamivabariik}}
+{{Commonskat|Afghanistan}}
+* [http://www.maaleht.ee/news/fotogalerii/fotod/vaata-pilte-afganistan-labi-politseiniku-kaamera.d?id=24598135 &quot;Vaata pilte: Afganistan läbi politseiniku kaamera&quot;] Maaleht, 17. juuli 2009
+* [[Kai Eide]]: [http://www.postimees.ee/?id=150940 &quot;Afganistan aastal 2009 – kas pöördepunkt?&quot;] Postimees, 10. august 2009
+* [[Urmas Roosimägi]]: [http://www.postimees.ee/?id=180133 Afganistani vari] Postimees, 27. oktoober 2009
+* [[Õnne Pärl]]: [http://www.apollo.ee/product.php/0999703 &quot;Armastatud Afganistan&quot;]
+* Õnne Pärl: [http://qnne.blogspot.com/ &quot;Kabuli päevik&quot;]
+* Õnne Pärl: [http://afghanistan-photogallery.blogspot.com/ &quot;Afganistani fotogalerii&quot;]
+* Õnne Pärl: [http://www.postimees.ee/?id=153939 &quot;Mulla vastab küsimustele läbi püha teksti&quot;] Postimees, 18.august 2009
+* Õnne Pärl: [http://www.epl.ee/artikkel/416154 &quot;Nancy Hatch Dupree — afgaanide ajaloo elav mälu&quot;] Eesti Päevaleht, 26. jaanuar 2009
+* Õnne Pärl: [http://www.epl.ee/artikkel/317889 &quot;Kaheksa kevadist hetke tolmuses Kabulis - hirmutav ja põnev korraga&quot;] Eesti Päevaleht, 12. aprill 2006
+* Õnne Pärl: [http://www.epl.ee/artikkel/493210 Analüüs: Eesti meedia näitab Afganistanist väärastunud pilti] Eesti Päevaleht, 8. märts 2010
+* [[Harri Tiido]]: [http://www.ekspress.ee/news/arvamus/arvamus/harri-tiido-afganistani-rubiku-kuubik-ehk-kuidas-maetakse-miljardeid.d?id=49360339 &quot;Afganistani Rubiku kuubik ehk kuidas maetakse miljardeid&quot;] Eesti Ekspress, 11. juuli 2011
+
+{{Aasiariigid}}
+
+{{koord |NS=33.93333333 |EW=66.18333333 |type=country |region=AF}}
+
+[[Kategooria:Riigid]]
+[[Kategooria:Aasia maad]]
+[[Kategooria:Afganistan| ]]</text>
+      <sha1>gw8oyfnt8yo0z6asss2eojzohat4vqr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Albaania</title>
+    <ns>0</ns>
+    <id>4</id>
+    <revision>
+      <id>4141538</id>
+      <parentid>4141523</parentid>
+      <timestamp>2015-03-24T22:03:50Z</timestamp>
+      <contributor>
+        <username>Adeliine</username>
+        <id>6693</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{See artikkel|räägib riigist Euroopas; ajaloolise piirkonna kohta Kaukaasias vaata artiklit [[Albaania (Aserbaidžaan)]]}}
+{{ajakohasta}}
+{{allikad}}
+{{Riik
+|riiginimi = Albaania Vabariik
+|omastav = Albaania
+|omakeelne_nimi_1 = albaania|Republika e Shqipërisë|
+|mis_lipp =
+|mis_vapp =
+|vapi_laius = 80px
+|asendikaart = LocationAlbania.svg
+|deviis =
+|riigikeel = [[albaania keel]]
+|ametlik_keel =
+|pealinn = [[Tirana]]
+|riigipea_ametinimi = President
+|riigipea_nimi = [[Bujar Nishani]]
+|valitsusjuhi_ametinimi = Peaminister
+|valitsusjuhi_nimi = [[Edi Rama]]
+|pindala = 28 748
+|rahvaarv = 2 831 741 (2011) &lt;ref&gt;http://census.al/Resources/Data/Census2011/Instat_print%20.pdf&lt;/ref&gt;
+|rahvastiku_tihedus = 98,5
+|iseseisvus = [[28. november]] [[1912]]
+|valuuta = [[Albaania lekk]] ([[ALL]])
+|ajavöönd = [[maailmaaeg]] +2
+|hümn = [[Hymni i Flamurit]]
+|usund =
+|üladomeen = [[.al]]
+|telefonikood = 355
+|riigikord = [[parlamentaarne vabariik]]
+|SKT =
+|SKT_elaniku_kohta =
+|rok-i_kood = ALB
+|märkused =
+}}
+'''Albaania Vabariik''' (''Republika e Shqipërisë'') paikneb [[Euroopa]]s [[Balkani poolsaar]]e lääneosas. Riik piirneb idast [[Kreeka]] (282 km) ja [[Makedoonia]]ga (151 km), idast ja põhjast [[Kosovo]] (114 km) ning põhjast [[Montenegro]]ga (173 km). Maismaapiiri kogupikkus on 720 km. Lääne poole jääb [[Aadria meri]] ja edela poole [[Joonia meri]]. Rannajoone pikkus on 362 km. Territoriaalmere laius on 12 [[meremiil]]i.
+
+Lääne-Albaania madalikud piirnevad Aadria mere ja strateegiliselt tähtsa [[Otranto väin]]aga, mis jätab alla 100 km vett Albaania ning [[Itaalia]] saapa &quot;kanna&quot; vahele. Otranto väin ühendab Aadria merd Joonia mere ja [[Vahemeri|Vahemerega]].
+
+[[Pilt:Albaania kaart.gif|pisi|300px]]
+
+==Nimi==
+Albaania nimi on tuletatud [[illüürlased|illüüria]] hõimu albaanide (kreeka keeles ''Albanoi'') järgi, keda peetakse albaanlaste esivanemateks. See nimetus kerkib [[11. sajand]]il esile [[Durrës]]es ja selle ümbruses elava illüüria hõimu kohta. Albaania albaaniakeelne nimetus on ''Shqipëria''. Seda nime seostatakse rahvusteadvuses sõnaga ''shqiponja'' ('kotkas'; kahe peaga kotkas on ka Albaania rahvuslik sümbol; [[Albaania lipp]]; albaanlaste omanimetust ''shqiptarë'' tõlgendatakse 'kotkaste pojad'), kuid etümoloogiliselt on ta seotud sõnaga ''shqiptoj'' 'kõnelema', märkides ühe ja sama keele kõnelejate maad.
+
+== Suurus  ja piirid==
+
+Albaania pindala on 28 748 km² (27 398 km² maad, 1350 km² (4,7%) vett). Albaania on maailma riikide seas pindalalt 139. Albaania maksimaalne pikkus põhja-lõuna suunas on umbes 340 km ja maksimaalne laius ida-lääne suunas umbes 145 km.
+
+Peale rannikujoone on kõik Albaania piirid kunstlikud. Need määrati põhimõtteliselt kindlaks suursaadikute konverentsil [[London]]is [[1912]]–[[1913]]. [[Esimene maailmasõda|Esimese maailmasõja]] ajal okupeerisid Albaania, Itaalia, Serbia, Kreeka ja [[Prantsusmaa|Prantsuse]] väed, kuid võitjariigid kinnitasid [[1921]] uuesti enam-vähem 1913. aasta piire. Algne põhimõte oli määrata piirid vastavalt [[albaanlased|albaania]] rahva ja naaberrahvaste huvidele. Põhja- ja idapiir pidid, nii palju kui võimalik, eraldama albaanlased [[serblased|serblastest]] ja [[montenegrolased|montenegrolastest]]; kagupiir pidi eraldama albaanlased ja [[kreeklased]]. Väärtuslik Lääne-Makedoonia järvede piirkond tuli jaotada vastavalt seal elavale kolmele rahvale Albaania, Kreeka ja [[Jugoslaavia]] vahel. Kui ei olnud teisi kompromissi nõudvaid tegureid, valiti piirid nii, et rahvad oleksid kõige paremini eraldatud, kasutades looduslikke piire.
+
+Võeti arvesse kohalikku majandusliku olukorda, et mitte näiteks lõigata ära küla oma karjamaadest ja turgudest. Poliitiline surve lähtus jõudude tasakaalu kaalutlustest, mitte majanduslikest huvidest.
+
+Järvede piirkonna jagamine kolme riigi vahel nõudis, et igal riigil oleks osa järveäärsetest madalmikest. See jaotus mõjutas ka piire põhja ja lõuna pool. Piir, mis kulgeb üldiselt järvedest põhja poole, kuigi järgib idapoolsete mägismaade mäeahelikke, jääb veelahkmest 16–32 km lääne poole. Et Londoni konverentsi läbirääkijad kaldusid kasutama Albaania riigi piiride määramisel [[veelahe]]t, siis jäi suur osa albaanlastest Kosovos Serbia territooriumile.
+
+Albaania kaugetest põhja- ja kirdepoolsetest mägedes ühendab piire kõrgeid tippe ning järgib mäeahelikke suurelt jaolt ligipääsmatutes [[Põhja-Albaania Alpid]]es. Mägismaast Aadria mereni looduslikku piiri ei ole, kuigi Albaania loodepiiri märkimiseks kasutati [[Shkodëri järv]]e ja osa [[Bunë jõgi|Bunë jõest]]. Järvede piirkonnast [[Joonia meri|Joonia mereni]] läheb Albaania edelapiir risti mitme mäeahelikuga.
+
+===Ajavöönd===
+Albaania aeg on [[maailmaaeg|maailmaajast]] kaks tundi ees. Seega on kasutusel [[Ida-Euroopa aeg]] nagu [[Eesti]]ski.
+
+==Loodus==
+===Pinnamood===
+[[Pilt:Coastline in Albania.jpg|pisi|Lõuna-Albaania rannik]]
+Umbes kaks kolmandikku Albaaniast on mägine (üle 200 m üle merepinna). Albaania on Balkani poolsaare kõige mägisem maa. Keskmine kõrgus merepinnast on 700 m. Kõrgeim mägi on [[Korab]] (2764 m; Kesk-Albaanias), [[kips]]irahn Makedoonia piiri ääres. Mäeahelikud kulgevad enamasti põhja-lõuna suunas. Ainsasse ida-lääne suunas kulgevasse ahelikku kuulub [[Tomorr]] (2480 m) Lõuna-Albaanias. Mäed teevad Albaanias liikluse väga vaevaliseks. Mägede orud on väga tihedalt asustatud.
+
+Kõige mägisem on Põhja-Albaania, mida katavad [[Põhja-Albaania Alpid]], mis on osa [[Dinaari mäed|Dinaari mägedest]]. Kõrgeim tipp on [[Jezercë]] (2692 m). Piirkond on väga metsane ja hõredalt asustatud. Elanikud tegelevad [[metsandus]]e ja [[karjakasvatus]]ega.
+
+Kesk-Albaania mäed [[Drin]]i jõest kuni [[Devoll]]i jõe [[keskjooks]]uni ja [[Osum]]i jõe alamjooksuni on tihedamalt asustatud ning on tasasem. Seal on palju [[kroom]]i, [[raud]]a, [[nikkel|niklit]] ja [[vask]]e. Elatusallikad on metsandus, karjakasvatus, [[mäendus]] ja [[põllundus]].
+
+Lõuna-Albaanias on kirde–edelasuunalised mäeahelikud, mis koosnevad [[lubjakivi]]st. Nende vahel on laiad orud. Erinevalt põhjapoolsetest mägedest on nad kas paljad või on kaetud hõreda vahemerelise põõsastiku ([[makja]]), tammede ja vahemere mändidega. Mäenõlvu kasutatakse [[karjamaa]]dena.
+
+Ainult rannikul on väikesed tasandikud (umbes veerand Albaania pindalast). Seal elab umbes pool Albaania elanikest. Looduslikke sadamaid on vähe. Tasandikud on enamasti liivased. Liiva sidumiseks on istutatud palju männimetsa. Aadria mere rannikul on suurepärased rannad ja ka muu maastik.
+
+Tasandike ja mägede vahele jääb kuni 400 m kõrguste küngaste piirkond.
+
+===Geoloogia===
+Albaania on mägine maa ning moodustab ühenduse helleniidide (lõunas) ja dinariidide (põhjas) [[orogeenne vöönd|orogeensete vööndite]] vahel. Albaania jagatakse idast läände järgmisteks [[tektooniline üksus|tektoonilisteks üksusteks]]: [[Korabi vöönd]], [[Mirdita vöönd]], [[Krasta vöönd]], [[Cukali vöönd]], [[Albaania Alpid]], [[Kruja vöönd]], [[Joonia vöönd]] ja [[Sazani vöönd]].
+
+====Tektooniline areng====
+Albaania on [[geoloogiline struktuur|struktuurselt]] keeruka geoloogilise ehitusega. [[Mäeteke]] on seotud [[hertsüünia orogenees|hertsüünia]] ja [[alpi orogenees]]iga.
+
+Vanemad [[Paleosoikum]]i aegsed hertsüünia orogeneesi kivimid avanevad vaid Korabi vööndis (valdavalt [[rohekildafaatsies|rohekivimilise moondefaatsiese]] kurrutatud [[terrigeensed setted]] ja [[vulkaaniline kivim|vulkaniidid]]).
+
+[[Triias]]e olulisemaks sündmuseks on [[riftistumine]] ning [[ookeanibassein]]i teke. [[Juura (geoloogia)|Juura ajastust]] on säilinud [[ookeaniline maakoor|ookeanilise maakoore]] fragmendid ([[ofioliitne kompleks]] Mirdita vööndis) ning [[mandrilava]] [[karbonaatkivim|karbonaatsed]] [[meresetted]]. Juura ajastu lõpul ja [[Kriit (ajastu)|Kriidi ajastu]] alul saabus järjekordne kokkusurvefaas ning ookeanibasseini sulgumine. Sellest ajast on toimunud mitmeid kompressiooniepisoode, mille käigus lükati idapoolsed kivimplokid läänepoolsete peale.
+
+====Maavarad====
+Albaania on pindala poolest võrdlemisi väike maa, kuid maavarade poolest üsna rikas. Kokku pakuvad majanduslikku huvi 35 maavara, mis jaotatakse tekke järgi viide gruppi: [[magmalised maavarad|magmalised]], [[hüdrotermaalsed maavarad|hüdrotermaalsed]], [[moondelised maavarad|moondelised]], [[jääkmaavarad|jääk-]] ja [[settelised maavarad|settelised]].
+
+Peamiseks magmalise tekkega maavaraks on [[ultraaluseline kivim|ultraaluselistes]] ofioliitsetes kivimites sisalduv [[kromiit]] (Fe, Mg)Cr&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;4&lt;/sub&gt;. [[1980. aastad|1980. aastail]] toodeti Albaanias peaaegu miljon tonni [[kroom]]i aastas, mis tegi Albaaniast ühe olulisema kroomitootja maailmas. Kroomi kõrval esineb ultraaluselistes ja [[aluseline kivim|aluselistes]] kivimeis ka [[nikkel|niklit]], [[titaan]]i ja [[plaatina rühm]]a metalle.
+
+Hüdrotermaalse tekkega maakidest on olulisemad [[sulfiidsed mineraalid|vase- ja rauasulfiidid]]. Triiase vulkaanilis-settelise tekkega kivimeis esinevad massiivsed [[kuld]]a, [[hõbe]]dat, niklit ja [[koobalt]]it sisaldavad [[püriit|püriidi]], [[kalkopüriit|kalkopüriidi]] ja [[borniit|borniidi]] kehad. Oluline hüdrotermaalne maagistumine on seotud ka ofioliitidega. Vase sisaldus on neis üldiselt madalam (0,5...2%) kui Triiase kivimeis (2...10%), kuid see-eest sisaldavad need ka [[seleen]]i, [[telluur]]i, hõbedat, [[plii]]d, [[tsink]]i, kulda ja [[arseen]]i.
+
+Hüdrotermaalse tegevusega seotud [[moondemineraal]]idest pakuvad majanduslikku huvi eelkõige [[talk]], [[asbest]] ja [[magnesiit]].
+
+Jääkmaavaradest on olulisemad rauda ja niklit sisaldavad [[lateriit|lateriidid]], [[boksiit|boksiidid]] ning [[kaoliniit]]. Lateriidid on tekkinud peamiselt ultraaluseliste ofioliitsete kivimite [[murenemine|murenemisel]]. Boksiiti leidub Mesosoikumiaegse tekkega Kruja ja Albaania Alpide vööndeis. Kaoliniit on tekkinud peamiselt [[gabro]] ja [[anortosiit|anortosiidi]] murenemise tulemusena.
+
+Settelistest maavaradest on olulised [[fosforiit]] ja [[süsivesinik]]ud. Fosforiiti leidub [[lääts (geoloogia)|läätsede]] ja [[kiht (geoloogia)|kihtidena]] peamiselt Joonia vööndi Juura- ja Kriidiajastu karbonaatkivimites. Kaevandamistegevuseks on P&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;5&lt;/sub&gt; sisaldus (3...11%) liiga väike. [[Pruunsüsi|Pruunsütt]] leidub peamiselt Joonia vööndis ning mägedevahelistes orgudes. Joonia vööndi Kriidiajastu lubjakivid ja liivakivid sisaldavad ka [[nafta]]t ja [[maagaas]]i.
+
+===Kliima===
+[[Pilt:Tirana kliimadiagramm.png|pisi|Tiranas on lähistroopiline vahemereline kliima]]
+Kliima poolest jaguneb Albaania kaheks piirkonnaks.
+
+Rannikul on [[lähistroopiline vahemereline kliima]]. Suved on kuumad ja kuivad, talved mahedad ja sajused. Näiteks [[Sarandë]]s on [[ööpäeva keskmine õhutemperatuur]] juulis 24 °C ja jaanuaris 9 °C.
+
+Sisemaal on [[lähistroopiline mandriline kliima]]. Kõige külmem kuu on jaanuar ja kõige soojem juuli. Mägedes võib õhutemperatuur langeda −26 kraadini. Mägedes sajab talvel väga palju vihma ja lund. Näiteks [[Peshkop]]is on keskmine õhutemperatuur juulis 23 °C ja jaanuaris −1 °C.
+
+Albaanias sajab palju vihma, kuid aasta lõikes ebaühtlaselt. [[Keskmine aastane sademete hulk]] on [[Põhja-Albaania Alpid]]es üle 2500 millimeetri, idapiiri ääres alla 750 mm. Umbes 40% sademetest langeb talvele. Edela-Albaania kannatab suviti põua all.
+
+Tiranas on keskmine õhutemperatuur augustis 23,8 °C ja jaanuaris 6,7 °C. Sademeid on oktoobris keskmiselt 157 mm ja juulis 28 mm.
+
+===Jõed===
+[[Pilt:White Drini 05 01.jpg|pisi|[[Valge Drin]]]]
+Jõed on talvel kärestikulised ja ujutavad üle, suvel jäävad neist järele vaid nired. Pikim jõgi on [[Drin]] (''Drini i Zi'', ''Sorte Drin''), mis saab alguse Kosovos ning voolab 280 km pikkuselt läbi Põhja-Albaania, suubudes Aadria merre. Suur jõgi on ka [[Seman]] Kesk-Albaanias. Lõuna-Albaania suuremad jõed on [[Shkumbin]], [[Mat]] ja [[Vijosë]]. Drin ja Shkumbin on uuristanud lubjakivisse suuri orge.
+
+===Järved===
+Montenegro piiri ääres osaliselt Albaania territooriumil on [[Shkodëri järv]], mille ümbrus on soine. Idapiiri ääres on [[Ohridi järv|Ohridi]] ja [[Prespa järv]].
+
+===Mullad===
+Mullad on isegi tasandikel väheviljakad. Põllumajanduslikku maad on ainult 20%.
+
+===Taimestik===
+Suur osa Albaaniast oli kunagi [[mets]]ane. Sajanditepikkuse raie ja karjatamise tagajärjel on algsest taimkattest vähe järele jäänud. Paljudes kohtades on vaid põõsad ja [[võsa]]. Umbes 48% Albaaniast on kaetud metsaga. Põhiliselt on tegu [[mänd|männimetsaga]], kuid Põhja-Albaanias ja mägede nõlvadel on ka pisut lehtmetsa ([[tamm]], [[pöök]]). Kõige metsasemad piirkonnad on Kesk- ja Põhja-Albaania mägedes. Metsade pindala väheneb, sest puitu kasutatakse rohkesti kütteks. Ebaseaduslik raie on väga levinud. Metsapiirist kõrgemal on [[mägiaas]]ad. Riik püüab metsi taastada. Täiesti taimkatteta kohti on vähe.
+
+Rannikumadalmikel on vahemerelised põõsad, näiteks [[harilik loorberipuu|loorberipuu]] ja [[mürt]]. Lõunarannikul kasvatatakse [[tsitrus|tsitrusvilju]], piisava niisutuse korral [[viigipuu]]d ja [[õlipuu]]d. Kõrgemal domineerivad tammemetsad. Seal kasvatatakse viljapuudest [[õunapuu]]d, [[ploomipuu]]d ja [[viinapuu]]d ning [[kreeka pähklipuu]]d ja [[kastanipuu]]d. Tammikutest kõrgematel aladel kasvavad pöögid ja männid ning veel kõrgemal asuvad [[alpikarjamaa]]d.
+
+===Loomastik===
+Et jahipiirangud puuduvad, on kõikjal peale kaugete metsade metsloomi vähe. Albaanias eluneb [[hunt]]e, [[šaakal]]eid, [[hirv]]i ja [[rebane|rebaseid]]. Haruldasemad on [[metssiga|metssead]], [[karu]]d ja [[mägikits]]ed. On loodud [[looduskaitseala]]sid.
+
+Jahikeeluseadused metsloomade kaitseks ei ole jõustunud. Vana tava on kanda relva ja piiramatult tulistada.
+
+Metslinde on palju. Mahe rannikukliima meelitab kohale palju [[rändlinnud|rändlinde]], näiteks [[pääsuke]]si, [[toonekurg]]i, [[part]]e, [[hani|hanesid]] ja [[pelikan]]e.
+
+Rannikuvetes on [[sardiin]]e ja [[meriärn]]e. Mägijõgedes ja -järvedes on [[forell]]e.
+
+===Looduslikud ohud===
+Looduslikeks ohtudeks on eelkõige [[maavärin]]ad.
+
+===Keskkonnaohud===
+Keskkonnaohtudeks on metsade maharaiumine, mulla [[erosioon]] ja vee reostumine jäätmete ja [[reoveed|reovete]] ebapiisava töötluse tõttu.
+
+== Riik ==
+[[Pilt:Skanderbeg Square in Tirana.jpg|pisi|550px|Skanderbegi väljak Tiranas]]
+===Pealinn===
+Albaania pealinn on [[Tirana]].
+
+=== Riigikeel ===
+Albaania riigikeel on [[albaania keel]].
+
+===Rahvuspüha===
+Albaania rahvuspüha on [[28. november]], iseseisvuspäev; vabanemine [[Türgi]] võimu alt [[1912]]. Selle kuulutas välja [[Ismail Qemali]], kes asutas ka esimese valitsuse. Iseseisvust tunnustati alates juulist 1913.
+
+===Riigikord===
+[[1946]]–[[1990]] oli võim täielikult [[Albaania Tööpartei]] käes. Partei tegi kõik otsused sotsiaalsetes, majanduslikes, poliitilistes ja usulistes küsimustes.
+
+Pärast sotsialismi kokkuvarisemist mujal Euroopas tühistati [[1976]]. aasta põhiseadus ning võeti [[1991]] vastu üleminekupõhiseadus, mis võimaldas [[mitmeparteisüsteem]]i ja nägi ette presidentaalse vabariigi. Uue põhiseaduse projekt lükati [[1994]] referendumil tagasi. Praegu kehtib uus põhiseadus, mis võeti vastu referendumil [[28. november|28. novembril]] [[1998]] (opositsiooniline [[Albaania Demokraatlik Partei|Demokraatlik Partei]] boikoteeris referendumit).
+
+Kõrgeim seadusandlik organ on ühekojaline 140-liikmeline Rahvakogu (''Kuvendi Popullor''). See valitakse iga nelja aasta tagant. Valimisõigus saadakse 18-aastaselt. Parlament valib iga nelja aasta tagant riigipea. Kõrgeim täitevvõimuorgan oli kuni põhiseadusreformini presidendi nõukogu.
+
+===Albaania Vabariigi presidendid===
+{{vaata|Albaania riigipeade loend}}
+*[[Ramiz Alia]] ([[1991]]–1992)
+*[[Kastriot Islami]] (kt [[1992]])
+*[[Pjetër Arbnori]] (kt 1992)
+*[[Sali Berisha]] (1992–1997)
+*[[Skënder Gjinushi]] (kt [[1997]])
+*[[Rexhep Meidani]] (1997–2002)
+*[[Alfred Moisiu]] ([[2002]]–2007)
+*[[Bamir Topi]] ([[2007]]–[[2012]])
+*[[Bujar Nishani]] ([[2012]]–)
+
+===Albaania peaministrid===
+{{vaata|Albaania valitsusjuhtide loend}}
+*[[Fatos Nano]] ([[1991]], [[1997]]–[[1998]], [[2002]]–[[2005]])
+*[[Ylli Bufi]] (1991)
+*[[Vilson Ahmeti]] (1991–1992)
+*[[Aleksander Meksi]] ([[1992]]–1997)
+*[[Bashkim Fino]] (1997)
+*[[Pandeli Majko]] (1998–[[1999]], 2002)
+*[[Ilir Meta]] (1999–2002)
+*[[Sali Berisha]] (2005–2013)
+*[[Edi Rama]] (2013–)
+
+===Sümbolid ja tähised===
+{{vaata|Albaania lipp}}
+{{vaata|Albaania vapp}}
+====Hümn====
+Albaania [[riigihümn]] on &quot;[[Hymni i Flamurit]]&quot;.
+
+====Üladomeen====
+[[Üladomeen]] on .al
+
+====Maakood====
+Albaania [[Maakood (telefon)|kood]] telefonides on 355.
+
+====Autode tunnus====
+Autode tunnus on AL.
+
+===Haldusjaotus===
+Albaania jaguneb 36 ringkonnaks (''rreth'', mitmus ''rrethe'') ja eristaatusega pealinnaks. Ringkonnad on rühmitatud 12 maakonnaks (ametlik ''qark''/''qarku'', aga tihti ''prefekturë''/''prefektura''). Ringkonnad jagunevad 361 vallaks (''komunë'' ja ''bashki'').
+
+====Maakonnad====
+[[Pilt:AlbaniaNumberedPrefectures.png|pisi|Albaania maakonnad]]
+#[[Berati maakond]]
+#[[Dibëri maakond]]
+#[[Durrësi maakond]]
+#[[Elbasani maakond]]
+#[[Fieri maakond]]
+#[[Gjirokastëri maakond]]
+#[[Korçë maakond]]
+#[[Kukësi maakond]]
+#[[Lezhë maakond]]
+#[[Shkodëri maakond]]
+#[[Tiranë maakond]]
+#[[Vlorë maakond]]
+
+====Ringkonnad====
+[[Pilt:AlbaniaNumberedDistricts.png|pisi|Albaania ringkonnad]]
+#[[Berati ringkond]]
+#[[Bulqizë ringkond]]
+#[[Delvinë ringkond]]
+#[[Devolli ringkond]]
+#[[Dibëri ringkond]]
+#[[Durrësi ringkond]]
+#[[Elbasani ringkond]]
+#[[Fieri ringkond]]
+#[[Gjirokastëri ringkond]]
+#[[Gramshi ringkond]]
+#[[Hasi ringkond]]
+#[[Kavajë ringkond]]
+#[[Kolonjë ringkond]]
+#[[Korçë ringkond]]
+#[[Krujë ringkond]]
+#[[Kuçovë ringkond]]
+#[[Kukësi ringkond]]
+#[[Kurbini ringkond]]
+#[[Lezhë ringkond]]
+#[[Librazhdi ringkond]]
+#[[Lushnjë ringkond]]
+#[[Malësi e Madhe ringkond]]
+#[[Mallakastëri ringkond]]
+#[[Mati ringkond]]
+#[[Mirditë ringkond]]
+#[[Peqini ringkond]]
+#[[Përmeti ringkond]]
+#[[Pogradeci ringkond]]
+#[[Pukë ringkond]]
+#[[Sarandë ringkond]]
+#[[Shkodëri ringkond]]
+#[[Skrapari ringkond]]
+#[[Tepelenë ringkond]]
+#[[Tirana ringkond]]
+#[[Tropojë ringkond]]
+#[[Vlorë ringkond]]
+
+===Sõjavägi===
+2010. aastast on Albaanias palgaarmee. [[Ajateenistus]] kestis enne seda 12 kuud. Albaania on vähendanud sõjaväe isikkoosseisu 65 000 mehelt 1988. aastal 14 500 meheni 2009. aastal. Kaitsekulutused moodustavad 1,5% SKP-st. [[Albaania õhuvägi]] on maha kandnud kõik vanad lennukid, relvastuses on vaid helikopterid. Õhuruumi turvavad NATO lennukid.
+
+[[1. aprill]]il [[2009]] sai Albaania [[NATO]] täisliikmeks.
+
+===Saatkonnad===
+*Ameerika Ühendriikides: 2100 S St NW, Washington, DC 20008
+*Poolas: Ul. .Altowa 1, 02–386 Warszawa
+*Rootsis: Capellavägen 7, S-181 32 Lidingö
+*[[Saksamaa]]l: Friedrichstraße 231, D-10969 Berlin
+*Venemaal: Ulitsa Mõtnaja, dom 3, kvartira 8, Moskva 119049
+
+==Rahvastik==
+===Demograafilised näitajad===
+Albaania rahvaarv oli 2011. aasta rahvaloenduse esialgsetel andmetel 2 831 741. Varasematel hinnangutel oli rahvaarv 3 582 205 (hinnang, juuli [[2003]]), [[ÜRO]] andmetel 3,2 miljonit (2003). Rahvaarv on väheneud emigratsiooni tõttu, põhiliselt Kreekasse ja Itaaliasse. Maailma riikide seas on Albaania rahvaarvult 140. Rahvastiku tihedus on 98,5 inimest ruutkilomeetri kohta ([[2011]]). Albaania on Euroopas rahvaarvult 32. ja rahvastiku tiheduselt 18. [[2025]]. aasta rahvaarvuks prognoositakse 3,8 miljonit.
+
+Aastatel 1945–1990 Albaania rahvaarv peaaegu kolmekordistus, kuid väheneva [[sündimus]]e ja kasvava väljarände tõttu [[1990. aastad|1990. aastatel]] rahvaarvu kasv aeglustus. [[2000]] oli rahvaarv 3 544 841. Albaania rahvastik on väga noor (keskmine vanus 28 aastat). Üle 65-aastaste osakaal on 6,3%. Alla 15-aastaste osakaal on 30%. Sotsialismiajal oli ränne maalt linna seadustega piiratud. Need seadused tühistati [[1994]], kuid [[linnastumine]] algas päris 1990. aastate alguses. Linnarahvastiku osakaal on 53,7% ([[2011]]).
+
+[[Loomulik iive]] on 2,2% (Euroopa suurim). Naise kohta on 2,1 sündi. Iive on 0,63%. Mehi on 51%, naisi 49%. [[Keskmine eluiga]] on 73,5 aastat, naistel 77 ja meestel 70 või 71 aastat. Laste [[suremus]] on 4,3%.
+
+===[[Albaania linnad]]===
+*[[Albaania linnade loend]]
+
+===Rahvad===
+Pärast Balkani sõda 1913 jäi uute piiride järgi üle 40% [[albaanlased|albaanlasi]] Kosovosse. Seetõttu elab praegu rohkem albaanlasi teistes riikides kui Albaanias. Albaania ja Kosovo albaanlased peavad end üheks rahvaks. Albaanlased jagunevad hõimudesse. Türgi valitsuse ajal oli albaanlaste elulaad, riietus, arhitektuur ja kunst türgipärased, eriti moslemitel. Kahekümnenda sajandi lõpus on elulaad muutunud euroopalikumaks. Albaanlaste osakaal on ametlikel andmetel 95%.
+
+Suurim vähemusrahvus on [[kreeklased]], kes elavad suuremalt jaolt Lõuna-Albaanias Kreeka piiri lähedal. Ametlikult loetakse [[Albaania kreeklased|Albaania kreeklaste]] arvuks 59 000, kuid kreeklased ise hindavad oma arvu 300 tuhandele. Kreeklaste osakaal on ametlikel andmetel 3%.
+
+Albaanias on ka palju [[mustlased|mustlasi]] (Sinti). Nende täpne arv pole teada, kuid neid arvatakse olevat 10% rahvaarvust. Vähemusrahvus on ka [[aromaanid]]. Nende arv on 50 000 – 100 000. [[Serblased|Serblasi]] oli 1994. aastal 1000–3000. On ka [[bulgaarlased|bulgaarlasi]]. Albaanias elavad üksikud [[juudid]], kes on segaabielus (vaata [[Albaania juudid]]).
+
+Albaanlased kõnelevad [[albaania keel]]t. Kuni 19. sajandi keskpaigani oli albaaniakeelne kooliõpetus Türgi võimude poolt keelatud. Kaks kolmandikku Albaania albaanlastest räägib geegi murret, üks kolmandik toski murret. [[1972]] loodi ühtne kirjakeel, millel on mõlema murde jooni.
+
+Umbes 2 miljonit albaanlast elab endises Jugoslaavias (90% Kosovo elanikest on albaanlased), 400 000 Makedoonias ja 600 000 [[Ameerika Ühendriigid|Ameerika Ühendriikides]].
+
+===Religioon===
+Rooma ajal Albaania [[kristlus|ristiusustati]]. Türgi valitsuse all ([[1468]]–1912) võttis enamik albaanlasi vastu [[islam]]iusu.
+
+[[1930. aastad|1930. aastatel]] oli moslemeid 70% ([[sunniidid|sunniite]] ja palju [[Bektashi]] moslemeid). [[Õigeusk|Õigeusulisi]] kristlasi oli 20%, [[katoliiklus|katoliiklasi]] 10%. Viimaste statistiliste andmete järgi ([[1942]]) oli 2/3 elanikkonnast moslemid.
+
+Ka praegu on moslemid, bektashid,katoliiklased ja õigeusklikud. Albaania kuulub 14 kõige vähem religioossema maailma riigi hulka – vaid 39% albaanlastest on usklikud.&lt;ref&gt;http://www.gallup.com/poll/128210/Gallup-Global-Reports.aspx&lt;/ref&gt;
+Seda kinnitab Gallup Balkan Monitor. &lt;ref&gt;http://www.balkan-monitor.eu/index.php/dashboard&lt;/ref&gt;
+
+Enver Hoxha keelas [[1967]] kõik religioonid ja kuulutas Albaania maailma esimeseks ateistlikuks riigiks. Konstitutsiooni järgi oli Albaania &quot;ilmalik riik&quot;. Kõik kirikud ja mošeed suleti või muudeti kinodeks, spordihallideks või ladudeks. Välismaa vaimulikud saadeti maalt välja või vangistati, kohalikud vaimulikud arreteeriti, saadeti sunnitööle või saadeti asumisele religioosse tegevuse keeluga. Paljud tapeti, kirikud lammutati või võeti kasutusele muul otstarbel (ühest kirikust sai kontserdisaal, teisest võimla).
+
+Usklik olemine oli kriminaalkuritegu. Söögilaua õnnistamise eest võis saada 7 aastat vabadusekaotust. Ametnik võis tulla ja küsida 6–8-aastaste laste käest, kes tunneb [[ristimärk]]i, ning jaatava vastuse korral vanemad represseeriti.
+
+Aastast [[1990]] on Albaanias usuvabadus. Sellest ajast saadik on ilmunud palju usulahke.
+
+[[22. oktoober|22. oktoobril]] [[1991]] nimetati esimene [[apostellik nuntsius]] [[Ivan Dias]]. Katoliku [[preester|preestreid]] oli järel 33 ja [[nunn]]i 45, kõik vanad ja haiged. Välismaalt, eriti Itaaliast ja Kosovost, samuti Bosniast ja Hertsegoviinast, [[Horvaatia]]st, [[Saksamaa]]lt, [[Austria]]st, [[Sloveenia]]st, [[Malta]]lt, [[India]]st ja [[Filipiinid]]elt hakkas tulema materiaalset abi ja vaimulikke. Praegu on Albaanias 20 katoliku mungakloostrit ja 70 nunnakloostrit. Katoliku preestreid on 110, nunni umbes 300 ja pühakodasid 150.
+
+[[25. aprill]]il [[1993]] käis [[paavst]] [[Johannes Paulus II]] pastoraalvisiidil [[Shkodër]]is ja Tiranas, mille käigus ta pühitses 4 esimest piiskoppi pärast tagakiusamist kommunistide poolt.
+
+==Majandus==
+Albaania majandus on üks vaesemaid Euroopas. Ta tugineb suurelt jaolt põllumajandusele. Pool majanduslikult aktiivsest elanikkonnast on veel hõivatud põllumajandusest ja üks viiendik (600 000 inimest) arvatakse töötavat välismaal, neist 40 000 prostituudina.{{lisa viide}} Kommunistid olid kaotanud maa eraomanduse. Umbes 80% põllumajanduslikku maad läks kooperatiivide kätte ja ülejäänud maad viljeles otseselt riik.
+
+Riigi suurimad majanduslikud probleemid on kõrge [[tööpuudus]], [[korruptsioon]], mis ulatub kõrgete ametnikeni, ja organiseeritud kuritegevus (sealhulgas inim- ja uimastikaubandus; uimastite transiit Aasiast Euroopasse; naiste vahendamine prostituutideks ja alaealiste vahendamine orjadeks keskusega Vlorës).
+
+Albaania saab finantsabi välismaalt, eriti Kreekast ja Itaaliast.
+
+Albaania ei ekspordi suurt midagi (peamised eksporttooted on [[kroom]] ja kroomitooted ning [[toiduainetetööstus]]e tooted), kuid impordib palju Kreekast ja Itaaliast. Raha impordiks tuleb finantsabist ja välismaal töötavate põgenike toodavast rahast.
+
+Keskmine aastasissetulek on [[Maailmapank|Maailmapanga]] andmetel 1340 [[USA dollar]]it.
+
+===Põllumajandus===
+Albaanlased on traditsiooniliselt olnud karjakasvatajad, kes viisid oma [[lammas|lamba]]- ja [[kits]]ekarjad suveks mägikarjamaadele. Karjakasvatus on ka praegu tähtis, kuid 2/3 põllumajandustoodangust tuleb põlluviljadest. Peamine teravili on [[nisu]], millest ei jää palju maha [[mais]]. Tähtsad on ka [[riis]], [[puuvill]], [[suhkrupeet]], [[kartul]], juurvili ja söödavili. Soojad suved võimaldavad kasvatada [[oliiv]]e, [[viinamarjad|viinamarja]], [[tubakas|tubakat]] ja tsitrusvilju.
+
+===Maavarad===
+Albaanial on suuri maavarade varusid. [[Nafta]]t jätkub sisetarbimiseks ning jääb pisut üle ka ekspordiks. Torujuhe viib [[Kuçova]] naftaväljadelt Vlorë sadamasse. On ka mitu naftatöötlemistehast. Toodetakse [[maagaas]]i. Leidub [[pruunsüsi|pruunsütt]], mida saab kasutada [[elekter|elektri]] tootmisel. Enamik toodetavast elektrist tuleb siiski [[hüdroelektrijaam]]adest. Metallimaakidest on kõige tähtsam [[kromiit]]. Leidub ka [[vask]]e ja [[nikkel|niklit]].
+
+===Eksport ja import===
+Ekspordi kogumaht on 256 miljonit USA dollarit aastas. Sellest moodustab tekstiil 32,7%, nahk ja nahktooted 19,5% ja maagid 10,4%. Märkimisväärselt eksporditakse kromiiti. Eksporditakse ka vaske, [[rauamaak]]i, [[asfalt]]i, tubakat, puu- ja juurvilju ning [[vein]]i. Põhilised ekspordimaad on Itaalia (60%), Kreeka (5,7%) ja [[Saksamaa]] (5,7%).
+
+Impordi kogumaht on 1,07 miljardit USA dollarit. Sellest moodustavad pooltooted 29,3%, toiduained 22% ning masinad ja transpordiseadmed 16,3%. Põhilised tarnijad on Itaalia (42,2%), Kreeka (27,5%) ja Türgi (3,3%).
+
+Väliskaubanduse puudujääk on 814 miljonit USA dollarit.
+
+===Tööstus===
+Tööstuse, eriti nafta- ja keemiatööstuse arendamisele pööratakse Albaanias suurt tähelepanu. [[Elbasan]]is avati [[1976]] väike raua- ja [[teras]]etehas. On ka väikesi [[keemiatehas]]eid. Tiranas ja [[Berat]]is on suured [[tekstiil]]ikombinaadid.
+
+===Transport===
+Esimene [[raudtee]] ehitati 1948. See ühendas Tiranat [[Durrës]]e ja Elbasaniga. Raudteede kogupikkus on 447 km. Algselt ehitati raudtee rahvusvahelise raudtee jätkuna Montenegrost [[Han i Hotit]]i kaudu.
+
+Maanteede kogupikkus on 18 000 km, neist kõvakattega 39%.
+
+1000 elaniku kohta tuleb 44 [[auto]]t.
+
+Peamised sadamad on Durrës, [[Vlorë]], [[Shëngjin]] ja [[Sarandë]]. Siselaevaliinide kogupikkus on 43 km.
+
+Tiranas on rahvusvaheline lennujaam. Lennukompaniid on [[Albanian Airline]] ja [[Ada Air]].
+
+===Side===
+[[Telefon]]ivõrk on piiratud. [[Raadio]] on laialt levinud. [[Televisioon]]isaated algasid 1971.
+
+1000 elaniku kohta on 243 raadiot, 123 telerit, 49,7 telefoniühendust, 88,2 [[mobiiltelefon]]i ja 7,6 [[personaalarvuti]]t.
+
+===Rahaühik===
+Albaania rahaühik on [[Albaania lekk]].
+
+===Riigieelarve===
+Riik kulutab [[riigikaitse]]le 7%, [[haridus]]ele 2% ja [[tervishoid|tervishoiule]] 6% eelarvest.
+
+==Ajakirjandus==
+Suurim sõltumatu [[päevaleht]] on Koha Jonë, mille tiraaž on 400 000 eksemplari. Teadeteagentuur on [[Albanian Telegraphic Agency]] (ATA).
+
+Riikliku Albaania Raadio ja Televisiooniga (RTSh) võistleb 75 eratelekanalit ja 30 eraraadiojaama ([[2001]]. Neid on massiliselt tekkinud alates [[1990. aastad|1990. aastatest]]. [[Partei]]d, [[usuühing]]ud ja riigiasutused ei tohi omada eratelevisiooni- ja raadiojaamu. Paljud elanikud saavad ilma satelliidita vaadata Itaalia ja Kreeka telekanaleid.
+
+Albaaniakeelseid saateid edastavad [[ultralühilaine]]l või [[kesklaine]]l [[BBC]], [[Deutsche Welle]], [[Radio France Internationale]], [[Raadio Vaba Euroopa]] ja [[Ameerika Hääl]].
+
+Trükiajakirjandus on sensatsioonijanuline. Parteidel, [[ametiühing]]utel ja mitmesugustel ühiskondlikel organisatsioonidel on oma ajalehed.
+
+==Haridus==
+Tiranas on riiklik ülikool. Ülikool on ka [[Shkodër]]is.
+
+==Kultuur==
+===Muusika===
+{{vaata|Albaania muusika}}
+Albaania rahvamuusika erineb regiooniti, kõige silmapaistavamad on [[geegid]]e (põhjas) ja [[toskid]]e (lõunas) traditsioonilise muusika stiilierinevused. Geegide muusikat kirjeldatakse jõulise ja kangelaslikuna, toskide oma rahuliku, õrna ja kaunina. Mõlemat stiili iseloomustab taktimõõtude 3/8, 5/8 ja 10/8 kasutamine.
+
+===Kirjandus===
+{{vaata|Albaania kirjandus}}
+Albaania kirjandusteosed on kirjutatud albaania keele [[geegi murderühm|geegi]] ja [[toski murderühm|toski]] murdes. Kirjanduse arengut on takistatud [[Türgi]] võim, mille ajal ei tohtinud [[albaania keel|albaaniakeelset]] kirjandust välja anda, ning regionaalne ja usuline killustatus. [[Rahvaluule]] on rikkalik. Rahvajuttudes on tunda seost [[kreeka mütoloogia]]ga.
+
+==Sport==
+Albaania populaarseim spordiala on [[jalgpall]], nii mängijate kui ka publiku rohkuse poolest. [[Albaania jalgpallikoondis]] esindab riiki alates 1932. aastast. Teised populaarsemad alad on korvpall, võrkpall, tennis, ujumine, ragbi ja võimlemine.
+
+Albaania osales kahe sportlasega [[Albaania 2014. aasta taliolümpiamängudel|2014. aasta taliolümpiamängudel]].
+
+==Ajaloo lühikokkuvõte==
+{{vaata|Albaania ajalugu}}
+1. aastatuhandel eKr elasid Albaania territooriumil [[illüürlased]]. Alates [[627 eKr]] leidub [[Vana-Kreeka|kreeka]] [[kolooniaid]]. Alates [[167 eKr]] oli Albaania ''[[Illyricum]]''i [[provints]]ina [[Vana-Rooma|Rooma]] võimu all.
+
+Asukoha tõttu Aadria mere rannikul on Albaania pikka aega olnud vallutuste sillapeaks.
+
+Albaania kuulus alates [[4. sajand]]i lõpust Ida-Rooma keisririigi ([[Bütsants]]i) alla. Vallutajatena käisid Albaaniast üle [[läänegoodid]], [[hunnid]] ja [[bulgaarid]]. [[Albaanlased|Albaanlasi]] mainiti esmakordselt [[1078]]. [[1085]] toimus [[normann]]ide vallutus. [[1282]] vallutas ranniku
+[[Anjou]] krahv Charles. [[1345]] paiku oli Albaania mitu aastat [[Serbia]] ülemvõimu all.
+
+[[Savra]] lahinguga [[18. september|18. septembril]] [[1385]] algas [[Türgi]] ülemvõim. [[Skanderbeg]]i ülestõus türklaste vastu kestis [[1443]]–[[1468]]. [[1444]] moodustati [[Lezhë liiga]]. Skanderbeg suri [[17. jaanuar]]il 1468. [[1478]] liideti Albaania Türgi impeeriumiga. Alates [[1501]] oli kogu Albaania Türgi võimu all. Paljud albaanlased põgenesid Itaaliasse, teised võtsid vastu [[islam]]i.
+
+Türgi võim lõikas Albaania rohkem kui neljaks sajandiks lääne tsivilisatsioonist ära, kuid [[19. sajand]]i lõpus hakkas Albaania taasavastama oma lähedust läänele.
+
+[[1788]]–[[1822]] valitses Ali Paša Tepelena [[Ipiros]]t, allumata [[Konstantinoopol]]i kontrollile. Alates [[1830]] toimus ''Rilindja'' (rahvuslik ärkamine). [[10. juuni]]l [[1878]] moodustati [[Prizreni liiga]], mis esindas albaanlaste huve [[Berliini kongress]]il, mis Balkani poolsaarel piirid ümber korraldas. [[1899]]/[[1900]] moodustati Pejë liiga. [[1912]] toimus [[Esimene Balkani sõda]] Türgi vastu.
+
+[[28. november|28. novembril]] 1912 kuulutati [[Vlorë]]s välja Albaania iseseisvus. [[31. juuli]]l 1913 otsustas [[Londoni konverents]] teha Albaaniast iseseisva vürstiriigi. Albaania piirid määrati suurriikide poolt kindlaks nii, et umbes kolmandik albaanlasi jäi võõrvõimu alla. 1914 sai Albaania vürstiks prints [[Wilhelm (Albaania)|Wilhelm zu Wied]].
+
+[[Esimene maailmasõda|Esimeses maailmasõjas]] okupeerisid Albaania [[Austria-Ungari]], [[Itaalia]], [[Serbia]], [[Montenegro]], [[Kreeka]] ja [[Prantsusmaa|Prantsuse]] väed.
+
+[[28. jaanuar|28.]]-[[31. jaanuar]]il toimus Albaania jagamise plaanide vastane Lushnjë kongress. Moodustati valitsus ja [[Tirana]] nimetati pealinnaks. Juunis [[1920]] aeti Itaalia väed Vlorëst välja. [[17. detsember|17. detsembril]] võeti Albaania vastu [[Rahvasteliit]]u.
+
+Sõdadevaheline aeg algas valitsuste kiire vaheldumise, riigipöörete ja võõrvägede sissemarssimistega. Lõpuks tuli võimule [[Ahmed Zogu]], kes [[31. jaanuar]]il [[1925]] sai presidendiks. Majanduslikult sattus Albaania tugevasse sõltuvusse Itaaliast. [[1. september|1. septembril]] [[1928]] sai Zogu albaanlaste kuningaks. [[27. aprill]]il [[1938]] abiellus ta ungari krahvinna [[Geraldine Apponyi]]ga. [[7. aprill|7.]] ja [[8. aprill]]il [[1939]] okupeeris Itaalia Albaania praktiliselt vastupanuta. Zogu ning tema abikaasa ja paaripäevane poeg põgenesid. [[12. aprill]]il 1939 otsustati astuda [[personaalunioon]]i Itaaliaga, [[16. aprill]]il sai Itaalia kuningast [[Vittorio Emmanuele III]]-st Albaania kuningas.
+
+Pärast okupatsiooni haaras võimu peamiselt kommunistidest koosnev vastupanuliikumine, mida juhtis [[Enver Hoxha]].
+
+Kuni aastani [[1990]] (5 aastat pärast Hoxha surma) oli Albaania [[isolatsionism|isolatsionistlik]] sotsialistlik riik. Praegu on tekkimas mitmeparteiline demokraatlik riik, kuid Albaania kannatab [[majandus]]probleemide, [[organiseeritud kuritegevus]]e ning rohkearvuliste [[Kosovo]] põgenike all.
+
+===Lähiajaloo kokkuvõte===
+{{vaata|Albaania lähiajalugu}}
+[[Teine maailmasõda|Teise maailmasõja]] ajal võitlesid Albaania kommunistid ja natsionalistid nii teineteisega kui ka Itaalia ja Saksa okupatsioonivägedega. [[Jugoslaavia]] ning liitlasvägede abiga saavutasid kommunistid võidu.
+
+Pärast sõda sai kommunismist järgmiseks 45 aastaks valitsev ideoloogia. Kommunistide juhid Enver Hoxha ja [[Mehmet Shehu]] likvideerisid oma rivaalid partei sees ning likvideerisid antikommunistliku opositsiooni. Nad korraldasid majanduse ümber rangelt [[stalinism|stalinistlikel]] põhimõtetel, toetudes algul Jugoslaaviale, seejärel [[Nõukogude Liit|Nõukogude Liidule]] ja lõpuks [[Hiina]]le. Neid eesmärke ellu viies allutasid kommunistid Albaania rahva isolatsioonile, propagandale ja julmadele poliitilistele meetmetele. Kui Hiina 1970. aastatel avanes Läänele, pöörasid Albaania juhid Pekingile selja ning viisid ellu range [[autarkia]] poliitikat, mis laostas riigi majanduse.
+
+Kui Hoxha [[1985]] suri, võimule tuli [[Ramiz Alia]] ja sotsialistlikud režiimid kogu piirkonnas langesid, toimusid Albaaniaski ulatuslikud muutused. Albaania valitsus hakkas olude parandamiseks sõlmima sidemeid Läänega. Algasid demokraatlikud reformid, mis viisid mitmeparteiliste valimisteni [[1991]]. Vastavalt 1991. aasta ajutisele põhiseadusele kiitsid albaanlased [[1998]] heaks konstitutsiooni, mis seadis sisse õigusel põhineva demokraatliku valitsemissüsteemi ning tagas põhilised inimõigused. Kuigi Albaania on kiiresti liikunud demokraatia ja õigusriigi suunas, on valimiseeskirjades veel tõsiseid puudusi.
+
+==Vaata ka==
+*[[Albaania Eurovisiooni lauluvõistlusel]]
+
+==Viited==
+{{viited}}
+
+==Välislingid==
+{{vikisõnaraamatus}}
+{{commons|Category:Albania|Albaania}}
+*[http://www.albaniantourism.com/ Rahvusvaheline Turismiorganisatsioon: Albaania turism ja reisimine]
+*[http://www.mfa.gov.al/english/ Albaania välisministeeriumi koduleht]
+*[http://www.epl.ee/artikkel_239135.html Olukirjeldus, 2003]
+*[http://www.postimees.ee:8080/leht/99/09/11e/lugu4.html Olukirjeldus, 1999]
+*[http://www.sloleht.ee/index.aspx?d=06.12.03&amp;r=27&amp;id=149978 Turisti pilguga]
+*[http://www.vabaeuroopa.org/artiklid/2002/09/euro.20020920120654.asp Referaat]
+*[http://www.vabaeuroopa.org/artiklid/2002/09/euro.20020920120654.asp Kreekast küüditatud albaanlased]
+*[http://www.hot.ee/qnnep/ Fotod reisilt Albaaniasse]
+*[http://www.4dw.net/royalark/Albania/albania.htm Royal Ark]
+
+
+{{NATOriigid}}
+{{Euroopariigid}}
+
+{{Coordinate|NS=41.35|EW=19.98333333|type=country|region=AL}}
+
+[[Kategooria:Albaania|Albaania]]
+[[Kategooria:Euroopa maad]]</text>
+      <sha1>0gjt39lpkroko57svabe1s9civoqxg8</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Andorra</title>
+    <ns>0</ns>
+    <id>5</id>
+    <revision>
+      <id>4103568</id>
+      <parentid>4024527</parentid>
+      <timestamp>2015-02-11T08:14:11Z</timestamp>
+      <contributor>
+        <username>Kuriuss</username>
+        <id>38125</id>
+      </contributor>
+      <minor />
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{See artikkel| räägib riigist; linna kohta Hispaanias vaata artiklit [[Andorra (Hispaania)]]}} 
+{{keeletoimeta}}{{ToimetaAeg|kuu=detsember|aasta=2010}}
+{{Riik
+|  riiginimi = Andorra Vürstiriik
+|  omastav = Andorra
+|  omakeelne_nimi_1 =  |  |Principat d'Andorra
+|  omakeelne_nimi_2 =  |  |
+|  omakeelne_nimi_3 =  |  |
+|  omakeelne_nimi_4 =  |  |
+|  omakeelne_nimi_5 =  |  |
+|  mis_lipp =
+|  mis_vapp = 
+|  vapi_laius = 120px
+|  asendikaart = Europe_location_ANR.png
+|  kesk_laius = 
+|  kesk_pikkus = 
+|  mastaap = 
+|  deviis = 
+|  riigikeel = [[katalaani keel]]
+|  ametlik_keel = 
+|  pealinn = [[Andorra la Vella]]
+|  riigipea_ametinimi2 = Prantsusmaa president – [[Andorra kaasvürst]]
+|  riigipea_nimi2 = [[François Hollande]]
+|  riigipea_ametinimi = Urgelli piiskop – Piiskoplik kaasvürst
+|  riigipea_nimi = [[Joan Enric Vives i Sicília]]
+|  valitsusjuhi_ametinimi = peaminister
+|  valitsusjuhi_nimi = [[Antoni Martí]]
+|  pindala = 468
+|  rahvaarv = 85 082 (2012 hinnang)
+|  rahvastiku_tihedus = 181,8
+|  iseseisvus = [[1278]]
+|  valuuta = [[euro]] (EUR)
+|  ajavöönd = [[maailmaaeg]] +1
+|  hümn = [[El Gran Carlemany]]
+|  usund = 
+|  tippdomeen = .ad
+|  telefonikood = 376
+|  riigikord = 
+|  SKT = 3,196 mld USD (2011 hinnang)&lt;ref name=&quot;CIA&quot; /&gt;
+|  SKT_elaniku_kohta = 37 200 USD (2011 hinnang)&lt;ref name=&quot;CIA&quot; /&gt;
+|  rok-i_kood = AND
+|  märkused = 
+}}
+[[Pilt:Andorra kaart.gif|thumb|300px]]
+'''Andorra''' (''Andorra Vürstiriik'') on [[merepiirita riik|merepiirita]] [[riik]] [[Lääne-Euroopa]]s [[Hispaania]] ([[Kataloonia]] autonoomse piirkonna) ja [[Prantsusmaa]] ([[Pyrénées-Orientales]]i ja [[Ariège'i departemang]]) piiril [[Püreneed]]e mägedes. 
+
+Andorra [[pindala]] on 468 km². Ta on kuuest [[Euroopa kääbusriigid|Euroopa kääbusriigist]] pindalalt suurim. 
+
+[[Rahvaarv]] on 85 082 (2012. aasta juuli hinnang)&lt;ref name=&quot;CIA&quot;&gt;[https://www.cia.gov/library/publications/the-world-factbook/geos/an.html CIA – The World Factbook]&lt;/ref&gt;.
+
+Andorra Vürstiriik rajati [[8. september|8. septembril]] [[1278]]. 
+
+Andorra on ainus riik maailmas, kus [[riigipea]] funktsiooni täidavad kaks välismaa ametikandjat (need on [[Urgelli piiskop]] ja [[Prantsusmaa president]]). Tegemist on [[düarhia]]ga. 
+
+Andorrat peetakse [[talisport|talispordi]]- ja [[maksuparadiis]]iks.
+
+==Piir==
+Piir Prantsusmaaga on 56,6 km pikkune ja piir Hispaaniaga on 63,7 km pikkune. 
+
+==Nimi==
+Nime &quot;Andorra&quot; päritolu on teadmata; selle kohta on erinevaid teooriaid. 
+
+Ühe teooria järgi on see tuletatud [[araabia keel|araabia]] sõnast ''ad-darrah'' ('mets'). Kui araablased vallutasid [[Pürenee poolsaar]]e, olid Püreneede orud väga metsased. Teised araablaste võimu all olevad rahvad võtsid selle nime omaks. 
+
+Teine teooria lähtub navarra sõnast ''andurrial'' ('põõsastega kaetud maa')&lt;ref&gt;[[Adrian Room]]. ''Placenames of the World'', 1997, lk 29 ([http://books.google.com/books?id=M1JIPAN-eJ4C&amp;printsec=frontcover&amp;dq=placenames+of+the+world&amp;sig=ACfU3U3TU9pAoluOToQIDmnEtr_4Vtv_ZQ  Google'i raamat]&lt;/ref&gt;.
+
+'''Andorra Orud''' (''les Valls d'Andorra'') on Andorra ajalooline nimi.
+
+==Loodus==
+[[Pilt:Andorra nasa world wind.png|pisi|left|[[Satelliidifoto]] Andorrast]]
+===Pinnamood===
+Andorra paikneb ühes [[Püreneed]]e [[kõrgorg|kõrgorus]]. 
+
+Org on tekkinud jääajal, mil [[liustik]]ud laiendasid algselt kitsaid orge ning tekitasid kaasaviidud rusumaterjalist [[moreen]]e. 
+
+Andorra on väga mägine. Üle 2000 m kõrgusi [[mäetipp]]e on 65. Kõrgeim mägi on [[Coma Pedrosa]] (2946 m). Madalaim koht on 840 kõrgusel [[Sant Julià de Lòria]] lähedal Hispaania piiri ääres.
+
+=== Kliima ===
+Asendi tõttu valitseb Andorras suhteliselt jahe [[mäestikukliima]]. 
+
+[[Jaanuari keskmine temperatuur]] on −7&amp;nbsp;°C. Suvel ulatub temperatuur +26 kraadini. 
+
+Kõrgete kaljumägedega ümbritsetud kõrgorgude tõttu on Andorras niisked ja jahedad suved ning mahedad talved. 
+
+===Veestik===
+Umbes Andorra keskpaigas ühinevad [[Valira del Nord]] ja [[Valira d'Orient]] [[Valira]] jõest, mis voolab edasi Hispaaniasse. Tähtsamate jõgede seas on veel [[Arinsal]] ja [[Riu Madríu]]. 
+
+===Taimed===
+Rohkem kui kolmandik Andorrast on [[metsapiir]]ist kõrgemal. Madalamates osades vahelduvad enamasti [[männimets]]ad [[aas]]ade ja [[karjamaa]]dega.
+
+Madalamates kohtades on vahemereline mõju: neid iseloomustavad igihaljad [[tamm]]e[[puistu]]d ning vahelduv kõnnu- ja karjamaa. 
+
+Kõrgemal on tamme- ja [[piinia]]metsade vöönd. Varjus kasvavad [[nulg|nulud]]. 
+
+Subalpiinses vööndis 1600–2000 m kõrgusel valitsevad [[mänd]]ide ja [[harilik kuusk|harilike kuuskedega]] metsad, üksikult kasvavad seal ka [[kask|kased]], [[harilik pukspuu|harilikud pukspuud]], [[kadakas|kadakad]] ja [[kanarbik]]. 
+
+Ülalpool metsapiiri on alpiinsed [[mägikarjamaa]]d.
+
+[[Pilt:Isard des pyrenees bigorre 2003.jpg|thumb|[[Mägikits]]]]
+===Loomad===
+Loomastik on põhiliselt samasugune nagu [[Kesk-Euroopa]]s: seal elavad [[siil]]id, [[mutt|mutid]], [[orav]]ad, paljud [[linnud]], [[rebane|rebased]], [[kärplased]], [[metssiga|metssead]] ja [[jänes]]ed, kellele peetakse ka jahti. 
+   
+Ojakallastel võib kohata muti sugulast [[pürenee piisammutt]]i ehk pürenee desmanit, kes käib selges vees toitu otsimas. 
+
+Kõrgemal leidub [[harilik mägikits|mägikits]]i, [[ümiseja]]id ja [[metsis]]eid, samuti [[kaljukotkas|kaljukotkaid]], [[kaeluskotkas|kaeluskotkaid]], [[raipekotkas|raipekotkaid]] ja [[habekotkas|habekotkaid]].
+
+== Rahvastik ==
+
+===Rahvaarv===
+Andorras elas 1. jaanuaril [[2006]] arvestuslikult 67 313 inimest. Seisuga 31. detsember 2007 oli elanikke 83 137. 2012. aasta seisuga oli rahvaarv 85 082&lt;ref name=&quot;CIA&quot; /&gt;.
+
+===Rahvuslik koosseis===
+36% on [[andorralased]], 58,5% [[hispaanlased]], 22,5% [[portugallased]] ja 10,1% [[prantslased]] (1. jaanuar 2006){{lisa viide}}. Seisuga 31.12.2007 oli elanikkonna seas Andorra kodanikke 30 441 (36,6%), Hispaania kodanikke 27 476 (33,0%), Portugali kodanikke 13 519 (16,3%) ja Prantsusmaa kodanikke 5200 (6,3%).
+
+===Demograafilised näitajad===
+Rahvaarvu kasv on 0,274% (2012 hinnang)&lt;ref name=&quot;CIA&quot; /&gt;. 
+
+[[Keskmine eluiga]] on 83,5, mis on kõige kõrgem näitaja maailmas.&lt;ref&gt;[http://www.n-tv.de/838247.html  ''Studie über Lebenserwartung – Amis weit abgeschlagen''], n-tv.de., 12. august 2007]&lt;/ref&gt;. 
+
+Imikute suremus on 3,76 surma 1000 sünni kohta, laste suremus 0,7%. 
+
+===Vanuseline struktuur===
+
+[[Pilt:Andorra population pyramid 2005.png|thumb|Andorra [[rahvastikupüramiid]] 2005.]]
+Rahvastiku keskmine vanus on 36–40 aastat (2004. aassta seisuga 40,34 aastat).
+*14,8% andorralastest on alla 15-aastased (meessoost 5471, naissoost 4995; 2004. aasta seisuga)
+*71,5% on 15–64-aastased (meessoost 26 463, naissoost 23 977)
+*13,7% on 65-aastased või vanemad (meessoost 4780, naissoost 4863)
+
+===Välismaalased===
+Viimase 25 aasta jooksul on välismaalaste arv kahekordistunud. Selleks et saada Andorra kodakondsus, peab olema kas abielus andorralasega või olema Andorras alaliselt elanud vähemalt 20 aastat või omada selleks sünnijärgset õigust.{{lisa viide}}
+
+Seisuga 31. detsember 2007 oli elanikest Andorra kodanikke ainult 36,6% (30 441). 
+
+===Keeled===
+[[Pilt:Ordino01.jpg|thumb|[[Sant Marti de la Cortinada]] [[Ordino]]s]]
+[[Ametlik keel]] on [[katalaani keel]]. Kasutusel on ka [[hispaania keel]] ja [[prantsuse keel]].
+
+Katalaani keelt kõneleb 58%, hispaania keelt 35% ja prantsuse keelt 20% elanikkonnast.
+
+===Religioon===
+[[Riigiusund]] on [[katoliiklus]]. Umbes 90% andorralasi (umbes 60 000) kuulub [[katoliku kirik]]usse. Andorras ei ole kunagi olnud eraldi piiskopkonda, vaid ta on kuulunud [[Urgelli piiskopkond]]a. Andorra evangeliseeriti [[6. sajand]]i keskel püha [[Just]]i ajal. 
+
+Umbes 1% elanikest on [[Jehoova tunnistajad]]. On mitmesuguseid [[protestantism|protestantlikke]] [[kogudus]]i ning üks [[judaism|judaistlik]] kogudus.
+
+=== Asustus ===
+
+Andorra rahvastik koondub suuremalt jaolt vürstiriigi suurimasse orgu, millest voolab läbi [[Valira]] (Grand Valira) jõgi ja kus paikneb kaks valda, sealhulgas pealinn [[Andorra la Vella]].
+
+95% rahvastikust elab linnades.
+
+==Riik==
+===Riigikord===
+Vürstiriiki valitsevad kaks kaasvalitsejat, kelleks on – episkopaalse kaasvalitsejana [[Urgelli piiskop]] [[Joan Enric Vives i Sicília]] ja Prantsuse kaasvalitsejana president [[François Hollande]]. Valitsusjuht ehk peaminister valitakse [[Orgude Peanõukogu]] poolt ning kinnitatakse kaasvalitseja poolt. Praegune peaminister on [[Albert Pintat Santolària]]. Peaminister nimetab ametisse valitsuse.
+
+===Haldusjaotus===
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;
+Andorra jaguneb 7 vallaks (''parròquia''):
+* [[Andorra la Vella]]
+* [[Canillo vald]]
+* [[Encampi vald]]
+* [[Escaldes-Engordany vald]]
+* [[La Massana vald]]
+* [[Ordino vald]]
+* [[Sant Julià de Lòria vald]]
+&lt;/td&gt;
+&lt;td&gt;
+[[Pilt:Andora.png|250px]]&lt;/td&gt;&lt;/table&gt;
+
+== Majandus ==
+
+'''Makromajandus'''
+
+Varem oli põhiliseks tegevusalaks lamba- ja tubakakasvatus, tänapäeval aga kaubandus ja turism. 
+
+Aastatel 1997–2004 oli keskmine majanduskasv 4,5%. SKT oli 2005. aastal 2 miljardit eurot. Standard &amp; Poors’i poolt antud riigireiting on 2A. Riigi majanduse peamised mootorid on kaubandus, turism ja finantssektor, mis ühtlasi on ka suurimad tööandjad (52, 63%). Inflatsiooni oli 2005. aastal 3,1%. Keskmine kuupalk oli 2006. aasta alguses 1630 € ja miinimumpalk 839 €.
+
+Turismisektor hakkas arenema 1960. aastatel. Teenustesektor asendas kiiresti põllumajanduse, kus praegu on hõivatud vaid 0,32% elanikkonnast. Kõige rohkem on tööealisest elanikkonnast hõivatud kaubanduses (26,9%), ehituses (15,9%) ja hotellinduses (13,3%). 
+
+'''Väliskaubandus'''
+
+Andorra väliskaubanduses domineerib import. 2004. aastal moodustas import 1412 miljonit eurot ja eksport 98 miljonit eurot. Peamiseks kaubanduspartneriks on Euroopa Liit – 2005. a. moodustas 88% impordist Euroopa Liidust tulev kaup ja praktiliselt kogu eksport läks Euroopa Liitu. Peamised importkaubad on masinad ja seadmed (20,9% koguimpordist), valmistoidukaubad (12,1%), transpordivahendid (11,3%), keemiatooted (10,1%) ning puit ja puidutooted (8,6%).
+ 
+'''Ärikeskkond'''
+
+Ärikeskkonna iseloomustus 
+
+Andorra ärikeskkonda iseloomustab:
+*kiire majanduskasv;
+*noor ja kvalifitseeritud tööjõud;
+*lihtne juurdepääs administratsioonile; 
+*väga hea telekommunikatsioonivõrk;
+*kahe suure rahvusvahelise lennujaama – Toulouse’i ja Barcelona – lähedus. 2008 aastast loodetakse sisse seada ka regulaarne kopteriühendus Barcelona lennujaamaga (ca poole tunnine reis), edaspidi ka Toulous’iga. Lisaks uuritakse koostöös Hispaaniaga uue rahvusvahelise lennujaama ehitamist Andorra piiri lähedale; 
+*tööandjasõbralik sotsiaalkindlustussüsteem, sotsiaalmaksu suurus on 18% töötaja palgast, millest 13% maksab tööandja ja 5% töötaja;
+*Andorra keskmine maksukoormus on vaid pool Euroopa keskmisest.
+
+'''Maksud''' 
+
+Andorras puudub nii üksikisiku kui ka ettevõtte tulumaks, mistõttu Andorra on atraktiivne riik ettevõtluseks. Euroopa Liiduga sõlmitud kokkuleppe täitmiseks on siiski kavas kehtestada mõõdukas ettevõttemaks. Ka käibemaks on madal. Riigi maksutulu laekub peamiselt tollimaksudest, pärandi- ja vara ülekannete/siirdamise maksustamisest, teenuste osutamise maksustamisest, tootmise maksustamisest ja Andorra territooriumil toimuvast kaupade töötlemisest. Kohalik omavalitsus kogub otseseid makse varalt, majandustegevuselt ja rendilt. 
+
+2006. aastast kehtivad 3 uut kaudset maksu, mille keskmiseks tasemeks on 4%:
+
+*maks ettevõtete või füüsilisest isikust ettevõtjate poolt Andorras osutatud või Andorrast ostetud teenustele ; 
+*kaudne maks kaupade tootmisele ja töötlemisele Andorras; 
+*kaubandustegevuse kaudne maksustamine – sellega maksustatakse kaupade ja toodete müüki Andorra territooriumil. 
+
+Lühidalt areneb kaudne maksustamine prantsuse ja hispaania käibemaksusüsteemi põhimõtete suunas, jääb aga oma proportsioonidelt neist madalamaks. 
+
+Avaliku sektori poolt osutatud teenused on maksuvabad (meditsiin, sotsiaalteenused, sotsiaalkindlustus, haridus, sport).
+
+'''Ettevõtlusreform'''
+
+Valitsuse algatatud reformide I faasina võttis valitsuses 14. juunil 2006 vastu kolm seadust, mis peaksid jõustuma 2006. aasta lõpus:
+
+Ettevõtlusseadus – kaasajastab ettevõtete juhtimist, mille läbi suureneb õiguskindlus. Seadus loob eelduse ettevõtte asutamise protsessi kiirenemiseks. Samuti muutub kontroll ettevõtete üle läbipaistvamaks, modernsemaks ning ettevõtte juhtimise põhimõtted harmoniseeritakse EL-ga. 
+
+Välisinvesteeringute seadus – avab Andorra ettevõtluse väliskapitalile. Ettevõtted, va põllumajandus, võivad uue seaduse kohaselt olla 100% väliskapitalil põhinevad (kehtiva seaduse järgi on lubatud maksimaalselt 33% osalus). Kaubanduses, ehituses, hotellinduses ja kinnisvarasektoris avatakse ettevõtted väliskapitalile 49,9% ulatuses (kehtiva seaduse järgi lubatud osalus on samuti 33%), ning järkjärguliselt toimub edasine liberaliseerimine.
+
+Raamatupidamise seadus – kohustab kõiki ettevõtteid pidama arvestust Euroopa ja rahvusvaheliste standardite järgi.
+
+2007. aastal on kavas võtta vastu ettevõttemaksu seadus ja auditeerimisseadus. Lisaks plaanib valitsus uut patendiseadust, et tagada intellektuaalomandi parem kaitse.
+
+'''Ettevõtluse Uuendamise Büroo''' 
+
+Ettevõtluse Uuendamise Büroo (OIE – Oficina per a la Innovació Empresarial) loodi 2006. aastal eesmärgiga toetada ettevõtete loomist Andorras. Samuti aitab OIE välisfirmasid kohaneda ja toime tulla Andorra ettevõtluskliimas, st. abistatakse ettevõtte asutamisel ja arendamisel. Sel eesmärgil on loodud nõunike/konsultantide (advokaatide, juristide, ökonomistide ja maksuekspertide jne) võrgustik. OIE ülesanneteks on mh. ettevõtluse mitmekesistamine, ettevõtete toetamine rahvusvahelistumisel, nende konkurentsivõime parandamisel innovatsiooni ja teadusuuringute rakendamise kaudu, uute finantseerimisallikate leidmisel ja uute strateegiate arendamisel.
+
+Osutatakse järgmisi teenuseid:
+
+*dokumentide ettevalmistamine, koostamine; 
+*koolitus (erinevad seminarid); 
+*projektijuhtimine – aidatakse arendada projekte Andorras; 
+*majandus- ja rahandusjärelevalve; 
+*info haldustoimingute kohta.
+
+===Energeetika===
+Osa Andorra energiavajadusest katab hüdroelektrijaam Valira jõel. 
+
+== Ajalugu ==
+
+Andorra vürstiriik loodi [[1278]]. aastal ja tema põhiseadus kiideti heaks [[1993]]. aasta referendumil. 
+
+==Viited==
+{{viited}}
+
+==Vaata ka==
+*[[Andorra Eurovisiooni lauluvõistlusel]]
+*[[Andorra Jalgpalli Liit]]
+*[[Andorra jalgpallikoondis]]
+*[[Andorra linnade loend]]
+*[[Andorra riigipeade loend]]
+
+== Välislingid ==
+{{vikisõnaraamatus}}{{commons|Andorra}}
+* [http://www.andorra.ad/en-US/Pages/default.aspx Andorra Turismibüroo] (''inglise keeles'')
+*[http://www.esglesiacatolica.ad/ Katoliku kirik Andorras]
+
+{{Euroopariigid}}
+
+{{Coordinate |NS=42.55833333 |EW=1.55527778 |type=country |region=AD}}
+
+[[Kategooria:Andorra| ]]
+[[Kategooria:Euroopa maad]]</text>
+      <sha1>tp56n7ulgqur2p56kn5apt34d6xxvzu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Angola</title>
+    <ns>0</ns>
+    <id>6</id>
+    <revision>
+      <id>4087771</id>
+      <parentid>3709733</parentid>
+      <timestamp>2015-01-16T12:54:32Z</timestamp>
+      <contributor>
+        <username>Raamaturott</username>
+        <id>56450</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{See artikkel|on riigist; Indiana linna kohta vaata artiklit [[Angola (Indiana)]].}}
+{{Riik
+|  riiginimi = Angola Vabariik
+|  omastav = Angola
+|  omakeelne_nimi_1 = portugali | República de Angola |
+|  mis_lipp = 
+|  mis_vapp = 
+|  vapi_laius = 100px
+|  asendikaart = LocationAngola.svg
+|  deviis = 
+|  riigikeel = [[portugali keel]]
+|  ametlik_keel = 
+|  pealinn = [[Luanda]]
+|  riigipea_ametinimi = President
+|  riigipea_nimi = [[José Eduardo dos Santos]]
+|  valitsusjuhi_ametinimi = 
+|  valitsusjuhi_nimi = 
+|  pindala = 1 246 700
+|  rahvaarv = 18 056 000 (2012)
+|  rahvastiku_tihedus = 14,5
+|  iseseisvus = [[11. november]] [[1975]]
+|  valuuta = [[kwanza]] ([[AOA]])
+|  ajavöönd = [[maailmaaeg]] +1
+|  hümn = [[Angola Avante]]
+|  usund = 
+|  üladomeen = [[.ao]]
+|  telefonikood = 244
+|  riigikord = [[presidentaalne vabariik]]
+|  SKT = 
+|  SKT_elaniku_kohta = 3971 USD (2009) 
+|  rok-i_kood = ANG
+|  märkused = 
+}}
+
+'''Angola''' (eesti keeles varem '''Angoola''') on [[riik]] [[Aafrika]] edelaosas [[Atlandi ookean]]i kaldal. Ta piirneb [[Namiibia]]ga lõunas, [[Kongo Demokraatlik Vabariik|Kongo Demokraatliku Vabariigiga]] põhjas ja kirdes, [[Sambia]]ga idas. Angola [[eksklaav]] [[Cabinda]] piirneb [[Kongo Vabariik|Kongo Vabariigiga]] põhjas ja [[Kongo Demokraatlik Vabariik|Kongo Demokraatliku Vabariigiga]] lõunas. 
+
+== Geograafia ==
+
+Suuremad jõed on [[Kongo jõgi|Kongo]], [[Kasai jõgi|Kasai]], [[Zambezi]], [[Okavango]] ja [[Cunene jõgi|Cunene]]. 
+
+Kõrgeim tipp on [[Bié platoo]]l asuv [[Môco]].
+
+==Majandus==
+
+Pika [[Angola kodusõda|kodusõja]] ajal ([[1974]]-[[2002]] august) oli Angola majandus madalseisus ning praktiliselt mingit kasvu ei toimunud. Sõjas sai rängalt kannatada ka [[infrastruktuur]]. Pärast kodusõda on majandus aga kiiresti kasvanud. [[Sisemajanduse kogutoodang elaniku kohta]], mis aastal [[2005]] oli 2800 dollarit, on madal, kuid siiski kõrgem kui enamikul Aafrika riikidel. 
+
+[[2004]]. aastal sai Angola 2 miljardit dollarit laenu [[Hiina]]st, millega parandati sõja ajal hävinud infrastruktuure.
+
+Angolas on peale kodusõja lõppu tõusnud [[nafta]]tootmine. Kui 2005. aasta lõpus toodeti 1,4 miljonit [[barrel]]it naftat päevas, siis [[2007]]. aasta algul juba 2 miljonit barrelit päevas. Naftatootmist kontrollib firma nimega &quot;Sonangol Group&quot;, mis kuulub Angola valitsusele. 2006. aasta detsembris sai Angola [[OPEC]]-i täisliikmeks. 2005. aastal kasvas Angola majandus 18% ning 2006 aastal 26%. Samas suurusjärgus kasvu oodatakse ka 2007. aastal. Nende näitajatega on Angola üks kiireimini kasvavaid majandusi maailmas.
+
+Riigil on märkimisväärsed [[teemant|teemandi]]- ja [[uraan]]imaagivarud.
+
+==Rahvastik==
+
+Angolas toimus viimane rahvaloendus [[1970]]. aastal. Siis saadi rahvaarvuks 5 646 166. Kodusõja tõttu ei olnud võimalik hiljem rahvaloendusi korraldada ja seetõttu lahknevad hinnangud Angola rahvaarvule suurel määral. Eri hinnanguil on see 12 263 596 (CIA Factbook, juuli 2007); 16 329 000 (Rahvusvaheline valuutafond 2007);  13 313 553 ([[World Gazetteer]], 2007), 16 853 679 (2008, [http://archive.is/20130630163456/http://www.world-gazetteer.com/wg.php?x=&amp;men=gpro&amp;lng=en&amp;dat=32&amp;geo=-19&amp;srt=npan&amp;col=aohdq]); 16 300 000 ([http://www.prb.org/ Population Reference Bureau], 2007). Kavas on korraldada rahvaloendus [[2014]]. aastal.&lt;ref&gt;http://www.portalangop.co.ao/motix/en_us/noticias/sociedade/2013/4/19/Population-census-considered-crucial-for-Angola-INE-official,5892bf11-bb0b-4105-a3ac-2730f62b4cd9.html&lt;/ref&gt;
+
+Suuremad rahvusrühmad on [[umbundud]] (37%), [[kimbundud]] (25%) ja [[kikongod]] (13%). Väiksemad rühmad on [[ovambod]], [[hererod]], [[lundad]], [[bušmanid]] ja [[pügmeed]].
+
+==Haldusjaotus==
+[[Image:Angola Provinces numbered 300px.png|right|200px|Angola provintsid]]
+
+Angola jaguneb kaheksateistkümneks provintsiks, mis omakorda jaotatakse 158 vallaks. Provintsid on:
+
+&lt;table&gt;&lt;td&gt;&lt;ol&gt;
+&lt;li&gt; [[Bengo provints|Bengo]]    
+&lt;li&gt; [[Benguela provints|Benguela]]
+&lt;li&gt; [[Bié provints|Bié]]        
+&lt;li&gt; [[Cabinda provints|Cabinda]]
+&lt;li&gt; [[Cuando Cubango]]            
+&lt;li&gt; [[Cuanza Norte]]              
+&lt;li&gt; [[Cuanza Sul]]                
+&lt;li&gt; [[Cunene provints|Cunene]]  
+&lt;li&gt; [[Huambo provints|Huambo]]    
+&lt;/ol&gt;&lt;/td&gt;&lt;td&gt;&lt;ol start=10&gt;
+&lt;li&gt; [[Huila provints|Huila]]     
+&lt;li&gt; [[Luanda provints|Luanda]]   
+&lt;li&gt; [[Lunda Norte]]             
+&lt;li&gt; [[Lunda Sul]]                
+&lt;li&gt; [[Malanje provints|Malanje]] 
+&lt;li&gt; [[Moxico provints|Moxico]] 
+&lt;li&gt; [[Namibe provints|Namibe]]   
+&lt;li&gt; [[Uige provints|Uige]]       
+&lt;li&gt; [[Zaire provints|Zaire]]
+&lt;/ol&gt;&lt;/td&gt;&lt;/table&gt;
+
+== Ajalugu ==
+Angola esimesteks asukateks olid [[khoisanid|khoisani]] hõimud, kelle [[Bantu keeled|bantu keeli]] rääkivad hõimud kõrbealadele tõrjusid. [[1483]] hakkasid portugallased Angola rannikule rajama tugiposte. 19. sajandil algas Angola ala süstemaatiline allutamine Portugali võimule, mis jõudis lõpule 1920. aastateks. 1975. aastani oli Angola Portugali asumaa. 1950. aastatel alanud vabastusliikumine muutus [[1961]]. aastal relvastatud vastupanuks. [[1974]]. aastal algasid relvastatud kokkupõrked [[FNLA]], [[UNITA]] ja [[MPLA]] vahel. Kaht esimest toetasid [[Ameerika Ühendriigid]] ja [[LAV]], marksistlikku MPLAd toetasid [[Kuuba]] ja [[Nõukogude Liit]]. [[1975]] kuulutas MPLA [[Cabinda]] eksklaavis välja iseseisvuse. 1994 sõlmiti vaherahu. Kodusõda lõppes [[2002]]. aastal pärast UNITA juhi [[Jonas Savimbi]] surma lahingutes. UNITA muudeti parteiks.
+
+==Viited==
+{{viited}}
+
+==Vaata ka==
+* [[Angola riigipeade loend]]
+
+{{Aafrikariigid}}
+{{Coordinate |NS=-12.35 |EW=17.35 |type=country |region=AO}}
+
+[[Kategooria:Angola| ]]
+[[Kategooria:Aafrika maad]]
+[[Kategooria:Portugali endised kolooniad]]</text>
+      <sha1>4i5i6qnyl9u7pz650o9ike6c1q4fso1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Anguilla</title>
+    <ns>0</ns>
+    <id>7</id>
+    <revision>
+      <id>4148465</id>
+      <parentid>4148463</parentid>
+      <timestamp>2015-04-01T20:37:51Z</timestamp>
+      <contributor>
+        <username>Pikne</username>
+        <id>13803</id>
+      </contributor>
+      <minor />
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{See artikkel| räägib Suurbritannia meretagusest alast; ''Anguilla'' on ka [[angerjas (perekond)|angerja]] perekonna teaduslik nimi.}}
+{{Provints
+|  nimi = Anguilla
+|  omakeelne_nimi_1 = inglise | Anguilla |
+|  omakeelne_nimi_2 =  |  |
+|  lipu_pilt = [[Pilt:Flag of Anguilla.svg|150px|Anguilla lipp]]
+|  lipu_link = [[Anguilla lipp]]
+|  vapi_pilt = [[Pilt:Coat of Arms of Anguilla.svg|100px|Anguilla vapp]]
+|  vapi_link = [[Anguilla vapp]]
+|  pindala = 102
+|  elanikke = 13037
+|  elanikke_seis = 2011
+|  elanikke_viide = &lt;ref&gt;Rahvaloenduse esialgsed tulemused. [http://www.geohive.com/cntry/gb-ai.aspx GeoHive]. Vaadatud 1.04.2015.&lt;/ref&gt;
+|  keskuse_nimi = [[The Valley]]
+|  asendikaardi_pilt = [[Pilt:Anguilla in its region.svg|250px|Anguilla asendikaart]]
+}}
+
+'''Anguilla''' on [[Suurbritannia meretagused alad|Suurbritannia meretagune ala]], millel on omavalitsus. Ta hõlmab [[Anguilla saar]]e, [[Sombrero]] ning hulga teisi saarekesi, mis moodustavad kõige põhjapoolsema osa [[Väikesed Antillid|Väikeste Antillide]] [[Tuulepealsed saared (Lõuna-Ameerika)|Tuulepealsetest saartest]] [[Kariibi meri|Kariibi mere]] ja [[Atlandi ookean]]i vahel. 
+
+Anguilla kuulub [[ajavöönd]]isse [[maailmaaeg]] [[maailmaaeg –4|–4]].
+
+Anguilla on [[Suurbritannia]] meretagune ala. [[Riigipea]]ks on [[Suurbritannia monarh]] (praegu [[Elizabeth II]]), keda esindab saarel [[Anguilla kuberner|kuberner]].
+
+Valitsusjuht on kohapeal valitav [[Anguilla peaminister|peaminister]] (''chief minister'').
+
+[[Ametlik keel]] on [[inglise keel]].
+
+==Sümbolid ja tähised==
+
+[[Anguilla deviis]] on ''Each Endeavouring, All Achieving''. 
+
+[[Üladomeen]] on .ai
+
+==Majandus==
+
+[[Rahaühik]] on [[Ida-Kariibi dollar]] (XCD).
+
+== Viited ==
+{{viited}}
+
+{{GBR2}}
+{{Ameerikariigid}}
+
+{{koord |NS=18.25 |EW=-63.06666667 |type=isle |region=AI}}
+
+[[Kategooria:Suurbritannia meretagused alad]]
+[[Kategooria:Ameerika maad]]
+[[Kategooria:Lääne-India]]
+[[Kategooria:Anguilla| ]]</text>
+      <sha1>cq2g8y20rfuojh0hnk7e8bdhxkae6t9</sha1>
+    </revision>
+  </page>
+</mediawiki>
