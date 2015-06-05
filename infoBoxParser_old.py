@@ -3,6 +3,8 @@
 import re
 import json
 
+linkBegin = "http://et.wikipedia.org/wiki/"
+
 infob = """{{Riik
 |  riiginimi = Afganistani Islamivabariik
 |  omastav = Afganistani
@@ -40,7 +42,7 @@ infob = """{{Riik
 #kujul {'text': '', 'title': 'mis_lipp'}
 
 def infoboxParser(infob):
-    typeRegEx = re.compile(r"\{\{([A-Za-zÄÖÕÜäöõü]+)\n")
+    typeRegEx = re.compile(r"\{\{[A-Za-zÄÖÕÜäöõü]+\n([^}])+\}\}")
     contentRegEx = re.compile(r"\n\W+(.+)")
     ibType = re.search(typeRegEx, infob)
     ibContent = re.findall(contentRegEx, infob)
