@@ -87,20 +87,42 @@ Sõna &quot;historiograafia&quot; tuleneb kreeka sõnadest ''ιστορία'' ('
 
 [[Kategooria:Ajalugu| ]]"""
 
+def wikiLinkParser(text):
+    """returns dict obj"""
+    linkBegin = "http://et.wikipedia.org/wiki/"
+    linkRegEx = re.compile(r"\[\[([^\]]+)\]")
+    link = re.findall(linkRegEx, text)
+    print(link)
+
+    """
+        link, text = linkBegin + link.group(1), link.group(1)
+        return {"url":link, "text":text}
+    else:
+        linkRegEx = re.compile(r"\[\[([^\|]+)\|([^\]]+)")
+        link = re.match(linkRegEx, text)
+        link, text = linkBegin + link.group(1), link.group(2)
+        return {"url":link, "text":text}
+"""
 if __name__ == '__main__':
-    sectionsRegEx = re.compile(r'\=\=(.+)\=\=\n([^=]+)\=\=')
-    secs = re.findall(sectionsRegEx, text)
+    sectionsRegEx = re.compile(r'(?s)==(.+)==(?:(?!\n\n).)*?\n\n')
+    sectiontitlesRegEx =re.compile(r'={2,}([^=]+)={2,}\n')
+
+    secs = re.findall(sectiontitlesRegEx, text)
     if secs:
+        print(secs)
         sections = []
         sectionsDict = {}
-        for sec in secs:
+"""
+    for sec in secs:
             sectionsDict['title']=sec[0]
             sectionsDict['text']=sec[1]
             sections.append(sectionsDict.copy())
+            print(wikiLinkParser(sec[1]))"""
 
-    pprint(sections)
+    #pprint(sections)
 
-#TODO: related articles
-    
+#FIXME:
+#TODO: related articles, links
+
 
 # {'sections' : [
