@@ -34,15 +34,18 @@ def infoBoxParser(text):
     infobContRegEx = re.compile(r'\{\{[A-Za-zÄÖÕÜäöõü ]+\n(.+)\}\}\n', re.DOTALL)
     #TODO:regex matches some weird stuff. e.g Albaania
     infobContent = re.search(infobContRegEx, text)
-    infobContent = infobContent.group(1).replace('[', '').replace(']', '').splitlines()  #.replace('|', '').split('\n'))
-    infobDict = {}
-    for line in infobContent:
-        line = line.strip('|  ').strip(' ')
-        line = line.split(' = ')
-        if len(line) == 2:
-            infobDict[line[0].strip(' ')]=line[1].strip('[').strip(']')
+    if infobContent:
+        infobContent = infobContent.group(1).replace('[', '').replace(']', '').splitlines()  #.replace('|', '').split('\n'))
+        infobDict = {}
+        for line in infobContent:
+            line = line.strip('|  ').strip(' ')
+            line = line.split(' = ')
+            if len(line) == 2:
+                infobDict[line[0].strip(' ')]=line[1].strip('[').strip(']')
 
-    return infobDict
+        return infobDict
+
+    return None
 
 #pprint.pprint(infobDict)
 if __name__ == '__main__':

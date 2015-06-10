@@ -38,13 +38,15 @@ def parse_and_remove(filename, path):
 
 
 
-data = parse_and_remove('wiki.xml', "wikimedia/wikimedia" )
+data = parse_and_remove('G:\WikiDumper\etwiki-latest-pages-articles.xml', "wikimedia/wikimedia" )
 linkBegin = "http://et.wikipedia.org/wiki/"
 #G:\WikiDumper\etwiki-latest-pages-articles.xml
 #def jsonbuilder:
 
 for tag, text in data:
     tag, text = str(tag), str(text)
+    if 'Mall' in text:
+        continue
     if 'title' in tag:
         print('-----------')
         print('title', text)
