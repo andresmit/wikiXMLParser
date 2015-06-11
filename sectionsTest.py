@@ -17,29 +17,57 @@ if __name__ == '__main__':
     print(len(entries))
     textDict = {}
     titles = []
-    sectionTitleRegEx = re.compile('={,1}.+={2,}\n')
+    sectionTitleRegEx = re.compile('={1,}.+={2,}')
     intro = entries[0]
     print('intro ', intro)
     textDict['intro']=intro
-
+    counts = []
+    countX =0
+    pprint(entries[1:])
     for i in entries[1:]:
+
         #TODO: add to {} form
         #TODO: manage subsections nicely
         title = re.match(sectionTitleRegEx, i)
         if title:
             titleEnd = title.end()
-            print(titleEnd)
+            print(title)
             title = title.group()
             text = i[titleEnd:]
+            count =  title.count('=')
+            #print(title, count)
+            counts.append(count)
+    print(counts)
+    print(len(counts))
+    print(counts[47])
 
-            print(title, title.count('='))
-            print(text)
-            textDict[]
+"""
+            if counts:
+                if count == counts[-1]:
+                    countX += 1
+
+                if count > count[-1]:
+
+            else:
+                counts.append(count)
+"""
+            #print(text)
+            #textDict[]
             #print(title.count('='))
 
           #print
-    print(textDict)
+"""    print(counts)
 
+    r = []
+    l = 3
+
+    def append_h(sammud):
+        if sammud >
+
+    for i in counts:
+        if i=l:
+            r.append(i)
+"""
 """
     pprint(data.splitlines())
     sectionTitles = []
