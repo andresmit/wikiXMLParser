@@ -7,6 +7,7 @@ import re
 from infoBox import infoBoxParser
 from pprint import pprint
 from xml.etree.ElementTree import iterparse
+from sections import sectionsParser
 
 def parse_and_remove(filename, path):
     path_parts = path.split('/')
@@ -42,6 +43,7 @@ data = parse_and_remove('G:\WikiDumper\etwiki-latest-pages-articles.xml', "wikim
 linkBegin = "http://et.wikipedia.org/wiki/"
 #G:\WikiDumper\etwiki-latest-pages-articles.xml
 #def jsonbuilder:
+ib = re.compile(r'\{\{[A-Za-zÄÖÕÜäöõü ]+\n')
 
 for tag, text in data:
     tag, text = str(tag), str(text)
@@ -54,9 +56,14 @@ for tag, text in data:
     if 'timestamp' in tag:
         print('timestamp', text)
 
-    ib = re.compile(r'\{\{[A-Za-zÄÖÕÜäöõü ]+\n')
-    if re.search(ib, text):
-        print('infoboxdata', infoBoxParser(text))
+    if 'text' in tag:
+        #try:
+        print(sectionsParser(text))
+        #except IndexError:
+        #   print('IndexError')
+
+        if re.search(ib, text):
+            print('infoboxdata', infoBoxParser(text))
 
 
 
