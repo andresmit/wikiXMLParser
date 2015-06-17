@@ -25,8 +25,6 @@ def parse_and_remove(filename, path):
             eletag = elem.tag
             elemtext = elem.text
             yield eletag, elemtext
-            #print(eletag)
-            #print(elemtext)
 
             if tag_stack == path_parts:
                 yield elem
@@ -42,28 +40,35 @@ def parse_and_remove(filename, path):
 data = parse_and_remove('G:\WikiDumper\etwiki-latest-pages-articles.xml', "wikimedia/wikimedia" )
 linkBegin = "http://et.wikipedia.org/wiki/"
 #G:\WikiDumper\etwiki-latest-pages-articles.xml
-#def jsonbuilder:
-ib = re.compile(r'\{\{[A-Za-zÄÖÕÜäöõü ]+\n')
 
+ib = re.compile(r'\{\{[A-Za-zÄÖÕÜäöõü ]+\n')
+pageObj = {}
+count = 0
 for tag, text in data:
     tag, text = str(tag), str(text)
-    if 'Mall' in text:
+    if '#REDIRECT' in text:
         continue
     if 'title' in tag:
+        pageObj['title'] = text
+        pageObj['url'] = linkBegin+text.replace(' ', '_')
         print('-----------')
-        print('title', text)
-        print('url', linkBegin+text.replace(' ', '_'))
+        print(pageObj['title'])
+        print(pageObj['url'])
     if 'timestamp' in tag:
-        print('timestamp', text)
+        pageObj['timestamp'] = text
+        print(pageObj['timestamp'])
 
     if 'text' in tag:
-        #try:
-        print(sectionsParser(text))
-        #except IndexError:
-        #   print('IndexError')
-
+        try:
+            sectionobj = (sectionsParser(text, pageObj['title']))
+            pageObj['sections'] = sectionobj
+            print(pageObj['sections'])
+        except AttributeError:
+            count += 1
+            print(text)
         if re.search(ib, text):
-            print('infoboxdata', infoBoxParser(text))
+            pageObj['infobox'] = infoBoxParser(text)
+            print(pageObj['infobox'])
 
 
 

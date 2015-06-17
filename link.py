@@ -1,8 +1,12 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Andres'
 import re
-def linkParser(object):
-    """ returns a list of link objects   links = [
+def linkParser(sectionObject):
+    """
+    call it after the images have been parsed
+    :param sectionObject:
+    :return: a list of link objects
+    links = [
         { ... etünonüüm ... },
         {
               start: 32.
@@ -12,18 +16,18 @@ def linkParser(object):
               url: "http://et.wikipedia.org/wiki/Pytheas" # lingi wikipedia URL
         }, ....
     ]
-    call it after the images have been parsed
+
     """
     linkRegEx = re.compile(r'\[\[\(A-Za-z0-9äöüõÄÖÕÜ\| \]\]')
-    text = object['text']
+    text = sectionObject['text']
     links = linkRegEx.finditer(text)
     for link in links:
         start = link.start()
         end = link.end()
 
-    return object
+    return sectionObject
 
-
+#function from wikiextractor.py
 def findBalanced(text, openDelim, closeDelim):
     """
     Assuming that text contains a properly balanced expression using
@@ -33,8 +37,8 @@ def findBalanced(text, openDelim, closeDelim):
     positions in text containing a balanced expression.
     """
     openPat = '|'.join([re.escape(x) for x in openDelim])
-    # patter for delimiters expected after each opening delimiter
-    afterPat = { o:re.compile(openPat+'|'+c, re.DOTALL) for o,c in zip(openDelim, closeDelim)}
+    # pattern for delimiters expected after each opening delimiter
+    afterPat = {o: re.compile(openPat+'|'+c, re.DOTALL) for o,c in zip(openDelim, closeDelim)}
     stack = []
     start = 0
     cur = 0

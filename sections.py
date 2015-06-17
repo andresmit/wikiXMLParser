@@ -3,9 +3,10 @@ __author__ = 'Andres'
 import re
 from pprint import pprint
 
-def sectionsParser(text):
-
-    """returns a list of nested section objects
+def sectionsParser(text, title):
+    """
+    :param text: the whole text of an wikipedia article
+    :return:  a list of nested section objects
  [{title: "Rahvaarv",
                 text: "Eestis elab..."},
                {title: "Ajalugu",
@@ -15,8 +16,9 @@ def sectionsParser(text):
                     {title: "Ajalugu",
                     text: "..."}],],
 """
-
-    entries = re.split("\n=", text)
+    textStartRE = re.compile(r"""\'\'\'""")
+    textStart = textStartRE.search(text).start()
+    entries = re.split("\n=", text[textStart:])
     stack = [[]]
     intro = {}
     sectionTitleRegEx = re.compile(r'={1,}.+={2,}')
@@ -71,7 +73,7 @@ def sectionsParser(text):
 
 
     return stack
-
+"""
 if __name__ == '__main__':
     with open("armeenia.txt", encoding='utf-8') as f:
         text = f.read()
@@ -113,12 +115,15 @@ if __name__ == '__main__':
     print(len(counts))
     print(counts[47])
 
-
+"""
 if __name__ == '__main__':
-    print(counts)
+    with open("bathumi.txt", encoding='utf-8') as f:
+        text = f.read()
+
+    print(sectionsParser(text, ''))
 
     #datastructure nesting thanks to Timo!
-
+"""
     n = len(sections)
     pos = 0
     stack = [[]]
@@ -156,3 +161,4 @@ if __name__ == '__main__':
                 pprint('     '+ j['title'])
         except:
             pass
+            """
