@@ -47,6 +47,7 @@ count = 0
 for tag, text in data:
     tag, text = str(tag), str(text)
     if '#REDIRECT' in text:
+        print('REDIRECT')
         continue
     if 'title' in tag:
         pageObj['title'] = text

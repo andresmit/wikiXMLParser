@@ -1,15 +1,21 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Andres'
+import re
 
-def balancedSquareBrackets(text, opendelim='[', closedelim=']'):
-    """returns text between balanced first occurrence of [ and last """
+def balancedSlicer(text, openDelim='[', closeDelim=']'):
+    """
+    Assuming that text contains a properly balanced expression using
+    :param openDelim: as opening delimiters and
+    :param closeDelim: as closing delimiters.
+    :return: text between the delimiters
+    """
     openbr = 0
     cur = 0
     for char in text:
         cur +=1
-        if char == opendelim:
+        if char == openDelim:
             openbr += 1
-        if char == closedelim:
+        if char == closeDelim:
             openbr -= 1
         if openbr == 0:
             break

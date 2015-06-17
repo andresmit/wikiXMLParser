@@ -17,6 +17,7 @@ def sectionsParser(text, title):
                     text: "..."}],],
 """
     textStartRE = re.compile(r"""\'\'\'""")
+    #FIXME:if ''' in infobox, code breaks
     textStart = textStartRE.search(text).start()
     entries = re.split("\n=", text[textStart:])
     stack = [[]]

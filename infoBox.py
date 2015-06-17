@@ -8,7 +8,7 @@ __author__ = 'Andres'
 import re
 import json
 import pprint
-from wikiextra import balancedSquareBrackets as bSB
+from wikiextra import balancedSlicer as bSB
 
 linkBegin = "http://et.wikipedia.org/wiki/"
 
@@ -33,7 +33,7 @@ infob = """iygyugyugyugyugyugyugyuyg{{See artikkel| on Altamira koopast Hispaani
 
 def infoBoxParser(text):
     infobStartRegEx = re.compile(r'\{\{[A-Za-zÄÖÕÜäöõ\\ü ]+\n')
-    #TODO:regex matches some weird stuff. e.g Abhaasia
+    #FIXME:regex matches some weird stuff.
     infobStart = re.search(infobStartRegEx, text).start()
     infobContent = bSB(text[infobStart:], opendelim='{', closedelim='}')
 
