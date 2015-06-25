@@ -13,6 +13,8 @@ wgUrlProtocols = [
 EXT_LINK_URL_CLASS = r'[^][<>"\x00-\x20\x7F\s]'
 ExtLinkBracketedRegex = re.compile('\[(((?i)' + '|'.join(wgUrlProtocols) + ')' +
                                    EXT_LINK_URL_CLASS + r'+)\s*([^\]\x00-\x08\x0a-\x1F]*?)\]', re.S | re.U)
+
+
 def replaceExternalLinks(text):
     s = ''
     cur = 0
@@ -173,6 +175,7 @@ if __name__ == '__main__':
 
     print(spans)
     for i in range(len(spans)-1):
+        #cleans link delimiters
         nextStart = spans[i+1][0]
         start = spans[i][0]+2
         end = spans[i][1]-2
