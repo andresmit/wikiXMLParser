@@ -43,6 +43,12 @@ def sectionsParser(text, title):
             sections.append(section)
             counts.append(count)
 
+    #TODO:
+    #for section in sections:
+    #add images, links, references,
+    #map(linkParser, section)
+    #
+
     #datastructure nesting thanks to Timo!
     if counts:
         n = len(sections)
