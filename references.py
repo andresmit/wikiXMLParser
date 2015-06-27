@@ -11,17 +11,20 @@ referencesRegEx = re.compile(r'<ref>?(.+?)<?(/>|/ref>)', re.DOTALL|re.IGNORECASE
 
 referencesEndRegEx = re.compile(r'&lt;/ref&gt;', re.IGNORECASE)
 
-def referencesParser(sectionObject):
-    """
-    :param sectionObject: takes a section, searches for references, cleans the text,
-    marks the references indexes from zero
-    :return: section obj with key-value pair references: [0,1,2] (list of reference indeces)
-    """
+def referencesParser1(sectionObject):
+
     obj = sectionObject
 
     return obj
 
-def referencesCounter(text):
+def referencesParser(text):
+    """
+    :param text: takes the whole text of an article, searches for references, cleans the text,
+    marks the reference indeces from zero inside the text.
+    :return: the tagged text and a tag:reference dictionary to be used in sectionParser
+    """
+
+
     references = referencesRegEx.finditer(text)
     count = 0
     refs = []
@@ -74,9 +77,17 @@ def referencesCounter(text):
     print(refspos)
     newText = ''
     assert len(spans) == len(refs)
-#    for i in spans:
-#        newtext+=text[spans[0]:]
-    return len(refs), refs
+    next = 0
+    for i in range(len(spans)):
+        start = spans[i][0]
+        newText+=text[next:start]+'<ref '+str(refspos[refs[i]])+'/>'
+        next = spans[i][1]
+
+    newText+=text[next:]
+    print(newText)
+    newDict  = {y:x for x,y in refspos.items()}
+
+    return newText, newDict
 #TODO:add ref indeces to text
 if __name__ == '__main__':
     with open("armeenia.txt", encoding='utf-8') as f:
@@ -92,5 +103,5 @@ if __name__ == '__main__':
        print(i.group())
        print('--------------------------')
        count += 1
-    print('sss', referencesCounter(data))
+    print('sss', referencesParser(data))
     print(count)

@@ -8,7 +8,7 @@ from infoBox import infoBoxParser
 from pprint import pprint
 from xml.etree.ElementTree import iterparse
 from sections import sectionsParser
-from references import referencesCounter
+from references import referencesParser
 def parse_and_remove(filename, path):
     path_parts = path.split('/')
     doc = iterparse(filename, ('start', 'end'))
@@ -61,10 +61,12 @@ for tag, text in data:
 
     if 'text' in tag:
         try:
-            pprint(referencesCounter(text))
-
+            pprint(referencesParser(text))
+            #Finds and marks all the references in the article
+            text, refsDict = referencesParser(text)
             #SectionParser is where all the work with links, images etc gets done
-            sectionobj = (sectionsParser(text, pageObj['title']))
+            #TODO:parse out internal, external links from references.
+            sectionobj = (sectionsParser(text, pageObj['title'], refsDict))
             pageObj['sections'] = sectionobj
             print(pageObj['sections'])
         except AttributeError:
