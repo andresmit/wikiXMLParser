@@ -35,7 +35,7 @@ def infoBoxParser(text):
     infobStartRegEx = re.compile(r'\{\{[A-Za-zÄÖÕÜäöõ\\ü ]+\n')
     #FIXME:regex matches some weird stuff.
     infobStart = re.search(infobStartRegEx, text).start()
-    infobContent = bSB(text[infobStart:], opendelim='{', closedelim='}')
+    infobContent = bSB(text[infobStart:], openDelim='{', closeDelim='}')
 
     if infobContent:
         infobContent = infobContent.replace('[', '').replace(']', '').splitlines()  #.replace('|', '').split('\n'))

@@ -1,9 +1,16 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Andres'
 import re
+from itertools import chain
 from pprint import pprint
+from externalLink import addExternalLinks
+from internalLink import findBalanced
 
-referencesRegEx = re.compile(r'&gt;(.+)&lt;/ref&gt;')
+referencesRegEx = re.compile(r'&lt;ref(.+?)(/&gt|/ref&gt);', re.DOTALL|re.IGNORECASE)
+referencesRegEx = re.compile(r'<ref>?(.+?)<?(/>|/ref>)', re.DOTALL|re.IGNORECASE)
+
+referencesEndRegEx = re.compile(r'&lt;/ref&gt;', re.IGNORECASE)
+
 def referencesParser(sectionObject):
     """
     :param sectionObject: takes a section, searches for references, cleans the text,
@@ -13,12 +20,49 @@ def referencesParser(sectionObject):
     obj = sectionObject
 
     return obj
+
+def referencesCounter(text):
+    references = referencesRegEx.finditer(text)
+    count = 0
+    refs = []
+    for i in references:
+        refs.append(i.group(1))
+        # print(i.end())
+        #print(':'+i.group(1))
+        #print('--------------------------')
+        count += 1
+    done = set()
+
+
+    for index, obj in enumerate(refs.copy()):
+
+
+        if str(obj).startswith(' name=') and '>' not in obj and obj not in done:
+            fullRegex = re.compile(obj.rstrip()+'\s*(>|&gt|)')
+            indeces = [i for i, x in enumerate(refs) if x == obj]
+
+            full = [i for i in refs if fullRegex.match(i)]
+            print(obj, fullRegex, indeces, full)
+            for i in indeces:
+                refs[i]= full[0]
+            done.add(obj)
+
+
+    return refs
+
 if __name__ == '__main__':
-    with open("wiki.xml", encoding='utf-8') as f:
+    with open("armeenia.txt", encoding='utf-8') as f:
         data = f.read()
 
-
+    referencesRegEx = re.compile(r'&lt;ref(.+?)(/&gt|/ref&gt);', re.DOTALL|re.IGNORECASE)
     references = referencesRegEx.finditer(data)
-    for i in (references):
-        print(i)
-    print(len(references))
+    refend = referencesEndRegEx.finditer(data)
+    count = 0
+    ends = []
+    for i in references:
+       # print(i.end())
+       print(i.group())
+       print('--------------------------')
+       count += 1
+    print('sss', referencesCounter(data))
+    print(count)

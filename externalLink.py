@@ -3,7 +3,7 @@ __author__ = 'Andres'
 import re
 text = """* [http://www.armenia.ee Armenia.EE Armeenia portaal Eestis] (''vene ja eesti keeles'')
 * [http://www.armeniapedia.org Armeniapedia – Armeenia wiki]
-* [http://www.armenica.org Armenica.org]
+*fghfghghfgh [http://www.armenica.org Armenica.org]
 [[Pilt:Armenian Qarhunj01.jpg|pisi|
 Esiaegne [[megaliit]]ide kompleks [[Zoratsh Kharer]] [[Sjunikhi maakond|Sjunikhi maakonnas]]]]
 Ürgasustuse jälgi on leitud mitmes [[Armeenia mägismaa]] piirkonnas: [[Arzni]]st, [[Nurnus]]ist ja mujalt on leitud peatuspaiku kivist tööriistadega. [[Hrazdani jõgi|Hrazdani jõe]] kuristikust, [[Lusakert]]ist ja mujalt on leitud koobaseluasemeid. Kõige vanemad leitud kivist tööriistad on 800 000 aastat vanad.
@@ -26,23 +26,31 @@ ExtLinkBracketedRegex = re.compile('\[(((?i)' + '|'.join(wgUrlProtocols) + ')' +
                                    EXT_LINK_URL_CLASS + r'+)\s*([^\]\x00-\x08\x0a-\x1F]*?)\]', re.S | re.U)
 
 
-def replaceExternalLinks(text):
-    s = ''
-    cur = 0
-    for m in ExtLinkBracketedRegex.finditer(text):
-        s += text[cur:m.start()]
-        cur = m.end()
+def addExternalLinks(sectionObj):
+    text = sectionObj['text']
+    if ExtLinkBracketedRegex.finditer(text):
+        s = ''
+        cur = 0
+        extLinks = []
+        for m in ExtLinkBracketedRegex.finditer(text):
+            s += text[cur:m.start()]
+            cur = m.end()
 
-        url = m.group(1)
-        label = m.group(3)
+            url = m.group(1)
+            label = m.group(3)
 
-        s += url + label
-        #s.append((url, label))
+            s += label
+            #s.append((url, label))
+            obj = {}
+            obj['start'] = len(s)-len(label)
+            obj['end']= len(s)
+            obj['url']= url
+            obj['label']= label
+            obj['text'] = str(s) + text[cur:]
+            extLinks.append(obj)
+        sectionObj['external links'] = extLinks
+    return sectionObj
 
-        print('url', url)
-        print('label', label)
-    return str(s) + text[cur:]
-
-#TODO: clean output, get start, end in text
-
-print(replaceExternalLinks(text))
+#TODO: test
+if __name__ == '__main__':
+    print(addExternalLinks(text))
