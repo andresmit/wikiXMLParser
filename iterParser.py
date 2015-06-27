@@ -69,7 +69,7 @@ for tag, text in data:
             print(pageObj['sections'])
         except AttributeError:
             count += 1
-            print(text)
+            print('Error: ', count)
         if re.search(ib, text):
             pageObj['infobox'] = infoBoxParser(text)
             print(pageObj['infobox'])

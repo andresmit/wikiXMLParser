@@ -26,29 +26,42 @@ def referencesCounter(text):
     count = 0
     refs = []
     for i in references:
-        refs.append(i.group(1))
+        refs.append(i.group())
         # print(i.end())
         #print(':'+i.group(1))
         #print('--------------------------')
         count += 1
     done = set()
 
-
-    for index, obj in enumerate(refs.copy()):
-
-
-        if str(obj).startswith(' name=') and '>' not in obj and obj not in done:
-            fullRegex = re.compile(obj.rstrip()+'\s*(>|&gt|)')
-            indeces = [i for i, x in enumerate(refs) if x == obj]
-
-            full = [i for i in refs if fullRegex.match(i)]
-            print(obj, fullRegex, indeces, full)
-            for i in indeces:
-                refs[i]= full[0]
-            done.add(obj)
+    nameRegEx = re.compile(r"""(name=["']*.*?["']*)(\s|/|>)""")
+    for index, obj in enumerate(refs):
 
 
-    return refs
+        if str(obj).startswith('<ref name='):
+                nameTag = re.escape(nameRegEx.search(obj).group(1))
+                if nameTag not in done:
+            #fulldddRegex = re.compile(obj.rstrip()+'\s*(>|&gt|)')
+
+                    nameTag = re.escape(nameRegEx.search(obj).group(1))
+                    indeces = [i for i, x in enumerate(refs) if re.search(nameTag, x)]
+                    matches = [refs[i] for i in indeces]
+                    print('MATCHES', matches)
+                    #full = [i for i in refs if fullRegex.match(i)]
+                    print(obj, nameTag, indeces, matches)
+                    full = max(matches, key=len)
+                    for i in indeces:
+
+                        refs[i]= full
+                    done.add(nameTag)
+
+        #nrefs = [i[i.index('>')+1:i.rindex('<')] for i in range(len(refs))]
+    for i in range(len(refs)):
+        print('SIIT', refs[i])
+        lastindex = refs[i].rindex('<')
+        firstindex = refs[i].index('>')+1
+        refs[i]=refs[i][firstindex:lastindex]
+
+    return len(refs), refs
 
 if __name__ == '__main__':
     with open("armeenia.txt", encoding='utf-8') as f:
