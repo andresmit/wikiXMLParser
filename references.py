@@ -25,8 +25,10 @@ def referencesCounter(text):
     references = referencesRegEx.finditer(text)
     count = 0
     refs = []
+    spans = []
     for i in references:
         refs.append(i.group())
+        spans.append(i.span())
         # print(i.end())
         #print(':'+i.group(1))
         #print('--------------------------')
@@ -56,13 +58,26 @@ def referencesCounter(text):
 
         #nrefs = [i[i.index('>')+1:i.rindex('<')] for i in range(len(refs))]
     for i in range(len(refs)):
-        print('SIIT', refs[i])
+        #print('SIIT', refs[i])
         lastindex = refs[i].rindex('<')
         firstindex = refs[i].index('>')+1
         refs[i]=refs[i][firstindex:lastindex]
-
+    #TODO: eliminate all but firs
+    refspos = {}
+    c = 0
+    for i in refs:
+        if i not in refspos.keys():
+            refspos[i] = c
+            c +=1
+        else:
+            continue
+    print(refspos)
+    newText = ''
+    assert len(spans) == len(refs)
+#    for i in spans:
+#        newtext+=text[spans[0]:]
     return len(refs), refs
-
+#TODO:add ref indeces to text
 if __name__ == '__main__':
     with open("armeenia.txt", encoding='utf-8') as f:
         data = f.read()
