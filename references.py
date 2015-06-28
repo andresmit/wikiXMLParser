@@ -3,19 +3,34 @@ __author__ = 'Andres'
 import re
 from itertools import chain
 from pprint import pprint
-from externalLink import addExternalLinks
-from internalLink import findBalanced
+from externalLink import addExternalLinks, ExtLinkBracketedRegex
+from internalLink import findBalanced, addIntlinks
 
 referencesRegEx = re.compile(r'&lt;ref(.+?)(/&gt|/ref&gt);', re.DOTALL|re.IGNORECASE)
 referencesRegEx = re.compile(r'<ref>?(.+?)<?(/>|/ref>)', re.DOTALL|re.IGNORECASE)
 
 referencesEndRegEx = re.compile(r'&lt;/ref&gt;', re.IGNORECASE)
 
-def referencesParser1(sectionObject):
+def refsParser(refsDict):
+    for k in refsDict:
+        #does a ref contain external links
+        v = refsDict[k]
+        if ExtLinkBracketedRegex.search(v):
+            v = addExternalLinks({'text':v})
+            refsDict[k]=v
+            continue
+        intlinks = [x for x in findBalanced(v, openDelim='[[', closeDelim=']]')]
+        #internal links
+        if intlinks:
+            v = addIntlinks({'text':v})
+            refsDict[k]=v
+            continue
+        else:
+        #return as a {'text':ref} obj
+            v = {'text':v}
+            refsDict[k]=v
+    return refsDict
 
-    obj = sectionObject
-
-    return obj
 
 def referencesParser(text):
     """
@@ -23,8 +38,6 @@ def referencesParser(text):
     marks the reference indeces from zero inside the text.
     :return: the tagged text and a tag:reference dictionary to be used in sectionParser
     """
-
-
     references = referencesRegEx.finditer(text)
     count = 0
     refs = []
@@ -32,40 +45,35 @@ def referencesParser(text):
     for i in references:
         refs.append(i.group())
         spans.append(i.span())
-        # print(i.end())
-        #print(':'+i.group(1))
-        #print('--------------------------')
         count += 1
     done = set()
-
     nameRegEx = re.compile(r"""(name=["']*.*?["']*)(\s|/|>)""")
-    for index, obj in enumerate(refs):
 
+    for index, obj in enumerate(refs):
 
         if str(obj).startswith('<ref name='):
                 nameTag = re.escape(nameRegEx.search(obj).group(1))
-                if nameTag not in done:
-            #fulldddRegex = re.compile(obj.rstrip()+'\s*(>|&gt|)')
 
+                if nameTag not in done:
                     nameTag = re.escape(nameRegEx.search(obj).group(1))
                     indeces = [i for i, x in enumerate(refs) if re.search(nameTag, x)]
                     matches = [refs[i] for i in indeces]
-                    print('MATCHES', matches)
-                    #full = [i for i in refs if fullRegex.match(i)]
-                    print(obj, nameTag, indeces, matches)
                     full = max(matches, key=len)
-                    for i in indeces:
 
+                    for i in indeces:
                         refs[i]= full
+
                     done.add(nameTag)
 
-        #nrefs = [i[i.index('>')+1:i.rindex('<')] for i in range(len(refs))]
+    #eliminate <ref tag or other rudiments from the ref string
+
     for i in range(len(refs)):
         #print('SIIT', refs[i])
         lastindex = refs[i].rindex('<')
         firstindex = refs[i].index('>')+1
         refs[i]=refs[i][firstindex:lastindex]
-    #TODO: eliminate all but firs
+
+    #a ref string:position int dictionary
     refspos = {}
     c = 0
     for i in refs:
@@ -74,9 +82,13 @@ def referencesParser(text):
             c +=1
         else:
             continue
-    print(refspos)
+
+    #print(refspos)
+
+    #eliminate old, bad <ref> tags and insert clean  ones <ref 1..2..3/> to the same spot.
     newText = ''
     assert len(spans) == len(refs)
+    #Could happen... havent yet.
     next = 0
     for i in range(len(spans)):
         start = spans[i][0]
@@ -84,15 +96,23 @@ def referencesParser(text):
         next = spans[i][1]
 
     newText+=text[next:]
-    print(newText)
+
+    #switch keys:values in the dictionary for use in sectionsParser
+    #positiontag:ref
     newDict  = {y:x for x,y in refspos.items()}
 
     return newText, newDict
-#TODO:add ref indeces to text
+
+
+
 if __name__ == '__main__':
     with open("armeenia.txt", encoding='utf-8') as f:
         data = f.read()
 
+    newText, newDict = referencesParser(data)
+    for i in newDict:
+        print(i)
+"""
     referencesRegEx = re.compile(r'&lt;ref(.+?)(/&gt|/ref&gt);', re.DOTALL|re.IGNORECASE)
     references = referencesRegEx.finditer(data)
     refend = referencesEndRegEx.finditer(data)
@@ -105,3 +125,4 @@ if __name__ == '__main__':
        count += 1
     print('sss', referencesParser(data))
     print(count)
+"""

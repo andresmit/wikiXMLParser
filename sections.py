@@ -3,7 +3,7 @@ __author__ = 'Andres'
 import re
 from pprint import pprint
 
-def sectionsParser(text, title):
+def sectionsParser(text, title, refsdict):
     """
     :param text: the whole text of an wikipedia article
     :return:  a list of nested section objects
