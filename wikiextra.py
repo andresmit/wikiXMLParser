@@ -19,7 +19,7 @@ def balancedSlicer(text, openDelim='[', closeDelim=']'):
             openbr -= 1
         if openbr == 0:
             break
-    return (text[:cur])
+    return text[:cur], cur
 
 #From https://github.com/bwbaugh/wikipedia-extractor
 

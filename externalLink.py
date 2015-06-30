@@ -30,8 +30,9 @@ ExtLinkBracketedRegex = re.compile('\[(((?i)' + '|'.join(wgUrlProtocols) + ')' +
 
 def addExternalLinks(sectionObj):
     text = sectionObj['text']
+    elinks = [x for x in ExtLinkBracketedRegex.finditer(text)]
 
-    if ExtLinkBracketedRegex.finditer(text):
+    if elinks:
         s = ''
         cur = 0
         extLinks = []

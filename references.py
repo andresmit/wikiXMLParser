@@ -21,7 +21,7 @@ def refsParser(refsDict):
             value = addExternalLinks(value)
 
 
-        intlinks = [x for x in findBalanced(v['text'], openDelim='[[', closeDelim=']]')]
+        intlinks = [x for x in findBalanced(value['text'], openDelim='[[', closeDelim=']]')]
         #internal links
         if intlinks:
             value = addIntLinks(value)
@@ -48,7 +48,7 @@ def reffinder(sectionObj, refsDict):
 
     return sectionObj
 
-def referencesParser(text):
+def referencesFinder(text):
     """
     :param text: takes the whole text of an article, searches for references, cleans the text,
     marks the reference indeces from zero inside the text.
@@ -125,7 +125,7 @@ if __name__ == '__main__':
     with open("armeenia.txt", encoding='utf-8') as f:
         data = f.read()
 
-    newText, newDict = referencesParser(data)
+    newText, newDict = referencesFinder(data)
     for i in newDict:
         print(i)
 """

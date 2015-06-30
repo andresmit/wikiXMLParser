@@ -5,6 +5,7 @@ from pprint import pprint
 from externalLink  import addExternalLinks
 from internalLink import addIntLinks
 from references import reffinder
+import images
 
 def sectionsParser(text, title, refsdict):
     """
@@ -46,14 +47,16 @@ def sectionsParser(text, title, refsdict):
             sections.append(section.copy())
             counts.append(level)
 
+    #add images, links, references,
+
     #TODO:
     for section in sections:
-        section = reffinder(section, refsdict)
+        section = reffinder(section, refsdict) #FIXME: issues w end, and text attribute in internal links
+        section = images.imageParser(section)
+        section = addExternalLinks(section)
+        section = addIntLinks(section)
 
-    #for section in sections:
-    #add images, links, references,
-    #map(linkParser, section)
-    #
+
 
     #datastructure nesting thanks to Timo!
     if counts:

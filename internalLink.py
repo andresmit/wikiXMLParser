@@ -138,20 +138,48 @@ def findBalanced(text, openDelim, closeDelim):
 def addIntLinks(sectionObj):
 
     t = sectionObj['text']
-    spans = []
-    for s,e  in findBalanced(t, '[[', ']]'):
-        spans.append((s,e))
+    spans = [(s,e) for s, e in findBalanced(t, '[[', ']]')]
 
-        if spans:
-            text = ''
-            links = []
-            link = {}
+    if spans:
+        text = ''
+        links = []
+        link = {}
 
-            #FIXME: code repeat, thing of a general case. A bit buggy at times.
+        #FIXME: code repeat, think of a general case. A bit buggy at times. redo!
 
-            if len(spans) == 1:
-                start = spans[0][0]+2
-                end = spans[0][1]-2
+        if len(spans) == 1:
+            start = spans[0][0]+2
+            end = spans[0][1]-2
+            linktext = t[start:end]
+            if '|' in linktext:
+                linktext = linktext.split('|')
+                label = linktext[1]
+                title = linktext[0]
+                url = urlBegin + linktext[0]
+
+            else:
+
+                label = linktext
+                title = linktext
+                url = urlBegin+linktext
+
+            text+=t[-1:start]+label
+            text+=t[end+2:]
+            link['start'] = start-2
+            link['end'] = end-2
+            link['text'] = t
+            link['title'] = title
+            link['url'] = url
+            sectionObj['internal links'] = [link]
+            sectionObj['text'] = text
+            return sectionObj
+
+        else:
+            for i in range(len(spans)-1):
+                #cleans link delimiters
+                nextStart = spans[i+1][0]
+                start = spans[i][0]+2
+                end = spans[i][1]-2
                 linktext = t[start:end]
                 if '|' in linktext:
                     linktext = linktext.split('|')
@@ -165,45 +193,15 @@ def addIntLinks(sectionObj):
                     title = linktext
                     url = urlBegin+linktext
 
-                text+=t[-1:start]+label
-                text+=t[end+2:]
-                link['start'] = start-2
-                link['end'] = end-2
+
+                text+=t[:start-2]+label
+                text+=t[end+2:nextStart]
+                link['start'] = start
+                link['end'] = end
                 link['text'] = t
                 link['title'] = title
                 link['url'] = url
-                sectionObj['internal links'] = [link]
-                sectionObj['text'] = text
-                return sectionObj
-
-            else:
-                for i in range(len(spans)-1):
-                    #cleans link delimiters
-                    nextStart = spans[i+1][0]
-                    start = spans[i][0]+2
-                    end = spans[i][1]-2
-                    linktext = t[start:end]
-                    if '|' in linktext:
-                        linktext = linktext.split('|')
-                        label = linktext[1]
-                        title = linktext[0]
-                        url = urlBegin + linktext[0]
-
-                    else:
-
-                        label = linktext
-                        title = linktext
-                        url = urlBegin+linktext
-
-
-                    text+=t[-1:start]+label
-                    text+=t[end+2:nextStart]
-                    link['start'] = start
-                    link['end'] = end
-                    link['text'] = t
-                    link['title'] = title
-                    link['url'] = url
-                    links.append(link)
+                links.append(link)
 
         sectionObj['internal links'] = links
 

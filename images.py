@@ -32,10 +32,10 @@ def imageParser(sectionObj):
             if ExtLinkBracketedRegex.search(imgText):
                 img = addExternalLinks(img)
 
-            intlinks = [x for x in findBalanced(imgText, openDelim='[[', closeDelim=']]')]
+            intlinks = [x for x in internalLink.findBalanced(imgText, openDelim='[[', closeDelim=']]')]
 
             if intlinks:
-                img = addIntlinks(img)
+                img = internalLink.addIntlinks(img)
 
 
             images.append(img)
