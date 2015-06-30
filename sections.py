@@ -2,6 +2,9 @@
 __author__ = 'Andres'
 import re
 from pprint import pprint
+from externalLink  import addExternalLinks
+from internalLink import addIntLinks
+from references import reffinder
 
 def sectionsParser(text, title, refsdict):
     """
@@ -23,27 +26,30 @@ def sectionsParser(text, title, refsdict):
     stack = [[]]
     intro = {}
     sectionTitleRegEx = re.compile(r'={1,}.+={2,}')
-    intro['intro']= entries[0]
+    section = {}
+    section['text'] = entries[0]
     counts = []
     counts.append(3)
     sections = []
-    sections.append(intro)
+    sections.append(section)
     for i in entries[1:]:
         section = {}
-
         title = re.match(sectionTitleRegEx, i)
         if title:
             titleEnd = title.end()
             title = title.group()
             text = i[titleEnd:]
-            count =  title.count('=')
+            level =  title.count('=')
             section['title']=title.strip('= ')
             section['text']=text
 
-            sections.append(section)
-            counts.append(count)
+            sections.append(section.copy())
+            counts.append(level)
 
     #TODO:
+    for section in sections:
+        section = reffinder(section, refsdict)
+
     #for section in sections:
     #add images, links, references,
     #map(linkParser, section)
@@ -57,14 +63,14 @@ def sectionsParser(text, title, refsdict):
         levels = [counts[0]]
 
         while pos < n:
-            count = counts[pos]
+            level = counts[pos]
             elem = sections[pos]
             level = levels[-1]
-            if count == level:
+            if level == level:
                 stack[-1].append(elem)
-            elif count >= level:
+            elif level >= level:
                 stack.append([elem])
-                levels.append(count)
+                levels.append(level)
             else:
                 group = stack.pop()
                 stack[-1][-1]['sections'] = group

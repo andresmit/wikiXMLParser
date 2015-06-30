@@ -70,7 +70,7 @@ for tag, text in data:
     if 'text' in tag:
         try:
             pprint(referencesParser(text))
-            #Finds and marks all the references in the article
+            #Finds and marks nicely all the references in the article, returns a tag:reference dictionary
             text, refsDict = referencesParser(text)
 
 

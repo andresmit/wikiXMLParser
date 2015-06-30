@@ -15,6 +15,7 @@ Esiaegne [[megaliit]]ide kompleks [[Zoratsh Kharer]] [[Sjunikhi maakond|Sjunikhi
 * [http://www.haylife.ru/ Armeenia kultuuri sait, eeskätt Venemaa armeenlaste kultuurist (vene keeles)]
 * [http://www.armeniainfo.am/ Armeenia turismiportaal]"""
 
+#From wikiextractor
 urlBegin = "http://et.wikipedia.org/wiki/"
 wgUrlProtocols = [
      'bitcoin:', 'ftp://', 'ftps://', 'geo:', 'git://', 'gopher://', 'http://',

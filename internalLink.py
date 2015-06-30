@@ -16,38 +16,6 @@ ExtLinkBracketedRegex = re.compile('\[(((?i)' + '|'.join(wgUrlProtocols) + ')' +
                                    EXT_LINK_URL_CLASS + r'+)\s*([^\]\x00-\x08\x0a-\x1F]*?)\]', re.S | re.U)
 
 
-def replaceExternalLinks(text):
-    s = ''
-    cur = 0
-    for m in ExtLinkBracketedRegex.finditer(text):
-        s += text[cur:m.start()]
-        cur = m.end()
-
-        url = m.group(1)
-        label = m.group(3)
-
-        # # The characters '<' and '>' (which were escaped by
-        # # removeHTMLtags()) should not be included in
-        # # URLs, per RFC 2396.
-        # m2 = re.search('&(lt|gt);', url)
-        # if m2:
-        #     link = url[m2.end():] + ' ' + link
-        #     url = url[0:m2.end()]
-
-        # If the link text is an image URL, replace it with an <img> tag
-        # This happened by accident in the original parser, but some people used it extensively
-        m = EXT_IMAGE_REGEX.match(label)
-        if m:
-            label = makeExternalImage(label)
-
-        # Use the encoded URL
-        # This means that users can paste URLs directly into the text
-        # Funny characters like Ã¶ aren't valid in URLs anyway
-        # This was changed in August 2004
-        s += makeExternalLink(url, label) #+ trail
-
-    return s + text[cur:]
-
 
 
 def bracketsParser(sectionObject):
@@ -167,40 +135,79 @@ def findBalanced(text, openDelim, closeDelim):
                 startSet = False
         cur = next.end()
 
-def addIntlinks(sectionObj):
+def addIntLinks(sectionObj):
 
-    text = sectionObj['text']
+    t = sectionObj['text']
+    spans = []
     for s,e  in findBalanced(t, '[[', ']]'):
         spans.append((s,e))
 
-    print(spans)
-    for i in range(len(spans)-1):
-        #cleans link delimiters
-        nextStart = spans[i+1][0]
-        start = spans[i][0]+2
-        end = spans[i][1]-2
-        linktext = t[start:end]
-        if '|' in linktext:
-            linktext = linktext.split('|')
-            print(len(linktext))
-            text = linktext[1]
-            title = linktext[0]
-            url = urlBegin + linktext[0]
+        if spans:
+            text = ''
+            links = []
+            link = {}
 
-        else:
+            #FIXME: code repeat, thing of a general case. A bit buggy at times.
 
-            text = linktext
-            title = linktext
-            url = urlBegin+linktext
+            if len(spans) == 1:
+                start = spans[0][0]+2
+                end = spans[0][1]-2
+                linktext = t[start:end]
+                if '|' in linktext:
+                    linktext = linktext.split('|')
+                    label = linktext[1]
+                    title = linktext[0]
+                    url = urlBegin + linktext[0]
 
-    start = start + 2
-    end = end - 2
-    text+=t[-1:start]+linktext
-    linkstart = len(text)-len(t[start:end])
-    linkend = len(text)
-    print(linkstart, linkend, linktext)
-    text+=t[end+2:nextStart]
-    return linkstart, linkend, url
+                else:
+
+                    label = linktext
+                    title = linktext
+                    url = urlBegin+linktext
+
+                text+=t[-1:start]+label
+                text+=t[end+2:]
+                link['start'] = start-2
+                link['end'] = end-2
+                link['text'] = t
+                link['title'] = title
+                link['url'] = url
+                sectionObj['internal links'] = [link]
+                sectionObj['text'] = text
+                return sectionObj
+
+            else:
+                for i in range(len(spans)-1):
+                    #cleans link delimiters
+                    nextStart = spans[i+1][0]
+                    start = spans[i][0]+2
+                    end = spans[i][1]-2
+                    linktext = t[start:end]
+                    if '|' in linktext:
+                        linktext = linktext.split('|')
+                        label = linktext[1]
+                        title = linktext[0]
+                        url = urlBegin + linktext[0]
+
+                    else:
+
+                        label = linktext
+                        title = linktext
+                        url = urlBegin+linktext
+
+
+                    text+=t[-1:start]+label
+                    text+=t[end+2:nextStart]
+                    link['start'] = start
+                    link['end'] = end
+                    link['text'] = t
+                    link['title'] = title
+                    link['url'] = url
+                    links.append(link)
+
+        sectionObj['internal links'] = links
+
+    return sectionObj
 
 if __name__ == '__main__':
     with open("armeenia.txt", encoding='utf-8') as f:

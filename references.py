@@ -4,7 +4,7 @@ import re
 from itertools import chain
 from pprint import pprint
 from externalLink import addExternalLinks, ExtLinkBracketedRegex
-from internalLink import findBalanced, addIntlinks
+from internalLink import findBalanced, addIntLinks
 
 referencesRegEx = re.compile(r'&lt;ref(.+?)(/&gt|/ref&gt);', re.DOTALL|re.IGNORECASE)
 referencesRegEx = re.compile(r'<ref>?(.+?)<?(/>|/ref>)', re.DOTALL|re.IGNORECASE)
@@ -12,25 +12,41 @@ referencesRegEx = re.compile(r'<ref>?(.+?)<?(/>|/ref>)', re.DOTALL|re.IGNORECASE
 referencesEndRegEx = re.compile(r'&lt;/ref&gt;', re.IGNORECASE)
 
 def refsParser(refsDict):
-    for k in refsDict:
+    for key in refsDict:
+
         #does a ref contain external links
-        v = refsDict[k]
-        if ExtLinkBracketedRegex.search(v):
-            v = addExternalLinks({'text':v})
-            refsDict[k]=v
-            continue
-        intlinks = [x for x in findBalanced(v, openDelim='[[', closeDelim=']]')]
+        value = refsDict[key]
+        value = {'text':value}
+        if ExtLinkBracketedRegex.search(value['text']):
+            value = addExternalLinks(value)
+
+
+        intlinks = [x for x in findBalanced(v['text'], openDelim='[[', closeDelim=']]')]
         #internal links
         if intlinks:
-            v = addIntlinks({'text':v})
-            refsDict[k]=v
-            continue
-        else:
-        #return as a {'text':ref} obj
-            v = {'text':v}
-            refsDict[k]=v
+            value = addIntLinks(value)
+
+
+
+        refsDict[key]=value
     return refsDict
 
+refTagRegEx = re.compile('<ref (\d)+/>')
+
+def reffinder(sectionObj, refsDict):
+    text = sectionObj['text']
+    reftags = [x for x in refTagRegEx.finditer(text)]
+    if reftags:
+        references = []
+        for tag in reftags:
+            references.append(int(tag.group(1)))
+
+        sectionObj['references'] = references
+
+        text = refTagRegEx.sub('', text)
+        sectionObj['text'] = text
+
+    return sectionObj
 
 def referencesParser(text):
     """
