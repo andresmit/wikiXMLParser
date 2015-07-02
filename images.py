@@ -8,7 +8,7 @@ from pprint import pprint
 import internalLink
 from externalLink import addExternalLinks, ExtLinkBracketedRegex
 
-imageRegEx = re.compile(r'\[\[(Pilt|File)\:(.+?)]]')
+imageRegEx = re.compile(r'\[\[(Pilt|File|Image)\:.+?\]\]')
 
 def imageParser(sectionObj):
     """return a sectionObj with image data added
@@ -26,20 +26,27 @@ def imageParser(sectionObj):
     if imageMatches:
         images =  []
         for image in imageMatches:
-            imgText = image.group(1)
+            imgText = image.group(0)
             img =  {'text':imgText}
 
-            if ExtLinkBracketedRegex.search(imgText):
+
+
+            imgText = imgText.split('|')
+            text= imgText[-1]
+            url = internalLink.urlbegin + imgText[0]
+            img['text'] = text
+            img['url'] = url
+
+            if ExtLinkBracketedRegex.search(text):
                 img = addExternalLinks(img)
 
-            intlinks = [x for x in internalLink.findBalanced(imgText, openDelim='[[', closeDelim=']]')]
+            intlinks = [x for x in internalLink.findBalanced(text, openDelim='[[', closeDelim=']]')]
 
             if intlinks:
                 img = internalLink.addIntlinks(img)
 
-
             images.append(img)
-            pprint(images)
+
         sectionObj['images'] = images
 
     return sectionObj

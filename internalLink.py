@@ -45,7 +45,7 @@ def bracketsParser(sectionObject):
         balanced = text[start:end]
         print(balanced)
 
-#FIXME:imageRegEx, ImagesParser
+
 
         if re.match(imageRegEx, balanced):
             obj = imageParser(balanced)
@@ -61,7 +61,7 @@ def bracketsParser(sectionObject):
     if links:
         sectionObject['links'] = links
 
-    #TODO: clean(sectionobject, images, links)
+
 
     return sectionObject
 
@@ -198,10 +198,10 @@ def addIntLinks(sectionObj):
                 text+=t[end+2:nextStart]
                 link['start'] = start
                 link['end'] = end
-                link['text'] = t
+                link['text'] = label
                 link['title'] = title
                 link['url'] = url
-                links.append(link)
+                links.append(link.copy())
 
         sectionObj['internal links'] = links
 

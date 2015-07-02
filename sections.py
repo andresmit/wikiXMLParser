@@ -21,7 +21,7 @@ def sectionsParser(text, title, refsdict):
                     text: "..."}],],
 """
     textStartRE = re.compile(r"""\'\'\'""")
-    #FIXME:if ''' in infobox, code breaks
+
     textStart = textStartRE.search(text).start()
     entries = re.split("\n=", text[textStart:])
     stack = [[]]
@@ -49,7 +49,7 @@ def sectionsParser(text, title, refsdict):
 
     #add images, links, references,
 
-    #TODO:
+    #TODO:att!
     for section in sections:
         section = reffinder(section, refsdict) #FIXME: issues w end, and text attribute in internal links
         section = images.imageParser(section)
@@ -57,7 +57,7 @@ def sectionsParser(text, title, refsdict):
         section = addIntLinks(section)
 
 
-
+   # FIXME: <!!
     #datastructure nesting thanks to Timo!
     if counts:
         n = len(sections)

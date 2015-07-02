@@ -77,10 +77,10 @@ for tag, text in data:
             text, refsDict = referencesFinder(text)
             refsDict = refsParser(refsDict)
             #SectionParser is where all the work with links, images etc gets done
-            #TODO:parse out internal, external links from references.
+
             sectionobj = (sectionsParser(text, pageObj['title'], refsDict))
             pageObj['sections'] = sectionobj
-            print(pageObj['sections'])
+            #print(pageObj['sections'])
         except AttributeError:
             count += 1
             print('Error: ', count)
