@@ -31,7 +31,7 @@ infob = """iygyugyugyugyugyugyugyuyg{{See artikkel| on Altamira koopast Hispaani
 
 def infoBoxParser(text):
     t = ''
-    infobStartRegEx = re.compile(r"(?!\<ref>)\{\{[^\}]+?\n\|.+?=" , re.DOTALL)
+    infobStartRegEx = re.compile(r"(?!\<ref>)\{\{[^\}]+?\n ?\|.+?=" , re.DOTALL)
     #FIXME:deal with | in values.
     infob = [x for x in re.finditer(infobStartRegEx, text)]
     if infob:

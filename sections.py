@@ -6,7 +6,8 @@ from externalLink  import addExternalLinks
 from internalLink import addIntLinks
 from references import reffinder
 import images
-
+from categoryParser import categoryParser
+from internalLink import relatedArticles
 def sectionsParser(text, title, refsdict):
     """
     :param text: the whole text of an wikipedia article
@@ -21,8 +22,13 @@ def sectionsParser(text, title, refsdict):
                     text: "..."}],],
 """
     textStartRE = re.compile(r"""\'\'\'""")
+    #TODO:needs fixing. logic should be different.
 
-    textStart = textStartRE.search(text).start()
+
+        #textStart = textStartRE.search(text).start()
+
+
+    textStart = 0
     entries = re.split("\n=", text[textStart:])
     stack = [[]]
     intro = {}
@@ -51,8 +57,9 @@ def sectionsParser(text, title, refsdict):
 
     #TODO:att!
     for section in sections:
+        section = relatedArticles(section)
         section = reffinder(section, refsdict) #FIXME: issues w end, and text attribute in internal links
-        section = images.imageParser(section)
+        section = images.imageParser(section) #TODO:Check if done.
         section = addExternalLinks(section)
         section = addIntLinks(section)
 
@@ -66,25 +73,25 @@ def sectionsParser(text, title, refsdict):
         levels = [counts[0]]
 
         while pos < n:
-            level = counts[pos]
+            count = counts[pos]
             elem = sections[pos]
             level = levels[-1]
-            if level == level:
+            if count == level:
                 stack[-1].append(elem)
-            elif level >= level:
+            elif count >= level:
                 stack.append([elem])
-                levels.append(level)
+                levels.append(count)
             else:
                 group = stack.pop()
                 stack[-1][-1]['sections'] = group
                 levels.pop()
-                continue
+
             pos += 1
 
         while len(stack) > 1:
             group = stack.pop()
-            stack[-1].append(group)
-
+            stack[-1][-1]['sections'] = group
+#TODO: if sections end 3, 5. doesnt work
     stack = stack[0]
 
 

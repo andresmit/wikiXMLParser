@@ -10,7 +10,7 @@ from xml.etree.ElementTree import iterparse
 from sections import sectionsParser
 from references import referencesFinder,refsParser
 from externalLink import addExternalLinks
-
+from categoryParser import categoryParser
 def parse_and_remove(filename, path):
     path_parts = path.split('/')
     doc = iterparse(filename, ('start', 'end'))
@@ -43,11 +43,13 @@ data = parse_and_remove('G:\WikiDumper\etwiki-latest-pages-articles.xml', "wikim
 linkBegin = "http://et.wikipedia.org/wiki/"
 #G:\WikiDumper\etwiki-latest-pages-articles.xml
 
-ib = re.compile(r'\{\{[A-Za-zÄÖÕÜäöõü ]+\n')
+ib = re.compile(r'(?!\<ref>)\{\{[^\}]+?\n ?\|.+?=')
 pageObj = {}
 count = 0
+errata = []
 for tag, text in data:
     tag, text = str(tag), str(text)
+
     if '#REDIRECT' in text:
         print('REDIRECT')
         continue
@@ -56,6 +58,9 @@ for tag, text in data:
         pageObj['url'] = linkBegin+text.replace(' ', '_')
         print('-----------')
         print(pageObj['title'])
+        if pageObj['title'] == "Blossfeldi kalanhoe":
+            pass
+
         print(pageObj['url'])
     if 'timestamp' in tag:
         pageObj['timestamp'] = text
@@ -68,27 +73,51 @@ for tag, text in data:
 
 
     if 'text' in tag:
-        if re.search(ib, text):
+        m = re.search(ib, text)
+
+        if m:
+            mg  = m.group()
             text, pageObj['infobox'] = infoBoxParser(text)
-            print(pageObj['infobox'])
-        try:
-            pprint(referencesFinder(text))
-            #Finds and marks nicely all the references in the article, returns a tag:reference dictionary
-            text, refsDict = referencesFinder(text)
-            refsDict = refsParser(refsDict)
-            #SectionParser is where all the work with links, images etc gets done
+            #print(pageObj['infobox'])
+        #try:
+        ##pprint(referencesFinder(text))
+        #Finds and marks nicely all the references in the article, returns a tag:reference dictionary
+        text, refsDict = referencesFinder(text)
+        refsDict = refsParser(refsDict)
+        #SectionParser is where all the work with links, images etc gets done
+        text, catList = categoryParser(text)
+        pageObj['categories'] = catList
+        sectionobj = (sectionsParser(text, pageObj['title'], refsDict))
 
-            sectionobj = (sectionsParser(text, pageObj['title'], refsDict))
-            pageObj['sections'] = sectionobj
-            #print(pageObj['sections'])
-        except AttributeError:
-            count += 1
-            print('Error: ', count)
+        pageObj['sections'] = sectionobj
+        #print(pageObj['sections'])
+        #except AttributeError:
 
+         #   count += 1
+         #   errata.append(pageObj['title'])
+         #   print('Error: ', count)
 
+        # Pageobj done convert to json. write to disk.
 
+        pageObj = {}
 
+        #TODO: Images, InternalLink Text return
+        #TODO: INternalLiknk last link
 
+def writejson(pageObj, title):
+    """
 
+    :param pageObj:
+    :param title:
+    :return:
+    """
 
-
+"""
+Go through dictionary
+def myprint(d):
+  for k, v in d.iteritems():
+    if isinstance(v, dict):
+      myprint(v)
+    else:
+      print "{0} : {1}".format(k, v)
+"""
