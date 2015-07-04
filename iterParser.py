@@ -73,6 +73,7 @@ for tag, text in data:
 
 
     if 'text' in tag:
+        #TOdO: remove junk from text
         m = re.search(ib, text)
 
         if m:

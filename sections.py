@@ -58,13 +58,13 @@ def sectionsParser(text, title, refsdict):
     #TODO:att!
     for section in sections:
         section = relatedArticles(section)
-        section = reffinder(section, refsdict) #FIXME: issues w end, and text attribute in internal links
-        section = images.imageParser(section) #TODO:Check if done.
+        section = reffinder(section, refsdict)
+        section = images.imageParser(section)
         section = addExternalLinks(section)
         section = addIntLinks(section)
 
 
-   # FIXME: <!!
+
     #datastructure nesting thanks to Timo!
     if counts:
         n = len(sections)

@@ -47,6 +47,7 @@ def imageParser(sectionObj):
 
             images.append(img)
 
+        sectionObj['text'] = re.sub(imageRegEx, '', sectionObj['text'])
         sectionObj['images'] = images
 
     return sectionObj
