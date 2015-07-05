@@ -144,7 +144,7 @@ def findBalanced(text, openDelim, closeDelim):
         cur = next.end()
 
 def addIntLinks(sectionObj):
-#TODO: REDO
+#TODO: FULL LABEL ISSUE
 
     t = sectionObj['text']
     spans = [(s,e) for s, e in findBalanced(t, '[[', ']]')]
@@ -154,7 +154,6 @@ def addIntLinks(sectionObj):
         links = []
         link = {}
 
-        #FIXME: code repeat, think of a general case. A bit buggy at times. redo!
         lastEnd = 0
         for index in range(len(spans)):
             start = spans[index][0]
@@ -211,7 +210,7 @@ if __name__ == '__main__':
         nextStart = spans[i+1][0]
         start = spans[i][0]+2
         end = spans[i][1]-2
-        linktext = t[start:end] #TODO: handle links with separator |
+        linktext = t[start:end]
         text+=t[-1:start]+linktext
         linkstart = len(text)-len(t[start:end])
         linkend = len(text)

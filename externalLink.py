@@ -55,6 +55,5 @@ def addExternalLinks(sectionObj):
         sectionObj['external links'] = extLinks
     return sectionObj
 
-#TODO: test
 if __name__ == '__main__':
     pprint(addExternalLinks({'text': text}))

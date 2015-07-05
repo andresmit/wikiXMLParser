@@ -32,7 +32,6 @@ infob = """iygyugyugyugyugyugyugyuyg{{See artikkel| on Altamira koopast Hispaani
 def infoBoxParser(text):
     t = ''
     infobStartRegEx = re.compile(r"(?!\<ref>)\{\{[^\}]+?\n ?\|.+?=" , re.DOTALL)
-    #FIXME:deal with | in values.
     infob = [x for x in re.finditer(infobStartRegEx, text)]
     if infob:
         for i in infob:
@@ -47,7 +46,10 @@ def infoBoxParser(text):
                     line = line.split('=')
                     if len(line) == 2:
                         if line[0] and line[1]:
-                            infobDict[line[0].strip()]=line[1].strip('[').strip(']').strip()
+                            l = line[1].strip('[').strip(']').strip()
+                            if '|' in l:
+                                l = l.split('|')[1]
+                            infobDict[line[0].strip()]= l
 
         return t, infobDict
 

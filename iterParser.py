@@ -114,7 +114,7 @@ for tag, text in data:
         print('Writetime: ' , thisWrite ,totalwriter)
         pageObj = {}
         totalTime +=thisComp + thisWrite
-#TODO. JSON writer, general recursive walk, pudi-padi, special pages.
+#TODO.  pudi-padi, special pages
 
 def writejson(pageObj, title):
     """

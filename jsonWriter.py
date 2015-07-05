@@ -5,6 +5,7 @@ __author__ = 'Andres'
 import json
 import re
 import os
+from estnltk import Text
 
 fileCleanerRegEx = re.compile(r'[:\\/]+')
 def jsonWriter(jsonObj, dir=''):
@@ -18,7 +19,8 @@ def jsonReader(dir):
             log = open(os.path.join(root, f), 'r')
             print(f)
             jObj = json.load(log)
-            print(jObj['sections'][0]['text'])
-
+            #print(jObj['sections'][0]['text'])
+            tObj = Text(jObj['sections'][0]['text'])
+            print(tObj.named_entities)
 if __name__ == '__main__':
     jsonReader(r'C:\Users\Andres\PycharmProjects\wikiXMLParser\Json')

@@ -23,6 +23,7 @@ def sectionsParser(text, title, refsdict):
 """
     textStartRE = re.compile(r"""\'\'\'""")
     #TODO:needs fixing. logic should be different.
+    #TODO: this method should reveive text w shit cut out.
 
 
         #textStart = textStartRE.search(text).start()
@@ -55,7 +56,7 @@ def sectionsParser(text, title, refsdict):
 
     #add images, links, references,
 
-    #TODO:att!
+
     for section in sections:
         section = relatedArticles(section)
         section = reffinder(section, refsdict)
@@ -91,7 +92,7 @@ def sectionsParser(text, title, refsdict):
         while len(stack) > 1:
             group = stack.pop()
             stack[-1][-1]['sections'] = group
-#TODO: if sections end 3, 5. doesnt work
+
     stack = stack[0]
 
 
