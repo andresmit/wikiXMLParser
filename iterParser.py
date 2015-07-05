@@ -4,13 +4,17 @@ __author__ = 'Andres'
 
 #incremental XML parsing
 import re
-from infoBox import infoBoxParser
-from pprint import pprint
 from xml.etree.ElementTree import iterparse
+
+from infoBox import infoBoxParser
 from sections import sectionsParser
 from references import referencesFinder,refsParser
-from externalLink import addExternalLinks
 from categoryParser import categoryParser
+import time
+from jsonWriter import jsonWriter
+totalwriter = 0
+totalComp = 0
+totalTime = 0
 def parse_and_remove(filename, path):
     path_parts = path.split('/')
     doc = iterparse(filename, ('start', 'end'))
@@ -58,9 +62,6 @@ for tag, text in data:
         pageObj['url'] = linkBegin+text.replace(' ', '_')
         print('-----------')
         print(pageObj['title'])
-        if pageObj['title'] == "Blossfeldi kalanhoe":
-            pass
-
         print(pageObj['url'])
     if 'timestamp' in tag:
         pageObj['timestamp'] = text
@@ -73,6 +74,7 @@ for tag, text in data:
 
 
     if 'text' in tag:
+        compStart = time.time()
         #TOdO: remove junk from text
         m = re.search(ib, text)
 
@@ -100,10 +102,19 @@ for tag, text in data:
 
         # Pageobj done convert to json. write to disk.
 
-        pageObj = {}
+        #Precious time
 
-        #TODO: Images, InternalLink Text return
-        #TODO: INternalLiknk last link
+        thisComp = time.time() - compStart
+        totalComp += thisComp
+        print('Progtime : ',thisComp , totalComp)
+        timestart = time.time()
+        jsonWriter(pageObj)
+        thisWrite = time.time()-timestart
+        totalwriter += thisWrite
+        print('Writetime: ' , thisWrite ,totalwriter)
+        pageObj = {}
+        totalTime +=thisComp + thisWrite
+#TODO. JSON writer, general recursive walk, pudi-padi, special pages.
 
 def writejson(pageObj, title):
     """
